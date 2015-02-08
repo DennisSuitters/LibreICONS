@@ -16,75 +16,213 @@ Rotation
 Flipping
 Animation
 
-WYSIWYG Icons:
-Save
-Picture
-Video
-Link
-Unlink
-Table
-Bold
-Italic
-Underline
-Eraser
-Unordered List
-Ordered List
+Icons:
+Alert
+Alien
+Align Justify
 Align Left
 Aligh Right
-Align Justify
-Outdent
-Indent
-Text Height
-Help
-Fullscreen
-Code
-Undo
-Redo
-Copy
-Paste
-HR (Horizontal Rule)
-Edit
-
-CSS Framework Common Styling:
-Image Rounded
-Image Circle
-Image Thumbnail
-Browser Chrome
-Browser Firefox
-Browser Explorer
-Browser Opera
-Browser General (For Statistics Interfaces to indicate Browsers of all types)
-O/S Linux
-O/S Apple
-O/S Microsoft
-O/S Unix
-O/S General (For Statistics Interfaces to indicate Browsers of all types)
-Trash
-Edit
-OK
-Remove/Delete
-User
-Users
-Envelope
+Archive
+Area Chart
+Arrow Down
+Arrow Left
+Arrow Right
+Arrow Up
 Attachment
-Favourite
-Inbox
-Reply
-Forward
-Upload
-Download
-Filter
-Sort Ascending
-Sort Descending
-Display List
+Ban
+Bar Chart
+Barcode
+Bold
+Bookcase
+Browser Chrome
+Browser Explorer
+Browser Firefox
+Browser General (For Statistics Interfaces to indicate Browsers of all types)
+Browser Opera
+Calendar
+Chevron Down
+Chevron Left
+Chevron Right
+Chevron Up
+Clock
+Close
+Code
+Code Fork
+Cog
+Cogs
+Comment
+Comments
+Console
+Copy
+Copyright
+Credit Card
+Credit Card Amex
+Credit Card Discover
+Credit Card Mastercard
+Credit Card Paypal
+Credit Card Stripe
+Credit Card Visa
+Crop
+Crosshairs
+Danger
+Dashboard
+Database
+Desktop
 Display Blocks
-Star
-Star Empty
-Search
+Display List
+Download
+Edit
+Empty Circle (For use with stacking icons to make extra symbols)
+Empty Sign (For use with stacking icons to make extra symbols)
+Envelope
+Eraser
+Exchange
+Exclamation
+Export
+Female
+File
+File Archive
+File Audio
+File Code
+File Excel
+File Image
+File Movie
+File PDF
+File Powerpoint
+File Text
+File Word
+Film
+Filter
+Floppy disk
+Folder
+Folder Open
+Font
+Forward
+Fullscreen
+Globe
+Group
+Help
+History
+Home
+HR (Horizontal Rule)
+Image
+Image Circle
+Image Rounded
+Image Thumbnail
+Import
+Inbox
+Indent
+Info
+Italic
+Key
+Level Down
+Level Up
+Line Chart
+Link
+List
+Lock
 Login
 Logout
-Lock
+Magic
+Mail Forward
+Mail Reply
+Male
+Map Marker
+Minus
+Mobile
+Money
+Newspaper
+Object Align Top
+Object Align Bottom
+Object Align Horizontal
+Object Align Left
+Object Align Vertical
+Object Align Right
+OK
+O/S Apple
+O/S General (For Statistics Interfaces to indicate Browsers of all types)
+O/S Linux
+O/S Microsoft
+O/S Unix
+Option Horizontal
+Option Vertical
+Ordered List
+Outdent
+Paint Brush
+Paperclip
+Paragraph
+Paste
+Pencil
+Phone
+Photo
+Picture
+Pie Chart
+Plus
+Print
+QR Code
+Question
+Random
+Recycle
+Redo
+Refresh
+Remove/Delete
+Reorder
+Repeat
+Reply
+Resize Full
+Resize Small
+Resize Horizontal
+Resize Vertical
+RSS
+Save
+Search
+Send
+Shopping Cart
+Sign In
+Sign Out
+Sitemap
+Sliders
+Spinner
+Sort
+Sort Ascending
+Sort Descending
+Square (For use with stacking icons to make extra symbols)
+Square Outlined (For use with stacking icons to make extra symbols)
+Star
+Star Empty
+Stats
+Strikethrough
+Subscript
+Superscript
+Table
+Tablet
+Tag
+Tags
+Tasks
+Television
+Text Background
+Text Color
+Text Height
+Text Size
+Text Width
+TH
+TH Large
+TH List
+Thumbs Down
+Thumbs Up
+Ticket
+Tint
+Trash
+Underline
+Undo
+Unlink
+Unordered List
 Unlock
-
-
+Unsorted
+Upload
+User
+Users
+Video
+Warning
+Wrench
 

@@ -1,0 +1,172 @@
+/*!
+ *  LibreICONS v1.0.0 by @devel - https://github.com/StudioJunkyard/LibreICONS
+ *  License - http://www.gnu.org/licenses/gpl-3.0.txt
+ */
+ @font-face{
+ 	font-family:'LibreICONS-font';
+ 	src:url('../fonts/libreicons-font.eot');
+ 	src:url('../fonts/libreicons-font.eot') format('embedded-opentype'),
+ 		url('../fonts/libreicons-font.woff2') format('woff2'),
+ 		url('../fonts/libreicons-font.woff') format('woff'),
+ 		url('../fonts/libreicons-font.ttf') format('truetype'),
+ 		url('../fonts/libreicons-font.svg') format('svg');
+ 		font-weight:400;
+ 		font-style:normal
+}
+.libre{
+	display:inline-block;
+	font:normal normal normal 14px/1 LibreICONS-font;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	transform:translate(0, 0)
+}
+.libre-small{
+	font-size:.75em;
+}
+.libre-large{
+	font-size:1.33333333em;
+	line-height:.75em;
+	vertical-align:-15%
+}
+.libre-x2{
+	font-size:2em
+}
+.libre-x3{
+	font-size:3em
+}
+.libre-x4{
+	font-size:4em
+}
+.libre-x5{
+	font-size:5em
+}
+.libre-fixed-width{
+	width:1.28571429em;
+	text-align:center
+}
+.libre-ul{
+	padding-left:0;
+	margin-left:2.14285714em;
+	list-style-type:none
+}
+.libre-ul>li{
+	position:relative
+}
+.libre-li{
+	position:absolute;
+	left:-2.14285714em;
+	width:2.14285714em;
+	top:.14285714em;
+	text-align:center
+}
+.libre-li.libre-large{
+	left:-1.85714286em
+}
+.libre-border{
+	padding:.2em .25em .15em;
+	border:solid .08em #eee;
+	border-radius:.1em
+}
+.pull-right{
+	float:right
+}
+.pull-left{
+	float:left
+}
+.libre.pull-left{
+	margin-right:.3em
+}
+.libre.pull-right{
+	margin-left:.3em
+}
+.libre-spin{
+	-webkit-animation:libre-spin 2s infinite linear;
+	animation:libre-spin 2s infinite linear
+}
+.libre-pulse{
+	-webkit-animation:libre-spin 1s infinite steps(8);
+	animation:libre-spin 1s infinite steps(8)
+}
+@-webkit-keyframes libre-spin{
+	0%{
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg)
+	}
+	100%{
+		-webkit-transform:rotate(359deg);
+		transform:rotate(359deg)
+	}
+}
+@keyframes libre-spin{
+	0%{
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg)
+	}
+	100%{
+		-webkit-transform:rotate(359deg);
+		transform:rotate(359deg)
+	}
+}
+.libre-rotate-90{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg)
+}
+.libre-rotate-180{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+.libre-rotate-270{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-transform:rotate(270deg);
+	-ms-transform:rotate(270deg);
+	transform:rotate(270deg)
+}
+.libre-flip-horizontal{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);
+	-webkit-transform:scale(-1,1);
+	-ms-transform:scale(-1,1);
+	transform:scale(-1,1)
+}
+.libre-flip-vertical{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);
+	-webkit-transform:scale(1,-1);
+	-ms-transform:scale(1,-1);
+	transform:scale(1,-1)
+}
+:root .libre-rotate-90,
+:root .libre-rotate-180,
+:root .libre-rotate-270,
+:root .libre-flip-horizontal,
+:root .libre-flip-vertical{
+	filter:none
+}
+.libre-stack{
+	position:relative;
+	display:inline-block;
+	width:2em;
+	height:2em;
+	line-height:2em;
+	vertical-align:middle
+}
+.libre-stack-1x,
+.libre-stack-2x{
+	position:absolute;
+	left:0;
+	width:100%;
+	text-align:center
+}
+.libre-stack-1x{
+	line-height:inherit
+}
+.libre-stack-2x{
+	font-size:2em
+}
+.libre-inverse{
+	color:#fff
+}
