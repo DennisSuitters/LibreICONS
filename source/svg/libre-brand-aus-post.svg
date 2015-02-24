@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14"
+   height="14"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="libre-brand-aus-post.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3042"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3044"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3046"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="53.242138"
+     inkscape:cx="2.1734501"
+     inkscape:cy="5.8189431"
+     inkscape:document-units="px"
+     inkscape:current-layer="g2987"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1038.3622)">
+    <g
+       id="g2988">
+      <g
+         id="g2987">
+        <path
+           d="M 3.25 1 C 2.6302067 1 2.0963527 1.2161167 1.65625 1.65625 C 1.216146 2.0963167 1 2.6302 1 3.25 L 1 10.75 C 1 11.3698 1.216146 11.903683 1.65625 12.34375 C 2.0963527 12.783883 2.6302067 13 3.25 13 L 10.75 13 C 11.369793 13 11.90365 12.783883 12.34375 12.34375 C 12.783857 11.903683 13 11.3698 13 10.75 L 13 3.25 C 13 2.6302 12.783857 2.0963167 12.34375 1.65625 C 11.90365 1.2161167 11.369793 1 10.75 1 L 3.25 1 z M 6.75 2 C 6.9130934 1.9806125 7.2190775 2.0091 7.75 2.09375 C 10.85458 2.58885 12.754116 5.82465 11.6875 8.78125 C 11.012782 10.65155 9.110786 12 7.1875 12 L 6.5625 12 L 6.5625 10.40625 L 6.5625 8.8125 L 7.09375 8.75 C 9.276307 8.4915 10.585348 6.23575 9.65625 4.34375 C 9.164186 3.34175 8.203455 2.6738 7.125 2.5625 C 6.60625 2.5085 6.5625 2.4776 6.5625 2.25 C 6.5625 2.1022 6.5869066 2.0193875 6.75 2 z M 5.15625 2.4375 C 5.23195 2.4375 5.28125 3.9323 5.28125 7.0625 C 5.28125 10.7938 5.238178 11.6875 5.125 11.6875 C 5.04784 11.6875 4.761366 11.52695 4.46875 11.34375 C 2.109131 9.86635 1.32714 6.8972 2.6875 4.5 C 3.181519 3.6294 4.623965 2.4375 5.15625 2.4375 z "
+           id="path4"
+           transform="translate(0,1038.3622)" />
+      </g>
+    </g>
+  </g>
+</svg>

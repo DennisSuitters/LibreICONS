@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14"
+   height="14"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="libre-rating-x.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter4083"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4085"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4087"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="-10.438069"
+     inkscape:cy="6.0423405"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1038.3622)">
+    <path
+       style="fill:#000000"
+       d="m 2.36217,1051.1686 c -0.25721,-0.2572 -0.25721,-7.8139 0,-8.0711 0.0994,-0.099 0.57017,-0.1807 1.04619,-0.1807 l 0.86549,0 0.0455,0.7751 c 0.0846,1.4401 1.06051,1.4401 1.14509,0 l 0.0455,-0.7751 1.49006,0 1.49006,0 0.0455,0.7751 c 0.0846,1.4401 1.06051,1.4401 1.14509,0 l 0.0455,-0.7751 0.86549,0 c 0.47603,0 0.94681,0.081 1.04619,0.1807 0.25721,0.2572 0.25721,7.8139 0,8.0711 -0.2581,0.2581 -9.0176,0.2581 -9.27571,0 z m 2.29008,-6.9535 c -0.0491,-0.1279 -0.0661,-0.9419 -0.0377,-1.8089 0.0556,-1.7016 0.19554,-2.051 1.08828,-2.7175 0.58307,-0.4354 2.01138,-0.4354 2.59445,0 0.93378,0.6971 1.03676,0.9852 1.03676,2.8998 0,1.463 -0.038,1.7588 -0.22587,1.7588 -0.1829,0 -0.24019,-0.3217 -0.30116,-1.6913 -0.0743,-1.6681 -0.0821,-1.6982 -0.56757,-2.1834 -0.71328,-0.713 -1.76549,-0.713 -2.47877,0 -0.48496,0.4847 -0.4934,0.517 -0.56757,2.1714 -0.0517,1.1533 -0.13422,1.6988 -0.26343,1.7415 -0.10348,0.034 -0.22831,-0.043 -0.27739,-0.1704 z"
+       id="path4398"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssscsscccsscsssscssssssssscc" />
+  </g>
+</svg>
