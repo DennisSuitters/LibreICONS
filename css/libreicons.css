@@ -12,217 +12,153 @@
  		font-weight:400;
  		font-style:normal
 }
-.libre,
-.fa,
 .glyphicon{
+	position:relative;
+	top:1px;
+	display:inline-block;
+	font-family:'LibreICONS';
+	font-style:normal;
+	font-weight:400;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+.libre,
+.fa{
 	display:inline-block;
 	font:normal normal normal 14px/1 LibreICONS;
 	font-size:inherit;
 	text-rendering:auto;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
-	transform:translate(0, 0)
+	transform:translate(0,0)
 }
-.libre-small,
-.fa-small,
-.glyphicon-small{
-	font-size:.75em;
-}
-.libre-large,
-.fa-large,
-.glyphicon-large{
+.libre-lg,
+.fa-lg{
 	font-size:1.33333333em;
 	line-height:.75em;
 	vertical-align:-15%
 }
-.libre-x2,
-.fa-x2,
-.glyphicon-x2{
+.libre-2x,
+.fa-2x{
 	font-size:2em
 }
-.libre-x3,
-.fa-x3,
-.glyphicon-x3{
+.libre-3x,
+.fa-3x{
 	font-size:3em
 }
-.libre-x4{
+.libre-4x,
+.fa-4x{
 	font-size:4em
 }
-.libre-x5{
+.libre-5x,
+.fa-5x{
 	font-size:5em
 }
-.libre-fixed-width{
+.libre-fw,
+.fa-fw{
 	width:1.28571429em;
 	text-align:center
 }
-.libre-ul{
-	padding-left:0;
-	margin-left:2.14285714em;
-	list-style-type:none
-}
-.libre-ul>li{
-	position:relative
-}
-.libre-li{
-	position:absolute;
-	left:-2.14285714em;
-	width:2.14285714em;
-	top:.14285714em;
-	text-align:center
-}
-.libre-li.libre-large{
-	left:-1.85714286em
-}
-.libre-border{
-	padding:.2em .25em .15em;
-	border:solid .08em #eee;
-	border-radius:.1em
-}
-.pull-right{
-	float:right
-}
-.pull-left{
-	float:left
-}
-.libre.pull-left{
-	margin-right:.3em
-}
-.libre.pull-right{
-	margin-left:.3em
-}
-.libre-spin{
-	-webkit-animation:libre-spin 2s infinite linear;
-	animation:libre-spin 2s infinite linear
-}
-.libre-pulse{
-	-webkit-animation:libre-spin 1s infinite steps(8);
-	animation:libre-spin 1s infinite steps(8)
-}
-@-webkit-keyframes libre-spin{
-	0%{
-		-webkit-transform:rotate(0deg);
-		transform:rotate(0deg)
-	}
-	100%{
-		-webkit-transform:rotate(359deg);
-		transform:rotate(359deg)
-	}
-}
-@keyframes libre-spin{
-	0%{
-		-webkit-transform:rotate(0deg);
-		transform:rotate(0deg)
-	}
-	100%{
-		-webkit-transform:rotate(359deg);
-		transform:rotate(359deg)
-	}
-}
-.libre-rotate-90{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-	-webkit-transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-	transform:rotate(90deg)
-}
-.libre-rotate-180{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-	-webkit-transform:rotate(180deg);
-	-ms-transform:rotate(180deg);
-	transform:rotate(180deg)
-}
-.libre-rotate-270{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	-webkit-transform:rotate(270deg);
-	-ms-transform:rotate(270deg);
-	transform:rotate(270deg)
-}
-.libre-flip-horizontal{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);
-	-webkit-transform:scale(-1,1);
-	-ms-transform:scale(-1,1);
-	transform:scale(-1,1)
-}
-.libre-flip-vertical{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);
-	-webkit-transform:scale(1,-1);
-	-ms-transform:scale(1,-1);
-	transform:scale(1,-1)
-}
+.libre-ul,
+.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}
+.libre-ul>li,
+.fa-ul>li{position:relative}
+.libre-li,
+.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}
+.libre-li.libre-lg,
+.fa-li.fa-lg{left:-1.85714286em}
+.libre-border,
+.fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}
+.pull-right{float:right}
+.pull-left{float:left}
+.libre.pull-left,
+.fa.pull-left{margin-right:.3em}
+.libre.pull-right,
+.fa.pull-right{margin-left:.3em}
+.libre-spin,
+.fa-spin{-webkit-animation:libre-spin 2s infinite linear;animation:libre-spin 2s infinite linear}
+.libre-pulse,
+.fa-pulse{-webkit-animation:libre-spin 1s infinite steps(8);animation:libre-spin 1s infinite steps(8)}
+@-webkit-keyframes libre-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes libre-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+.libre-rotate-90,
+.fa-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.libre-rotate-180,
+.fa-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.libre-rotate-270,
+.fa-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+.libre-flip-horizontal,
+.fa-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}
+.libre-flip-vertical,
+.fa-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}
 :root .libre-rotate-90,
 :root .libre-rotate-180,
 :root .libre-rotate-270,
 :root .libre-flip-horizontal,
-:root .libre-flip-vertical{
-	filter:none
-}
-.libre-stack{
-	position:relative;
-	display:inline-block;
-	width:2em;
-	height:2em;
-	line-height:2em;
-	vertical-align:middle
-}
+:root .libre-flip-vertical,
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical{filter:none}
+.libre-stack,
+.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
 .libre-stack-1x,
-.libre-stack-2x{
-	position:absolute;
-	left:0;
-	width:100%;
-	text-align:center
-}
-.libre-stack-1x{
-	line-height:inherit
-}
-.libre-stack-2x{
-	font-size:2em
-}
-.libre-inverse{
-	color:#fff
-}
+.libre-stack-2x,
+.fa-stack-1x,
+.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}
+.libre-stack-1x,
+.fa-stack-1x{line-height:inherit}
+.libre-stack-2x,
+.fa-stack-2x{font-size:2em}
+.libre-inverse,
+.fa-inverse{color:#fff}
+
 
 
 
 .libre-align-center:before,
 	.fa-align-center:before,
-	.glyphicon-align-center:before{content:'\e800'}
+		.glyphicon-align-center:before{content:'\e800'}
 .libre-align-justify:before,
-	.fa-align-justify:before
-	.glyphicon--align-justify:before{content:'\e801'}
+	.fa-align-justify:before,
+		.glyphicon-align-justify:before{content:'\e801'}
 .libre-align-left:before,
 	.fa-align-left:before,
-	.glyphicon-align-left:before{content:'\e802'}
-.libre-align-right:before.
+		.glyphicon-align-left:before{content:'\e802'}
+.libre-align-right:before,
 	.fa-align-right:before,
-	.glyphicon-align-right:before{content:'\e803'}
+		.glyphicon-align-right:before{content:'\e803'}
 .libre-archive:before,
-	.fa-align-archive:before{content:'\e804'}
+	.fa-archive:before{content:'\e804'}
 .libre-arrow-down:before,
 	.fa-arrow-down:before,
-	.glyphicon-arrow-down:before{content:'\e805'}
+		.glyphicon-arrow-down:before{content:'\e805'}
 .libre-arrow-left:before,
 	.fa-arrow-left:before,
-	.glyphicon-arrow-left:before{content:'\e806'}
+		.glyphicon-arrow-left:before{content:'\e806'}
 .libre-arrow-right:before,
 	.fa-arrow-right:before,
-	.glyphicon-arrow-right:before{content:'\e807'}
+		.glyphicon-arrow-right:before{content:'\e807'}
 .libre-arrow-up:before,
 	.fa-arrow-up:before,
-	.glyphicon-arrow-up:before{content:'\e808'}
+		.glyphicon-arrow-up:before{content:'\e808'}
 .libre-badge-1:before{content:'\e809'}
 .libre-badge-2:before{content:'\e80a'}
 .libre-badge-3:before{content:'\e80b'}
 .libre-ban:before,
 	.fa-ban:before,
-	.glyphicon-ban-circle:before{content:'\e80c'}
+		.glyphicon-ban-circle:before{content:'\e80c'}
 .libre-barcode:before,
 	.fa-barcode:before,
-	.glyphicon-barcode:before{content:'\e80d'}
+		.glyphicon-barcode:before{content:'\e80d'}
 .libre-bold:before,
 	.fa-bold:before,
-	.glyphicon-bold:before{content:'\e80e'}
+		.glyphicon-bold:before{content:'\e80e'}
 .libre-bookmark:before,
 	.fa-bookmark:before,
-	.glyphicon-bookmark:before{content:'\e80f'}
+		.glyphicon-bookmark:before{content:'\e80f'}
 .libre-brand-aus-post:before{content:'\e810'}
 .libre-brand-delicious:before,
 	.fa-delicious{content:'\e811'}
@@ -265,10 +201,10 @@
 .libre-browser-opera:before{content:'\e822'}
 .libre-browser-safari:before{content:'\e823'}
 .libre-bug:before,
-	.fa.bug:before{content:'\e824'}
+	.fa-bug:before{content:'\e824'}
 .libre-calendar:before,
 	.fa-calendar:before,
-	.glyphicon-calendar:before{content:'\e825'}
+		.glyphicon-calendar:before{content:'\e825'}
 .libre-cannabis:before{content:'\e826'}
 .libre-caret-down:before,
 	.fa-caret-down:before{content:'\e827'}
@@ -276,7 +212,7 @@
 	.fa-caret-up:before{content:'\e828'}
 .libre-certificate:before,
 	.fa-certificate:before,
-	.glyphicon-certificate:before{content:'\e829'}
+		.glyphicon-certificate:before{content:'\e829'}
 .libre-chart-area:before,
 	.fa-area-chart:before{content:'\e82a'}
 .libre-chart-bar:before,
@@ -289,47 +225,47 @@
 	.glyphicon-remove:before{content:'\e82e'}
 .libre-check-yes:before,
 	.fa-check:before,
-	.glyphicon-yes:before{content:'\e82f'}
+		.glyphicon-yes:before{content:'\e82f'}
 .libre-chevron-down:before,
 	.fa-chevron-down:before,
-	.glyphicon-chevron-down:before{content:'\e830'}
+		.glyphicon-chevron-down:before{content:'\e830'}
 .libre-chevron-left:before,
 	.fa-chevron-left:before,
-	.glyphicon-chevron-left:before{content:'\e831'}
+		.glyphicon-chevron-left:before{content:'\e831'}
 .libre-chevron-right:before,
 	.fa-chevron-right:before,
-	.glyphicon-chevron-right:before{content:'\e832'}
+		.glyphicon-chevron-right:before{content:'\e832'}
 .libre-chevron-up:before,
 	.fa-chevron-up:before,
-	.glyphicon-chevron-up:before{content:'\e833'}
+		.glyphicon-chevron-up:before{content:'\e833'}
 .libre-clock:before,
 	.fa-clock-o:before,
-	.glyphicon-time:before{content:'\e834'}
+		.glyphicon-time:before{content:'\e834'}
 .libre-close:before,
 	.fa-close:before,
-	.glyphicon-remove:before{content:'\e835'}
+		.glyphicon-remove:before{content:'\e835'}
 .libre-code:before,
 	.fa-code:before{content:'\e836'}
 .libre-cog:before,
 	.fa-cog:before,
-	.glyphicon-cog:before{content:'\e837'}
+		.glyphicon-cog:before{content:'\e837'}
 .libre-cogs:before,
 	.fa-cogs:before{content:'\e838'}
 .libre-comment:before,
 	.fa-comment:before,
-	.glyphicon-comment:before{content:'\e839'}
+		.glyphicon-comment:before{content:'\e839'}
 .libre-comments:before,
 	.fa-comments:before{content:'\e83a'}
 .libre-copy:before,
 	.fa-copy:before,
-	.glyphicon-copy:before{content:'\e83b'}
+		.glyphicon-copy:before{content:'\e83b'}
 .libre-copyleft:before{content:'\e83c'}
 .libre-copyright:before,
 	.fa-copyright:before,
-	.glyphicon-copyright-mark:before{content:'\e83d'}
+		.glyphicon-copyright-mark:before{content:'\e83d'}
 .libre-credit-card:before,
 	.fa-cc:before,
-	.glyphicon-credit-card:before{content:'\e83e'}
+		.glyphicon-credit-card:before{content:'\e83e'}
 .libre-credit-card-amex:before,
 	.fa-cc-amex:before{content:'\e83f'}
 .libre-credit-card-discover:before,
@@ -346,12 +282,12 @@
 	.fa-crop:before{content:'\e846'}
 .libre-crosshairs:before,
 	.fa-crosshairs:before,
-	.glyphicon-screenshot:before{content:'\e847'}
+		.glyphicon-screenshot:before{content:'\e847'}
 .libre-css3:before,
 	.fa-css3:before{content:'\e848'}
 .libre-dashboard:before,
 	.fa-dashboard:before,
-	.glyphicon-dashboard:before{content:'\e849'}
+		.glyphicon-dashboard:before{content:'\e849'}
 .libre-database:before,
 	.fa-database:before{content:'\e84a'}
 .libre-desktop:before,
@@ -360,13 +296,13 @@
 .libre-display-layout-list:before{content:'\e84d'}
 .libre-edit:before,
 	.fa-edit:before,
-	.glyphicon-edit:before{content:'\e84e'}
+		.glyphicon-edit:before{content:'\e84e'}
 .libre-email-forward:before{content:'\e84f'}
 .libre-email-reply:before,
 	.fa-reply:before{content:'\e850'}
 .libre-email-send:before,
 	.fa-send:before,
-	.glyphicon-send:before{content:'\e851'}
+		.glyphicon-send:before{content:'\e851'}
 .libre-empty-circle:before{content:'\e852'}
 .libre-empty-circle-o:before{content:'\e853'}
 .libre-empty-sign:before{content:'\e854'}
@@ -375,14 +311,14 @@
 .libre-empty-square-o:before{content:'\e857'}
 .libre-envelope:before,
 	.fa-envelope:before,
-	.glyphicon-envelope:before{content:'\e858'}
+		.glyphicon-envelope:before{content:'\e858'}
 .libre-eraser:before,
-	.fa.eraser:before,
-	.glyphicon-erase:before{content:'\e859'}
+	.fa-eraser:before,
+		.glyphicon-erase:before{content:'\e859'}
 .libre-exclamation:before,
 	.fa-exclamation:before{content:'\e85a'}
 .libre-export:before,
-	.glyphicon-export:before{content:'\e85b'}
+		.glyphicon-export:before{content:'\e85b'}
 .libre-export-booking:before{content:'\e85c'}
 .libre-file:before,
 	.fa-file:before{content:'\e85d'}
@@ -411,30 +347,32 @@
 	.fa-file-word-o:before{content:'\e868'}
 .libre-film:before,
 	.fa-film:before,
-.glyphicon-film:before{content:'\e869'}
+	.fa-youtube-play:before,
+		.glyphicon-film:before{content:'\e869'}
 .libre-filter:before,
 	.fa-filter:before,
-	.glyphicon-filter:before{content:'\e86a'}
+		.glyphicon-filter:before{content:'\e86a'}
 .libre-firewall:before{content:'\e86b'}
 .libre-floppy:before,
 	.fa-floppy-o:before,
-	.glyphicon-floppy-disk:before{content:'\e86c'}
+	.fa-save:before,
+		.glyphicon-floppy-disk:before{content:'\e86c'}
 .libre-folder:before,
 	.fa-folder:before,
-	.glyphicon-folder-close:before{content:'\e86d'}
+		.glyphicon-folder-close:before{content:'\e86d'}
 .libre-folder-open:before,
 	.fa-folder-open:before,
-	.glyphicon-folder-open:before{content:'\e86e'}
+		.glyphicon-folder-open:before{content:'\e86e'}
 .libre-font:before,
 	.fa-font:before,
-	.glyphicon-font:before{content:'\e86f'}
+		.glyphicon-font:before{content:'\e86f'}
 .libre-fullscreen:before,
-	.glyphicon-fullscreen:before{content:'\e870'}
+		.glyphicon-fullscreen:before{content:'\e870'}
 .libre-globe:before,
 	.fa-globe:before,
-	.glyphicon-globe:before{content:'\e871'}
+		.glyphicon-globe:before{content:'\e871'}
 .libre-header:before,
-	.fa.header:before,
+	.fa-header:before,
 	.glyphicon-header:before{content:'\e872'}
 .libre-help:before,
 	.fa-life-bouy:before,
@@ -445,23 +383,23 @@
 	.fa-history:before{content:'\e874'}
 .libre-home:before,
 	.fa-home:before,
-	.glyphicon-home:before{content:'\e875'}
+		.glyphicon-home:before{content:'\e875'}
 .libre-hr:before{content:'\e876'}
 .libre-html5:before,
 	.fa-html5:before{content:'\e877'}
 .libre-import:before,
-	.glyphicon-import:before{content:'\e878'}
+		.glyphicon-import:before{content:'\e878'}
 .libre-inbox:before,
 	.fa-inbox:before,
-	.glyphicon-inbox:before{content:'\e879'}
+		.glyphicon-inbox:before{content:'\e879'}
 .libre-indent:before,
 	.fa-indent:before,
-	.glyphicon-indent-left:before{content:'\e87a'}
+		.glyphicon-indent-left:before{content:'\e87a'}
 .libre-info:before,
 	.fa-info:before{content:'\e87b'}
 .libre-italic:before,
-	.fa-italic:before
-	.glyphicon-italic:before{content:'\e87c'}
+	.fa-italic:before,
+		.glyphicon-italic:before{content:'\e87c'}
 .libre-key:before,
 	.fa-key:before{content:'\e87d'}
 .libre-laptop:before,
@@ -472,27 +410,27 @@
 	.fa-level-up:before{content:'\e880'}
 .libre-link:before,
 	.fa-link:before,
-	.glyphicon-link:before{content:'\e881'}
+		.glyphicon-link:before{content:'\e881'}
 .libre-list:before,
 	.fa-list:before,
-	.glyphicon-list:before,
-	.glyphicon-list-alt:before{content:'\e882'}
+		.glyphicon-list:before,
+		.glyphicon-list-alt:before{content:'\e882'}
 .libre-list-ol:before,
 	.fa-list-ol:before{content:'\e883'}
 .libre-list-ul:before,
 	.fa-list-ul:before{content:'\e884'}
 .libre-lock:before,
 	.fa-lock:before,
-	.glyphicon-lock:before{content:'\e885'}
+		.glyphicon-lock:before{content:'\e885'}
 .libre-magic:before,
 	.fa-magic:before{content:'\e886'}
 .libre-minus:before,
 	.fa-minus:before,
-	.glyphicon-minus:before{content:'\e887'}
+		.glyphicon-minus:before{content:'\e887'}
 .libre-mobile:before,
 	.fa-mobile:before,
 	.fa-mobile-phone:before,
-	.glyphicon-phone:before{content:'\e888'}
+		.glyphicon-phone:before{content:'\e888'}
 .libre-os-android:before,
 	.fa-android:before{content:'\e889'}
 .libre-os-apple:before,
@@ -506,20 +444,20 @@
 	.fa-windows:before{content:'\e88f'}
 .libre-outdent:before,
 	.fa-outdent:before,
-	.glyphicon-indent-right:before{content:'\e890'}
+		.glyphicon-indent-right:before{content:'\e890'}
 .libre-paint-brush:before,
 	.fa-paint-brush:before{content:'\e891'}
 .libre-paperclip:before,
 	.fa-paperclip:before,
-	.glyphicon-paperclip:before{content:'\e892'}
+		.glyphicon-paperclip:before{content:'\e892'}
 .libre-paragraph:before,
 	.fa-paragraph:before{content:'\e893'}
 .libre-paste:before,
 	.fa-paste:before,
-	.glyphicon-paste:before{content:'\e894'}
+		.glyphicon-paste:before{content:'\e894'}
 .libre-pencil:before,
 	.fa-pencil:before,
-	.glyphicon-pencil:before{content:'\e895'}
+		.glyphicon-pencil:before{content:'\e895'}
 .libre-phone:before,
 	.fa-phone:before{content:'\e896'}
 .libre-picture:before,
@@ -529,41 +467,41 @@
 .libre-picture-circle:before{content:'\e898'}
 .libre-picture-rounded:before{content:'\e899'}
 .libre-plus:before,
-.fa-plus:before,
-.glyphicon-plus:before{content:'\e89a'}
+	.fa-plus:before,
+		.glyphicon-plus:before{content:'\e89a'}
 .libre-print:before,
 	.fa-print:before,
-	.glyphicon-print:before{content:'\e89b'}
+		.glyphicon-print:before{content:'\e89b'}
 .libre-qrcode:before,
-	.fa-qrcode:before
-	.glyphicon-qrcode:before{content:'\e89c'}
+	.fa-qrcode:before,
+		.glyphicon-qrcode:before{content:'\e89c'}
 .libre-question:before,
 	.fa-question:before{content:'\e89d'}
 .libre-random:before,
 	.fa-random:before,
-	.glyphicon-random:before{content:'\e89e'}
+		.glyphicon-random:before{content:'\e89e'}
 .libre-recycle:before,
 	.fa-recycle:before{content:'\e89f'}
 .libre-redo:before,
 	.fa-repeat:before,
-	.glyphicon-repeat:before{content:'\e8a0'}
+		.glyphicon-repeat:before{content:'\e8a0'}
 .libre-refresh:before,
 	.fa-refresh:before,
-	.glyphicon-refresh:before{content:'\e8a1'}
+		.glyphicon-refresh:before{content:'\e8a1'}
 .libre-reorder:before,
 	.fa-reorder:before,
-	.glyphicon-sort:before{content:'\e8a2'}
+		.glyphicon-sort:before{content:'\e8a2'}
 .libre-resize-full:before,
-	.glyphicon-resize-full:before{content:'\e8a3'}
+		.glyphicon-resize-full:before{content:'\e8a3'}
 .libre-resize-horizontal:before,
-	.glyphicon-resize-horizontal:before{content:'\e8a4'}
+		.glyphicon-resize-horizontal:before{content:'\e8a4'}
 .libre-resize-small:before,
-	.glyphicon-resize-small:before{content:'\e8a5'}
+		.glyphicon-resize-small:before{content:'\e8a5'}
 .libre-resize-vertical:before,
-	.glyphicon-resize-vertical:before{content:'\e8a6'}
+		.glyphicon-resize-vertical:before{content:'\e8a6'}
 .libre-search:before,
 	.fa-search:before,
-	.glyphicon-search:before{content:'\e8a7'}
+		.glyphicon-search:before{content:'\e8a7'}
 .libre-seo-marketing:before{content:'\e8a8'}
 .libre-seo-performance:before{content:'\e8a9'}
 .libre-seo-ppc:before{content:'\e8aa'}
@@ -572,20 +510,20 @@
 .libre-shopping-bag:before{content:'\e8ad'}
 .libre-shopping-cart:before,
 	.fa-shopping-cart:before,
-	.glyphicon-shopping-cart:before{content:'\e8ae'}
+		.glyphicon-shopping-cart:before{content:'\e8ae'}
 .libre-sign-in:before,
 	.fa-sign-in:before,
-	.glyphicon-log-in:before{content:'\e8af'}
+		.glyphicon-log-in:before{content:'\e8af'}
 .libre-sign-out:before.
 	.fa-sign-out:before,
-	.glyphicon-log-out:before{content:'\e8b0'}
+		.glyphicon-log-out:before{content:'\e8b0'}
 .libre-sitemap:before,
 	.fa-sitemap:before{content:'\e8b1'}
 .libre-sliders:before,
 	.fa-sliders:before{content:'\e8b2'}
 .libre-sort:before,
 	.fa-sort:before,
-	.glyphicon-sort:before{content:'\e8b3'}
+		.glyphicon-sort:before{content:'\e8b3'}
 .libre-sort-asc:before,
 	.fa-sort-asc:before,
 	.fa-sort-down:before{content:'\e8b4'}
@@ -593,7 +531,7 @@
 	.fa-sort-desc:before,
 	.fa-sort-up:before{content:'\e8b5'}
 .libre-spinner-1:before,
-	.fa-spinnter:before{content:'\e8b6'}
+	.fa-spinner:before{content:'\e8b6'}
 .libre-spinner-2:before{content:'\e8b7'}
 .libre-spinner-3:before{content:'\e8b8'}
 .libre-spinner-4:before{content:'\e8b9'}
@@ -606,65 +544,65 @@
 .libre-spinner-11:before{content:'\e8c0'}
 .libre-star:before,
 	.fa-star:before,
-	.glyphicon-star:before{content:'\e8c1'}
+		.glyphicon-star:before{content:'\e8c1'}
 .libre-star-o:before,
 	.fa-start-o:before,
-	.glyphicon-star-empty:before{content:'\e8c2'}
+		.glyphicon-star-empty:before{content:'\e8c2'}
 .libre-strikethrough:before,
 	.fa-strikethrough:before{content:'\e8c3'}
 .libre-subscript:before,
 	.fa-subscript:before,
-	.glyphicon-subscript:before{content:'\e8c4'}
+		.glyphicon-subscript:before{content:'\e8c4'}
 .libre-superscript:before,
 	.fa-superscript:before,
-	.glyphicon-superscript:before{content:'\e8c5'}
+		.glyphicon-superscript:before{content:'\e8c5'}
 .libre-table:before,
 	.fa-table:before{content:'\e8c6'}
 .libre-tablet:before,
 	.fa-tablet:before{content:'\e8c7'}
 .libre-tag:before,
 	.fa-tag:before,
-	.glyphicon-tag:before{content:'\e8c8'}
+		.glyphicon-tag:before{content:'\e8c8'}
 .libre-tags:before,
 	.fa-tags:before,
-	.glyphicon-tags:before{content:'\e8c9'}
+		.glyphicon-tags:before{content:'\e8c9'}
 .libre-tasks:before,
 	.fa-tasks:before,,
-	.glyphicon-tasks:before{content:'\e8ca'}
+		.glyphicon-tasks:before{content:'\e8ca'}
 .libre-television:before{content:'\e8cb'}
 .libre-text-color:before{content:'\e8cc'}
 .libre-text-height:before,
 	.fa-text-height:before,
-	.glyphicon-text-height:before{content:'\e8cd'}
+		.glyphicon-text-height:before{content:'\e8cd'}
 .libre-text-size:before,
-	.glyphicon-text-size:before{content:'\e8ce'}
+		.glyphicon-text-size:before{content:'\e8ce'}
 .libre-text-width:before
 	.fa-text-width:before,
-	.glyphicon-text-width:before{content:'\e8cf'}
+		.glyphicon-text-width:before{content:'\e8cf'}
 .libre-th:before,
 	.fa-th:before,
-	.glyphicon-th:before{content:'\e8d0'}
+		.glyphicon-th:before{content:'\e8d0'}
 .libre-th-large:before,
 	.fa-th-large:before,
-	.glyphicon-th-large:before{content:'\e8d1'}
+		.glyphicon-th-large:before{content:'\e8d1'}
 .libre-th-list:before,
 	.fa-th-list:before,
-	.glyphicon-th-list:before{content:'\e8d2'}
+		.glyphicon-th-list:before{content:'\e8d2'}
 .libre-thumbs-down:before,
 	.fa-thumbs-down:before,
-	.glyphicon-thumbs-down:before{content:'\e8d3'}
+		.glyphicon-thumbs-down:before{content:'\e8d3'}
 .libre-thumbs-up:before,
 	.fa-thumbs-up:before,
-	.glyphicon-thumbs-up:before{content:'\e8d4'}
+		.glyphicon-thumbs-up:before{content:'\e8d4'}
 .libre-ticket:before,
 	.fa-ticket:before{content:'\e8d5'}
 .libre-tint:before,
 	.fa-tint:before{content:'\e8d6'}
 .libre-tooltip:before{content:'\e8d7'}
-.libre-trash:before
+.libre-trash:before,
 	.fa-trash:before,
 	.fa-trash-o:before,
-	.glyphicon-trash:before{content:'\e8d8'}
+		.glyphicon-trash:before{content:'\e8d8'}
 .libre-underline:before,
 	.fa-underline:before{content:'\e8d9'}
 .libre-undo:before,
@@ -675,7 +613,7 @@
 	.fa-unsorted:before{content:'\e8dc'}
 .libre-user:before,
 	.fa-user:before,
-	.glyphicon-user:before{content:'\e8dd'}
+		.glyphicon-user:before{content:'\e8dd'}
 .libre-user-female:before,
 	.fa-female:before{content:'\e8de'}
 .libre-user-male:before,
@@ -685,4 +623,4 @@
 .libre-virus:before{content:'\e8e1'}
 .libre-wrench:before,
 	.fa-wrench:before,
-	.glyphicon-wrench:before{content:'\e8e2'}
+		.glyphicon-wrench:before{content:'\e8e2'}
