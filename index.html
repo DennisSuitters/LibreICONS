@@ -23,6 +23,7 @@
 				position:absolute;
 				left:45px;
 				text-align:left;
+				display:none;
 			}
 		</style>
 	</head>
@@ -1726,5 +1727,13 @@
 				</span>
 			</span>
 		</main>
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script>
+			$(".icon-block").on({
+				hover:function(event){
+					$(this+' .css').toggle();
+				}
+			});
+		</script>
 	</body>
 </html>
