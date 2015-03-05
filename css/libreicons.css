@@ -4,11 +4,11 @@
  */
  @font-face{
  	font-family:'LibreICONS';
- 	src:url('../fonts/libreicons.eot');
- 	src:url('../fonts/libreicons.eot') format('embedded-opentype'),
- 		url('../fonts/libreicons.woff') format('woff'),
- 		url('../fonts/libreicons.ttf') format('truetype'),
- 		url('../fonts/libreicons.svg') format('svg');
+ 	src:url('../font/libreicons.eot');
+ 	src:url('../font/libreicons.eot') format('embedded-opentype'),
+ 		url('../font/libreicons.woff') format('woff'),
+ 		url('../font/libreicons.ttf') format('truetype'),
+ 		url('../font/libreicons.svg') format('svg');
  		font-weight:400;
  		font-style:normal
 }
