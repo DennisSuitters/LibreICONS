@@ -1,1 +1,63 @@
-
+.jumbotron{margin-top:-20px;background-color:#111;color:#fff}
+.libre-large{font-size:14em}
+.icon-block{position:relative;display:inline-block;vertical-align:top}
+.icon-block i{margin:5px;color:#444}
+.icon-block i:hover{color:#000;text-shadow:2px 3px 5px #888}
+.icon-block i:hover+.css{display:block}
+.icon-block .css{position:absolute;width:200px;margin:10px;padding:10px;text-align:left;display:none;z-index:+1;background-color:#fff;border:1px solid #888;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 10px #000;box-shadow:0 0 10px #000}
+.footer{padding-top:40px;padding-bottom:40px;margin-top:100px;color:#767676;text-align:center;border-top:1px solid #e5e5e5}
+.footer-links{padding-left:0;margin-top:20px}
+.footer-links li{display:inline;padding:0 2px}
+.footer-links li:first-child{padding-left:0}
+.social{margin-bottom:20px;text-align:center}
+.social-buttons{display:inline-block;padding-left:0;margin-bottom:0;list-style:none}
+.social-buttons li{display:inline-block;padding:5px 8px;line-height:1}
+.github-btn{overflow:hidden;border:0}
+.promotion{margin-top:22px;font-size:14px;line-height:1.42857143;color:#aaa;text-shadow:0 1px 0 rgba(0,0,0,.15)}
+.promotion a{color:#aaa;border-bottom:1px dotted #aaa}
+.promotion a:hover{color:#fff;text-decoration:none;border-bottom:1px solid #fff}
+.libre-cannabis.animated-hover:hover{-webkit-animation-name:hinge;animation-name:hinge;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.navbar-nav>li.dropdown-split-right>a{padding-left:7px}
+.navbar-nav>li.dropdown-split-left>a{padding-right:0}
+.margin-bottom-10{margin-bottom:10px}
+.hll{background-color:#ffc}
+.c,.c1,.cs,.ni,.css .o,.css .o+.nt,.css .nt+.nt{color:#999}
+.err{color:#a00;background-color:#faa}
+.k,.kc,.kd,.kn,.kp,.kr{color:#069}
+.o{color:#555}
+.cm{color:#09f;font-style:italic}
+.cp{color:#099}
+.gd{background-color:#fcc;border:1px solid #c00}
+.ge{font-style:italic}
+.gr{color:#f00}
+.gh,.gu{color:#030}
+.gi{background-color:#cfc;border:1px solid #0c0}
+.go{color:#aaa}
+.gp{color:#009}
+.gs{}
+.gt{color:#9c6}
+.kt{color:#078}
+.m,.il{color:#f60}
+.s{color:#d44950}
+.na{color:#4f9fcf}
+.nb{color:#366}
+.nc{color:#0a8}
+.no{color:#360}
+.nd{color:#99f}
+.ne{color:#c00}
+.nf{color:#c0f}
+.nl{color:#99f}
+.nn{color:#0cf}
+.nt{color:#2f6f9f}
+.nv{color:#033}
+.ow{color:#000}
+.w{color:#bbb}
+.mf,.mh,.mi,.mo{color:#f60}
+.sb,.sc,.sd,.se,.sh,.sx,.sl{color:#c30}
+.sd{font-style:italic}
+.si{color:#a00}
+.sr{color:#3aa}
+.ss{color:#fc3}
+.bp{color:#366}
+.vc,.vg,.vi{color:#033}
+pre{background-color:#fafafa;padding:8px 15px}
