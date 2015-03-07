@@ -3,270 +3,66 @@
  *  License - http://www.gnu.org/licenses/gpl-3.0.txt
  */
 @charset "UTF-8";
-@font-face{
- 	font-family:'LibreICONS';
- 	src:url('../font/libreicons.eot');
- 	src:url('../font/libreicons.eot') format('embedded-opentype'),
- 		url('../font/libreicons.woff') format('woff'),
- 		url('../font/libreicons.ttf') format('truetype'),
- 		url('../font/libreicons.svg') format('svg');
- 		font-weight:400;
- 		font-style:normal
-}
-.glyphicon{
-	position:relative;
-	top:1px;
-	display:inline-block;
-	font-family:'LibreICONS';
-	font-style:normal;
-	font-weight:400;
-	line-height:1;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale
-}
-.libre,
-.fa{
-	position:relative;
-	display:inline-block;
-	font:normal normal normal 14px/1 LibreICONS;
-	font-size:inherit;
-	text-rendering:auto;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-	transform:translate(0,0)
-}
-.libre:after,
-.fa:after{
-	position:absolute;
-	left:0;
-	width:100%;
-	text-align:center;
-	font-size:1em;
-}
-.libre-lg,
-.fa-lg{
-	font-size:1.33333333em;
-	line-height:.75em;
-	vertical-align:-15%
-}
-.libre-2x,
-.fa-2x{
-	font-size:2em
-}
-.libre-3x,
-.fa-3x{
-	font-size:3em
-}
-.libre-4x,
-.fa-4x{
-	font-size:4em
-}
-.libre-5x,
-.fa-5x{
-	font-size:5em
-}
-.libre-fw,
-.fa-fw{
-	width:1.28571429em;
-	text-align:center
-}
-.libre-ul,
-.fa-ul{
-	padding-left:0;
-	margin-left:2.14285714em;
-	list-style-type:none
-}
-.libre-ul>li,
-.fa-ul>li{
-	position:relative
-}
-.libre-li,
-.fa-li{
-	position:absolute;
-	left:-2.14285714em;
-	width:2.14285714em;
-	top:.14285714em;
-	text-align:center
-}
-.libre-li.libre-lg,
-.fa-li.fa-lg{
-	left:-1.85714286em
-}
-.libre-border,
-.fa-border{
-	padding:.2em .25em .15em;
-	border:solid .08em #eee;
-	border-radius:.1em
-}
-.pull-right{
-	float:right
-}
-.pull-left{
-	float:left
-}
-.libre.pull-left,
-.fa.pull-left{
-	margin-right:.3em
-}
-.libre.pull-right,
-.fa.pull-right{
-	margin-left:.3em
-}
-.libre-spin,
-.fa-spin{
-	-webkit-animation:libre-spin 2s infinite linear;
-	animation:libre-spin 2s infinite linear
-}
-.libre-pulse,
-.fa-pulse{
-	-webkit-animation:libre-spin 1s infinite steps(8);
-	animation:libre-spin 1s infinite steps(8)
-}
-@-webkit-keyframes libre-spin{
-	0%{
-		-webkit-transform:rotate(0deg);
-		transform:rotate(0deg)
-	}
-	100%{
-		-webkit-transform:rotate(359deg);
-		transform:rotate(359deg)
-	}
-}
-@keyframes libre-spin{
-	0%{
-		-webkit-transform:rotate(0deg);
-		transform:rotate(0deg)
-	}
-	100%{
-		-webkit-transform:rotate(359deg);
-		transform:rotate(359deg)
-	}
-}
-.libre-rotate-90,
-.fa-rotate-90{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-	-webkit-transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-	transform:rotate(90deg)
-}
-.libre-rotate-180,
-.fa-rotate-180{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-	-webkit-transform:rotate(180deg);
-	-ms-transform:rotate(180deg);
-	transform:rotate(180deg)
-}
-.libre-rotate-270,
-.fa-rotate-270{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	-webkit-transform:rotate(270deg);
-	-ms-transform:rotate(270deg);
-	transform:rotate(270deg)
-}
-.libre-flip-horizontal,
-.fa-flip-horizontal{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);
-	-webkit-transform:scale(-1,1);
-	-ms-transform:scale(-1,1);
-	transform:scale(-1,1)
-}
-.libre-flip-vertical,
-.fa-flip-vertical{
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);
-	-webkit-transform:scale(1,-1);
-	-ms-transform:scale(1,-1);
-	transform:scale(1,-1)
-}
-:root .libre-rotate-90,
-:root .libre-rotate-180,
-:root .libre-rotate-270,
-:root .libre-flip-horizontal,
-:root .libre-flip-vertical,
-:root .fa-rotate-90,
-:root .fa-rotate-180,
-:root .fa-rotate-270,
-:root .fa-flip-horizontal,
-:root .fa-flip-vertical{
-	filter:none
-}
-.libre-stack,
-.fa-stack{
-	position:relative;
-	display:inline-block;
-	width:2em;
-	height:2em;
-	line-height:2em;
-	vertical-align:middle
-}
-.libre-stack-1x,
-.libre-stack-2x,
-.fa-stack-1x,
-.fa-stack-2x{
-	position:absolute;
-	left:0;
-	width:100%;
-	text-align:center
-}
-.libre-stack-1x,
-.fa-stack-1x{
-	line-height:inherit
-}
-.libre-stack-2x,
-.fa-stack-2x{
-	font-size:2em
-}
-.color-inverse,
-.fa-inverse{
-	color:#fff
-}
-.color-black{
-	color:#000
-}
-.color-white{
-	color:#fff
-}
-.color-muted{
-	color:#777
-}
-.color-primary{
-	color:#337ab7
-}
-.color-success{
-	color:#3c763d
-}
-.color-info{
-	color:#31708f
-}
-.color-warning{
-	color:#8a6d3b
-}
-.color-danger{
-	color:#a94442
-}
+@font-face{font-family:'LibreICONS';src:url('../font/libreicons.eot');src:url('../font/libreicons.eot') format('embedded-opentype'),url('../font/libreicons.woff') format('woff'),url('../font/libreicons.ttf') format('truetype'),url('../font/libreicons.svg') format('svg');font-weight:400;font-style:normal}
+.glyphicon{position:relative;top:1px;display:inline-block;font-family:LibreICONS;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.libre,.fa{position:relative;display:inline-block;font:normal normal normal 14px/1 LibreICONS;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transform:translate(0,0)}
+.libre:after,.fa:after{position:absolute;left:0;width:100%;text-align:center;font-size:1em}
+.libre-lg,.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
+.libre-2x,.fa-2x{font-size:2em}
+.libre-3x,.fa-3x{font-size:3em}
+.libre-4x,.fa-4x{font-size:4em}
+.libre-5x,.fa-5x{font-size:5em}
+.libre-fw,.fa-fw{width:1.28571429em;text-align:center}
+.libre-ul,.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}
+.libre-ul>li,.fa-ul>li{position:relative}
+.libre-li,.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}
+.libre-li.libre-lg,.fa-li.fa-lg{left:-1.85714286em}
+.libre-border,.fa-border{padding:.2em .25em .15em;border:.08em solid #ddd;border-radius:.1em}
+.libre-border.primary{border-color:#337ab7}
+.libre-border.primary.background{background-color:#337ab7}
+.libre-border.success{border-color:#d6e9c6}
+.libre-border.success.background{background-color:#dff0d8}
+.libre-border.info{border-color:#bce8f1}
+.libre-border.info.background{background-color:#d9edf7}
+.libre-border.warning{border-color:#faebcc}
+.libre-border.warning.background{background-color:#fcf8e3}
+.libre-border.danger{border-color:#ebccd1}
+.libre-border.danger.background{background-color:#f2dede}
+.pull-right{float:right}
+.pull-left{float:left}
+.libre.pull-left,.fa.pull-left{margin-right:.3em}
+.libre.pull-right,.fa.pull-right{margin-left:.3em}
+.libre-spin,.fa-spin{-webkit-animation:libre-spin 2s infinite linear;animation:libre-spin 2s infinite linear}
+.libre-pulse,.fa-pulse{-webkit-animation:libre-spin 1s infinite steps(8);animation:libre-spin 1s infinite steps(8)}@-webkit-keyframes libre-spin{0%{-webkit-transform:rotate(0deg);}100%{-webkit-transform:rotate(359deg);}}@keyframes libre-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.libre-rotate-90,.fa-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.libre-rotate-180,.fa-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.libre-rotate-270,.fa-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+.libre-flip-horizontal,.fa-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}
+.libre-flip-vertical,.fa-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}
+:root .libre-rotate-90,:root .libre-rotate-180,:root .libre-rotate-270,:root .libre-flip-horizontal,:root .libre-flip-vertical,:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical{filter:none}
+.libre-stack,.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
+.libre-stack-1x,.libre-stack-2x,.fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}
+.libre-stack-1x,.fa-stack-1x{line-height:inherit}
+.libre-stack-2x,.fa-stack-2x{font-size:2em}
+.color-inverse,.fa-inverse{color:#fff}
+.color-black{color:#000}
+.color-white{color:#fff}
+.color-muted{color:#777}
+.color-primary{color:#337ab7}
+.color-success{color:#3c763d}
+.color-info{color:#31708f}
+.color-warning{color:#8a6d3b}
+.color-danger{color:#a94442}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 Cleaned Up and Adapted for LibreICONS
 */
-.animated{
-	-webkit-animation-duration:1s;
-	animation-duration:1s;
-	-webkit-animation-fill-mode:both;
-	animation-fill-mode:both
-}
-.animated.fast{
-	-webkit-animation-duration:.5s;
-	animation-duration:.5s
-}
-.animated.slow{
-	-webkit-animation-duration:3s;
-	animation-duration:3s
-}
-.animated.infinite{
-	-webkit-animation-iteration-count:infinite;
-	animation-iteration-count:infinite
-}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.animated.fast{-webkit-animation-duration:.5s;animation-duration:.5s}
+.animated.slow{-webkit-animation-duration:3s;animation-duration:3s}
+.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
 .bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:50% 100%;transform-origin:50% 100%}@-webkit-keyframes bounce{0%,20%,53%,80%,100%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0);}40%,43%{-webkit-transition-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-30px,0);}70%{-webkit-transition-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-15px,0);}90%{-webkit-transform:translate3d(0,-4px,0);}}@keyframes bounce{0%,20%,53%,80%,100%{transition-timing-function:cubic-bezier(.215,.61,.355,1);transform:translate3d(0,0,0)}40%,43%{transition-timing-function:cubic-bezier(.755,.05,.855,.06);transform:translate3d(0,-30px,0)}70%{transition-timing-function:cubic-bezier(.755,.05,.855,.06);transform:translate3d(0,-15px,0)}90%{transform:translate3d(0,-4px,0)}}
 .bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn;-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounceIn{0%,20%,40%,60%,80%,100%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03, 1.03);}80%{-webkit-transform:scale3d(.97,.97,.97)}100%{opacity:1;-webkit-transform:scale3d(1,1,1);}}@keyframes bounceIn{0%,20%,40%,60%,80%,100%{transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:scale3d(.3,.3,.3)}20%{transform:scale3d(1.1,1.1,1.1)}40%{transform:scale3d(.9,.9,.9)}60%{opacity:1;transform:scale3d(1.03,1.03,1.03)}80%{transform:scale3d(.97,.97,.97)}100%{opacity:1;transform:scale3d(1,1,1)}}
 .bounceInDown{-webkit-animation-name:bounceInDown;animation-name:bounceInDown}@-webkit-keyframes bounceInDown{0%,60%,75%,90%,100%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0)}100%{-webkit-transform:none;transform:none}}@keyframes bounceInDown{0%,60%,75%,90%,100%{transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(0,-3000px,0)}60%{opacity:1;transform:translate3d(0,25px,0)}75%{transform:translate3d(0,-10px,0)}90%{transform:translate3d(0,5px,0)}100%{transform:none}}
