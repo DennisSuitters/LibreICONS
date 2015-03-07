@@ -215,9 +215,33 @@
 .fa-stack-2x{
 	font-size:2em
 }
-.libre-inverse,
+.color-inverse,
 .fa-inverse{
 	color:#fff
+}
+.color-black{
+	color:#000
+}
+.color-white{
+	color:#fff
+}
+.color-muted{
+	color:#777
+}
+.color-primary{
+	color:#337ab7
+}
+.color-success{
+	color:#3c763d
+}
+.color-info{
+	color:#31708f
+}
+.color-warning{
+	color:#8a6d3b
+}
+.color-danger{
+	color:#a94442
 }
 /*!
 Animate.css - http://daneden.me/animate
@@ -236,8 +260,8 @@ Cleaned Up and Adapted for LibreICONS
 	animation-duration:.5s
 }
 .animated.slow{
-	-webkit-animation-duration:2s;
-	animation-duration:2s
+	-webkit-animation-duration:3s;
+	animation-duration:3s
 }
 .animated.infinite{
 	-webkit-animation-iteration-count:infinite;
@@ -306,6 +330,7 @@ Cleaned Up and Adapted for LibreICONS
 .slideOutLeft{-webkit-animation-name:slideOutLeft;animation-name:slideOutLeft}@-webkit-keyframes slideOutLeft{0%{-webkit-transform:translateX(0)}100%{-webkit-transform:translateX(-25%);opacity:0}}@keyframes slideOutLeft{0%{transform:translateX(0)}100%{transform:translateX(-25%);opacity:0}}
 .slideOutRight{-webkit-animation-name:slideOutRight;animation-name:slideOutRight}@-webkit-keyframes slideOutRight{0%{-webkit-transform:translateX(0)}100%{-webkit-transform:translateX(25%);opacity:0}}@keyframes slideOutRight{0%{transform:translateX(0)}100%{visibility:hidden;transform:translateX(25%);opacity:0}}
 .slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}@-webkit-keyframes slideOutUp{0%{-webkit-transform:translateY(0)}100%{-webkit-transform:translateY(-25%);opacity:0}}@keyframes slideOutUp{0%{transform:translateY(0)}100%{transform:translateY(-25%);opacity:0}}
+.spin{-webkit-animation:spin 2s infinite linear;animation:spin 2s infinite linear}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg)}}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
 .swing{-webkit-transform-origin:0 50%;-ms-transform-origin:0 50%;transform-origin:0 50%;-webkit-animation-name:swing;animation-name:swing}@-webkit-keyframes swing{20%{-webkit-transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg)}100%{-webkit-transform:rotate3d(0,0,1,0)}}@keyframes swing{20%{transform:rotate3d(0,0,1,15deg)}40%{transform:rotate3d(0,0,1,-10deg)}60%{transform:rotate3d(0,0,1,5deg)}80%{transform:rotate3d(0,0,1,-5deg)}100%{transform:rotate3d(0,0,1,0)}}
 .tada{-webkit-animation-name:tada;animation-name:tada}@-webkit-keyframes tada{0%{-webkit-transform:scale3d(1,1,1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9)rotate3d(0,0,1,-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1)rotate3d(0,0,1,3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1)rotate3d(0,0,1,-3deg)}100%{-webkit-transform:scale3d(1,1,1)}}@keyframes tada{0%{transform:scale3d(1,1,1)}10%,20%{transform:scale3d(.9,.9,.9)rotate3d(0,0,1,-3deg)}30%,50%,70%,90%{transform:scale3d(1.1,1.1,1.1)rotate3d(0,0,1,3deg)}40%,60%,80%{transform:scale3d(1.1,1.1,1.1)rotate3d(0,0,1,-3deg)}100%{transform:scale3d(1,1,1)}}
 .wobble{-webkit-animation-name:wobble;animation-name:wobble}@-webkit-keyframes wobble{0%{-webkit-transform:none}15%{-webkit-transform:translate3d(-25%,0,0)rotate3d(0,0,1,-5deg)}30%{-webkit-transform:translate3d(20%,0,0)rotate3d(0,0,1,3deg)}45%{-webkit-transform:translate3d(-15%,0,0)rotate3d(0,0,1,-3deg)}60%{-webkit-transform:translate3d(10%,0,0)rotate3d(0,0,1,2deg)}75%{-webkit-transform:translate3d(-5%,0,0)rotate3d(0,0,1,-1deg)}100%{-webkit-transform:none}}@keyframes wobble{0%{transform:none}15%{transform:translate3d(-25%,0,0)rotate3d(0,0,1,-5deg)}30%{transform:translate3d(20%,0,0)rotate3d(0,0,1,3deg)}45%{transform:translate3d(-15%,0,0)rotate3d(0,0,1,-3deg)}60%{transform:translate3d(10%,0,0)rotate3d(0,0,1,2deg)}75%{transform:translate3d(-5%,0,0)rotate3d(0,0,1,-1deg)}100%{transform:none}}
@@ -506,7 +531,7 @@ Cleaned Up and Adapted for LibreICONS
 .libre-shopping-bag:before{content:'\e8ad'}
 .libre-shopping-cart:before,.fa-shopping-cart:before,.glyphicon-shopping-cart:before{content:'\e8ae'}
 .libre-sign-in:before,.fa-sign-in:before,.glyphicon-log-in:before{content:'\e8af'}
-.libre-sign-out:before..fa-sign-out:before,.glyphicon-log-out:before{content:'\e8b0'}
+.libre-sign-out:before,.fa-sign-out:before,.glyphicon-log-out:before{content:'\e8b0'}
 .libre-sitemap:before,.fa-sitemap:before{content:'\e8b1'}
 .libre-sliders:before,.fa-sliders:before{content:'\e8b2'}
 .libre-sort:before,.fa-sort:before,.glyphicon-sort:before{content:'\e8b3'}
