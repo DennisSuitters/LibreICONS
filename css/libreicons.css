@@ -5,7 +5,7 @@
  font: font-style font-variant font-weight font-size/line-height font-family;
  */
 @charset"UTF-8";
-@font-face{font-family:'LibreICONS';src:url('../font/libreicons.eot');src:url('../font/libreicons.eot')format('embedded-opentype'),url('../font/libreicons.woff')format('woff'),url('../font/libreicons.ttf')format('truetype'),url('../font/libreicons.svg') format('svg')}
+@font-face{font-family:LibreICONS;src:url('../font/libreicons.eot');src:url('../font/libreicons.eot')format('embedded-opentype'),url('../font/libreicons.woff')format('woff'),url('../font/libreicons.ttf')format('truetype'),url('../font/libreicons.svg') format('svg')}
 .libre,.fa,.glyphicon{
 	position:relative;
 	display:inline-block;
