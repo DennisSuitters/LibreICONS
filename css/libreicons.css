@@ -9,7 +9,7 @@
 .libre,.fa,.glyphicon{
 	position:relative;
 	display:inline-block;
-	font:normal normal normal inherit/1 LibreICONS;
+	font:normal normal normal 14px/1 LibreICONS;
 	text-rendering:auto;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
