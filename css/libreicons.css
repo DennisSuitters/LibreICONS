@@ -10,14 +10,18 @@
 	position:relative;
 	top:1px;
 	display:inline-block;
-	font:normal normal 400 inherit/1 LibreICONS;
+	font-family:LibreICONS;
+	font-style:normal;
+	font-weight:400;
+	line-height:1;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale
 }
 .libre,.fa{
 	position:relative;
 	display:inline-block;
-	font:normal normal normal inherit/1 LibreICONS;
+	font:normal normal normal 14px/1 LibreICONS;
+	font-size:inherit;
 	text-rendering:auto;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
