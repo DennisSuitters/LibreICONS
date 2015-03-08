@@ -1,21 +1,11 @@
 /*!
  *  LibreICONS v1.0.0 by @devel - https://github.com/StudioJunkyard/LibreICONS
  *  License - http://www.gnu.org/licenses/gpl-3.0.txt
- *  Version 1.0.0
- font: font-style font-variant font-weight font-size/line-height font-family;
+ *  Version 1.0.1
  */
 @charset"UTF-8";
 @font-face{font-family:LibreICONS;src:url('../font/libreicons.eot');src:url('../font/libreicons.eot')format('embedded-opentype'),url('../font/libreicons.woff')format('woff'),url('../font/libreicons.ttf')format('truetype'),url('../font/libreicons.svg') format('svg')}
-.libre,.fa,.glyphicon{
-	position:relative;
-	display:inline-block;
-	font:normal normal normal 14px/1 LibreICONS;
-	font-size:inherit;
-	text-rendering:auto;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-	transform:translate(0,0)
-}
+.libre,.fa,.glyphicon{position:relative;display:inline-block;font:normal normal normal 14px/1 LibreICONS;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transform:translate(0,0)}
 .libre:after,.fa:after{position:absolute;left:0;width:100%;text-align:center;font-size:1em}
 .libre-lg,.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
 .libre-2x,.fa-2x{font-size:2em}
