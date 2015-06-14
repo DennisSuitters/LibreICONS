@@ -16,7 +16,7 @@
 .promotion{margin-top:22px;font-size:14px;line-height:1.42857143;color:#aaa;text-shadow:0 1px 0 rgba(0,0,0,.15)}
 .promotion a{color:#aaa;border-bottom:1px dotted #aaa}
 .promotion a:hover{color:#fff;text-decoration:none;border-bottom:1px solid #fff}
-.libre-cannabis.animated-hover:hover{-webkit-animation-name:hinge;animation-name:hinge;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.libre-alien.animated-hover:hover{-webkit-animation-name:fadeOutScaleUp;animation-name:fadeOutScaleUp;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
 .navbar-nav>li.dropdown-split-right>a{padding-left:7px}
 .navbar-nav>li.dropdown-split-left>a{padding-right:0}
 .margin-bottom-10{margin-bottom:10px}
