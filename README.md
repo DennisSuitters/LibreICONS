@@ -20,7 +20,3 @@ Animation
 Stacking
 
 Class names for other Font Libraries are also included to make transitioning easier from another Library, so there's no actual need to sift through code and change class names.
-
-Icons:
-======
-![Libr8](source/libreicons.png)
