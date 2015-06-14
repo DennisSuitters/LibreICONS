@@ -20,6 +20,7 @@
 .navbar-nav>li.dropdown-split-right>a{padding-left:7px}
 .navbar-nav>li.dropdown-split-left>a{padding-right:0}
 .margin-bottom-10{margin-bottom:10px}
+.new{background-color:rgba(0,255,0,.25)}
 .hll{background-color:#ffc}
 .c,.c1,.cs,.ni,.css .o,.css .o+.nt,.css .nt+.nt{color:#999}
 .err{color:#a00;background-color:#faa}
