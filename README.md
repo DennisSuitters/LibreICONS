@@ -12,11 +12,11 @@ Here's a breakdown, of what were working on getting done thus far:
 
 CSS Helpers:
 ============
-Colors
-Sizing
-Rotation
-Flipping
-Animation
-Stacking
+* Colors
+* Sizing
+* Rotation
+* Flipping
+* Animation - Animate.css - http://daneden.me/animate
+* Stacking
 
 Class names for other Font Libraries are also included to make transitioning easier from another Library, so there's no actual need to sift through code and change class names.
