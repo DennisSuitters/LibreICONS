@@ -83,3 +83,20 @@ pre{background-color:#fafafa;padding:8px 15px}
 	display:inline;
 	color:#fff
 }
+#colors div{
+    margin-bottom:5px;
+    font-weight:700;
+    color:#000;
+}
+.example-modal .modal {
+position: relative;
+top: auto;
+bottom: auto;
+right: auto;
+left: auto;
+display: block;
+z-index: 1;
+}
+.example-modal .modal {
+background: transparent!important;
+}
