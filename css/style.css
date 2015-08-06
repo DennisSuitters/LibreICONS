@@ -1,10 +1,17 @@
 .jumbotron{margin-top:-20px;background-color:#111;color:#fff}
 .libre-large{font-size:14em}
-.icon-block{position:relative;display:inline-block;vertical-align:top}
-.icon-block i{margin:5px;color:#444}
-.icon-block i:hover{color:#000;text-shadow:2px 3px 5px #888}
-.icon-block i:hover+.css{display:block}
-.icon-block .css{position:absolute;width:200px;margin:10px;padding:10px;text-align:left;display:none;z-index:+1;background-color:#fff;border:1px solid #888;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 10px #000;box-shadow:0 0 10px #000}
+.svg-icon-list{margin-top:10px}
+.svg-icon-list .hover{display:block;color:#222;line-height:32px;height:32px;padding-left:10px;border-radius:4px}
+.svg-icon-list .hover .libre{width:14px;height:14px;display:inline-block;text-align:right;margin-right:20px}
+.svg-icon-list .hover:hover{background-color:#ddd;vertical-align:top}
+.svg-icon-list .hover:hover span{vertical-align:top}
+.svg-icon-list .hover:hover .libre{width:32px;height:32px;margin-left:-5px;margin-right:7px}
+
+.font-icon-list{margin-top:10px}
+.font-icon-list .hover{display:block;color:#222;line-height:32px;height:32px;padding-left:10px;border-radius:4px}
+.font-icon-list .hover .libre{width:32px;font-size:14px;display:inline-block;text-align:right;margin-right:10px}
+.font-icon-list .hover:hover{background-color:#ddd;text-decoration:none}
+.font-icon-list .hover:hover .libre{font-size:28px;vertical-align:-6px}
 .footer{padding-top:40px;padding-bottom:40px;margin-top:100px;color:#767676;text-align:center;border-top:1px solid #e5e5e5}
 .footer-links{padding-left:0;margin-top:20px}
 .footer-links li{display:inline;padding:0 2px}
@@ -21,6 +28,7 @@
 .navbar-nav>li.dropdown-split-left>a{padding-right:0}
 .margin-bottom-10{margin-bottom:10px}
 .new{background-color:rgba(0,255,0,.25)}
+.color-width{display:inline-block;width:140px}
 .hll{background-color:#ffc}
 .c,.c1,.cs,.ni,.css .o,.css .o+.nt,.css .nt+.nt{color:#999}
 .err{color:#a00;background-color:#faa}
