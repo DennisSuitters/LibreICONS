@@ -689,7 +689,7 @@ Cleaned Up and Adapted for LibreICONS
 .libre-action-delete:before{content:'\e602'}
 .libre-action-select:before{content:'\e603'}
 .libre-activity:before,
-	.libre-cardio:before{content:'\e604'}
+	.glyphicon-cardio:before{content:'\e604'}
 .libre-add:before{content:'\e605'}
 .libre-address-book:before{content:'\e606'}
 .libre-alien:before{content:'\e607'}
@@ -722,7 +722,7 @@ Cleaned Up and Adapted for LibreICONS
 .libre-arrow-up:before,
 	.fa-arrow-up:before,
 	.glyphicon-arrow-up:before{content:'\e613'}
-.libre-back:before{content:'e614'}
+.libre-back:before{content:'\e614'}
 .libre-badge-1:before{content:'\e615'}
 .libre-badge-2:before{content:'\e616'}
 .libre-badge-3:before{content:'\e617'}
@@ -744,65 +744,64 @@ Cleaned Up and Adapted for LibreICONS
 .libre-bookmark:before,
 	.fa-bookmark:before,
 	.glyphicon-bookmark:before{content:'\e621'}
-.libre-browser-chrome:before{content:'\e622'}
-.libre-browser-edge:before{content:'\e623'}
-.libre-browser-explorer:before{content:'\e624'}
-.libre-browser-firefox:before{content:'\e625'}
-.libre-browser-general:before{content:'\e626'}
-.libre-browser-opera:before{content:'\e627'}
-.libre-browser-safari:before{content:'\e628'}
+.libre-browse-media:before{content:'\e622'}
+.libre-browser-chrome:before{content:'\e623'}
+.libre-browser-edge:before{content:'\e624'}
+.libre-browser-explorer:before{content:'\e625'}
+.libre-browser-firefox:before{content:'\e626'}
+.libre-browser-general:before{content:'\e627'}
+.libre-browser-opera:before{content:'\e628'}
+.libre-browser-safari:before{content:'\e629'}
 .libre-bug:before,
-	.fa-bug:before{content:'\e629'}
+	.fa-bug:before{content:'\e62a'}
 .libre-calendar:before,
 	.fa-calendar:before,
-	.glyphicon-calendar:before{content:'\e62a'}
+	.glyphicon-calendar:before{content:'\e62b'}
 .libre-caret-down:before,
-	.fa-caret-down:before{content:'\e62b'}
+	.fa-caret-down:before{content:'\e62c'}
 .libre-caret-up:before,
-	.fa-caret-up:before{content:'\e62c'}
+	.fa-caret-up:before{content:'\e62d'}
 .libre-certificate:before,
 	.fa-certificate:before,
-	.glyphicon-certificate:before{content:'\e62d'}
+	.glyphicon-certificate:before{content:'\e62e'}
 .libre-chart-area:before,
-	.fa-area-chart:before{content:'\e62e'}
+	.fa-area-chart:before{content:'\e62f'}
 .libre-chart-bar:before,
-	.fa-bar-chart:before{content:'\e62f'}
+	.fa-bar-chart:before{content:'\e630'}
 .libre-chart-line:before,
-	.fa-line-chart:before{content:'\e630'}
+	.fa-line-chart:before{content:'\e631'}
 .libre-chart-pie:before,
-	.fa-pie-chart:before{content:'\e631'}
+	.fa-pie-chart:before{content:'\e632'}
 .libre-check-no:before,
-	.glyphicon-remove:before{content:'\e632'}
+	.glyphicon-remove:before{content:'\e633'}
 .libre-check-yes:before,
 	.fa-check:before,
 	.glyphicon-yes:before,
-	.libre-approve:before{content:'\e633'}
+	.libre-approve:before{content:'\e634'}
 .libre-chevron-down:before,
 	.fa-angle-down:before,
 	.fa-chevron-down:before,
-	.glyphicon-chevron-down:before{content:'\e634'}
+	.glyphicon-chevron-down:before{content:'\e635'}
 .libre-chevron-left:before,
 	.fa-angle-left:before,
 	.fa-chevron-left:before,
-	.glyphicon-chevron-left:before{content:'\e635'}
+	.glyphicon-chevron-left:before{content:'\e636'}
 .libre-chevron-right:before,
 	.fa-angle-right:before,
 	.fa-chevron-right:before,
-	.glyphicon-chevron-right:before{content:'\e636'}
+	.glyphicon-chevron-right:before{content:'\e637'}
 .libre-chevron-up:before,
 	.fa-angle-up:before,
 	.fa-chevron-up:before,
-	.glyphicon-chevron-up:before{content:'\e637'}
-.libre-circle:before{content:'\e638'}
-.libre-circle-o:before{content:'\e639'}
+	.glyphicon-chevron-up:before{content:'\e638'}
+.libre-circle:before{content:'\e639'}
+.libre-circle-o:before{content:'\e63a'}
 .libre-clock:before,
 	.fa-clock-o:before,
-	.glyphicon-time:before{content:'\e63a'}
+	.glyphicon-time:before{content:'\e63b'}
 .libre-close:before,
 	.fa-close:before,
-	.glyphicon-remove:before{content:'\e63b'}
-.libre-librecms:before{content:'\e683';color:#18a303}
-.libre-librecms:after{content:'\e63c'}
+	.glyphicon-remove:before{content:'\e63c'}
 .libre-code:before,
 	.fa-code:before{content:'\e63d'}
 .libre-cog:before,
@@ -959,132 +958,135 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-level-down:before{content:'\e681'}
 .libre-level-up:before,
 	.fa-level-up:before{content:'\e682'}
-.libre-license-copyleft:before{content:'\e684'}
-.libre-license-copyright:before{content:'\e685'}
-.libre-license-creative-commons:before{content:'\e686'}
-.libre-license-registered:before{content:'\e687'}
-.libre-license-trademark:before{content:'\e688'}
+.libre-license-copyleft:before{content:'\e683'}
+.libre-license-copyright:before{content:'\e684'}
+.libre-license-creative-commons:before{content:'\e685'}
+.libre-license-registered:before{content:'\e686'}
+.libre-license-trademark:before{content:'\e687'}
 .libre-link:before,
 	.fa-link:before,
-	.glyphicon-link:before{content:'\e689'}
+	.glyphicon-link:before{content:'\e688'}
 .libre-list:before,
 	.fa-list:before,
 	.glyphicon-list:before,
-	.glyphicon-list-alt:before{content:'\e68a'}
+	.glyphicon-list-alt:before{content:'\e689'}
 .libre-list-ol:before,
-	.fa-list-ol:before{content:'\e68b'}
+	.fa-list-ol:before{content:'\e68a'}
 .libre-list-ul:before,
-	.fa-list-ul:before{content:'\e68c'}
+	.fa-list-ul:before{content:'\e68b'}
 .libre-lock:before,
 	.fa-lock:before,
-	.glyphicon-lock:before{content:'\e68d'}
+	.glyphicon-lock:before{content:'\e68c'}
 .libre-magic:before,
-	.fa-magic:before{content:'\e68e'}
+	.fa-magic:before{content:'\e68d'}
 .libre-minus:before,
 	.fa-minus:before,
-	.glyphicon-minus:before{content:'\e68f'}
+	.glyphicon-minus:before{content:'\e68e'}
 .libre-mobile:before,
 	.fa-mobile:before,
 	.fa-mobile-phone:before,
-	.glyphicon-phone:before{content:'\e690'}
+	.glyphicon-phone:before{content:'\e68f'}
 .libre-object-align-bottom:before,
-	.glyphicon-object-align-bottom:before{content:'\e691'}
+	.glyphicon-object-align-bottom:before{content:'\e690'}
 .libre-object-align-horizontal:before,
-	.glyphicon-object-align-horizontal:before{content:'\e692'}
+	.glyphicon-object-align-horizontal:before{content:'\e691'}
 .libre-object-align-left:before,
-	.glyphicon-object-align-left:before{content:'\e693'}
+	.glyphicon-object-align-left:before{content:'\e692'}
 .libre-object-align-right:before,
-	.glyphicon-object-align-right:before{content:'\e694'}
+	.glyphicon-object-align-right:before{content:'\e693'}
 .libre-object-align-top:before,
-	.glyphicon-object-align-top:before{content:'\e695'}
+	.glyphicon-object-align-top:before{content:'\e694'}
 .libre-object-align-vertical:before,
-	.glyphicon-object-align-vertical:before{content:'\e696'}
-.libre-operator:before{content:'\e699'}
-.libre-order:before{content:'\e69a'}
-.libre-order-invoice:before{content:'\e69b'}
-.libre-order-quote:before{content:'\e69c'}
-.libre-order-quotetoinvoice:before{content:'\e69d'}
+	.glyphicon-object-align-vertical:before{content:'\e695'}
+.libre-octagon:before{content:'\e696'}
+.libre-octagon-o:before{content:'\e697'}
+.libre-operator:before{content:'\e698'}
+.libre-order:before{content:'\e699'}
+.libre-order-invoice:before{content:'\e69a'}
+.libre-order-quote:before{content:'\e69b'}
+.libre-order-quotetoinvoice:before{content:'\e69c'}
 .libre-os-android:before,
-	.fa-android:before{content:'\e69e'}
+	.fa-android:before{content:'\e69d'}
 .libre-os-apple:before,
-	.fa-apple:before{content:'\e69f'}
-.libre-os-beos:before{content:'\e6a0'}
-.libre-os-bsd:before{content:'\e6a1'}
-.libre-os-general:before{content:'\e6a2'}
+	.fa-apple:before{content:'\e69e'}
+.libre-os-beos:before{content:'\e69f'}
+.libre-os-bsd:before{content:'\e6a0'}
+.libre-os-general:before{content:'\e6a1'}
 .libre-os-linux:before,
-	.fa-linux:before{content:'\e6a3'}
+	.fa-linux:before{content:'\e6a2'}
 .libre-os-microsoft:before,
-	.fa-windows:before{content:'\e6a4'}
+	.fa-windows:before{content:'\e6a3'}
 .libre-outdent:before,
 	.fa-outdent:before,
-	.glyphicon-indent-right:before{content:'\e6a5'}
+	.glyphicon-indent-right:before{content:'\e6a4'}
 .libre-paintbrush:before,
-	.fa-paintbrush:before{content:'\e6a6'}
+	.fa-paintbrush:before{content:'\e6a5'}
 .libre-paperclip:before,
 	.fa-paperclip:before,
-	.glyphicon-paperclip:before {content:'\e6a8'}
+	.glyphicon-paperclip:before {content:'\e6a7'}
 .libre-paragraph:before,
-	.fa-paragraph:before{content:'\e6a9'}
+	.fa-paragraph:before{content:'\e6a8'}
 .libre-paste:before,
 	.fa-paste:before,
-	.glyphicon-paste:before{content:'\e6aa'}
+	.glyphicon-paste:before{content:'\e6a9'}
 .libre-pencil:before,
 	.fa-pencil:before,
-	.glyphicon-pencil:before{content:'\e6ab'}
+	.glyphicon-pencil:before{content:'\e6aa'}
 .libre-phone:before,
-	.fa-phone:before{content:'\e6ac'}
+	.fa-phone:before{content:'\e6ab'}
 .libre-picture:before,
 	.fa-image:before,
 	.fa-photo:before,
-	.fa-picture-o:before{content:'\e6ad'}
-.libre-picture-circle:before{content:'\e6ae'}
-.libre-picture-rounded:before{content:'\e6af'}
+	.fa-picture-o:before{content:'\e6ac'}
+.libre-picture-circle:before{content:'\e6ad'}
+.libre-picture-rounded:before{content:'\e6ae'}
 .libre-pin:before,
 	.fa-thumb-tack:before,
-	.glyphicon-pushpin:before{content:'\e6b0'}
-.libre-plugin:before{content:'\e6b1'}
+	.glyphicon-pushpin:before{content:'\e6af'}
+.libre-plugin:before{content:'\e6b0'}
 .libre-plus:before,
 	.fa-plus:before,
 	.glyphicon-plus:before,
-	.libre-add:before{content:'\e6b2'}
+	.libre-add:before{content:'\e6b1'}
 .libre-print:before,
 	.fa-print:before,
-	.glyphicon-print:before{content:'\e6b3'}
-.libre-purge:before{content:'\e6b4'}
+	.glyphicon-print:before{content:'\e6b2'}
+.libre-purge:before{content:'\e6b3'}
 .libre-qrcode:before,
 	.fa-qrcode:before,
-	.glyphicon-qrcode:before{content:'\e6b5'}
+	.glyphicon-qrcode:before{content:'\e6b4'}
 .libre-question:before,
-	.fa-question:before{content:'\e6b6'}
+	.fa-question:before{content:'\e6b5'}
 .libre-random:before,
 	.fa-random:before,
-	.glyphicon-random:before{content:'\e6b7'}
-.libre-receipt:before{content:'\e6b8'}
+	.glyphicon-random:before{content:'\e6b6'}
+.libre-receipt:before{content:'\e6b7'}
 .libre-recycle:before,
-	.fa-recycle:before{content:'\e6b9'}
+	.fa-recycle:before{content:'\e6b8'}
 .libre-redo:before,
 	.fa-repeat:before,
-	.glyphicon-repeat:before{content:'\e6ba'}
+	.glyphicon-repeat:before{content:'\e6b9'}
 .libre-refresh:before,
 	.fa-refresh:before,
-	.glyphicon-refresh:before{content:'\e6bb'}
+	.glyphicon-refresh:before{content:'\e6ba'}
 .libre-reorder:before,
 	.fa-reorder:before,
-	.glyphicon-sort:before{content:'\e6bc'}
+	.glyphicon-sort:before{content:'\e6bb'}
 .libre-resize-full:before,
-	.glyphicon-resize-full:before{content:'\e6bd'}
+	.glyphicon-resize-full:before{content:'\e6bc'}
 .libre-resize-horizontal:before,
-	.glyphicon-resize-horizontal:before{content:'\e6be'}
+	.glyphicon-resize-horizontal:before{content:'\e6bd'}
 .libre-resize-small:before,
-	.glyphicon-resize-small:before{content:'\e6bf'}
+	.glyphicon-resize-small:before{content:'\e6be'}
 .libre-resize-vertical:before,
-	.glyphicon-resize-vertical:before{content:'\e6c0'}
-.libre-restore:before{content:'\e6c1'}
+	.glyphicon-resize-vertical:before{content:'\e6bf'}
+.libre-restore:before{content:'\e6c0'}
 .libre-search:before,
 	.fa-search:before,
-	.glyphicon-search:before{content:'\e6c2'}
+	.glyphicon-search:before{content:'\e6c1'}
 .libre-security:before,
-	.fa-shield:before{content:'\e6c3'}
+	.fa-shield:before{content:'\e6c2'}
+.libre-seo:before{content:'\e6c3'}
 .libre-seo-marketing:before{content:'\e6c4'}
 .libre-seo-performance:before{content:'\e6c5'}
 .libre-seo-ppc:before{content:'\e6c6'}
@@ -1151,7 +1153,7 @@ Cleaned Up and Adapted for LibreICONS
 .libre-social-reddit:before{content:'\e6ee'}
 .libre-social-rss:before,
 	.fa-rss:before,
-	.fa-rss.square:before{content:'\e6ef'}
+	.fa-rss-square:before{content:'\e6ef'}
 .libre-social-sharethis:before{content:'\e6f0'}
 .libre-social-skype:before{content:'\e6f1'}
 .libre-social-snapchat:before{content:'\e6f2'}
