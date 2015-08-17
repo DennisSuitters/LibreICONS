@@ -1,4 +1,4 @@
-LibreICONS (v2.0.0) is a Free (as in Cost, and Liberty) Icon Library in much of a similar spirit as Font Awesome, Glyphicons, and other great Icons Libraries available.
+LibreICONS (v2.0.1) is a Free (as in Cost, and Liberty) Icon Library in much of a similar spirit as Font Awesome, Glyphicons, and other great Icons Libraries available.
 
 Why another Icon Library? Well, out of much frustration of other Icon Libraries either having Icons that were needed for Web Development, from watching posts in other Projects for requested Icons, and those requests not being fullfiled or simply ignored. And due to the similar needs of missing Icons from other Libraries for developing [LibreCMS](https://github.com/StudioJunkyard/LibreCMS).
 
