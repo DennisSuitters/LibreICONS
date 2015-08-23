@@ -21,7 +21,7 @@
 .social-buttons li{display:inline-block;padding:5px 8px;line-height:1}
 .github-btn{overflow:hidden;border:0}
 .promotion{margin-top:22px;font-size:14px;line-height:1.42857143;text-shadow:0 1px 0 rgba(0,0,0,.15)}
-.libre-activity.animated-hover:hover{-webkit-animation-name:fadeOutScaleUp;animation-name:fadeOutScaleUp;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.libre-tardis.animated-hover:hover{-webkit-animation-name:fadeOut;animation-name:fadeOut;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
 .navbar-nav>li.dropdown-split-right>a{padding-left:7px}
 .navbar-nav>li.dropdown-split-left>a{padding-right:0}
 .margin-bottom-10{margin-bottom:10px}
