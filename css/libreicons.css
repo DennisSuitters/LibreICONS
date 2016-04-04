@@ -4,11 +4,34 @@
  *  Version 2.0.8
  */
 @charset"UTF-8";
-@font-face{font-family:LibreICONS;src:url('../font/libreicons.eot');src:url('../font/libreicons.eot')format('embedded-opentype'),url('../font/libreicons.woff')format('woff'),url('../font/libreicons.ttf')format('truetype'),url('../font/libreicons.svg')format('svg')}
-.libre,
-	.fa,
-	.glyphicon,
-	select.libre{position:relative;display:inline-block;font:normal normal normal 14px/1 LibreICONS;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transform:translate(0,0)}
+@font-face{
+	font-family:LibreICONS;
+	src:url('../font/libreicons.eot') format('embedded-opentype'),
+	url('../font/libreicons.woff') format('woff'),
+	url('../font/libreicons.ttf') format('truetype'),
+	url('../font/libreicons.svg') format('svg')}
+[class^="libre-"]:before,
+[class*=" libre-"]:before,
+[class^="fa-"]:before,
+[class*=" fa-"]:before,
+[class^="glyphicon-"]:before,
+[class*=" glyphicon-"]:before,
+[class^="octicon-"]:before,
+[class*=" octicon-"]:before,
+[class^="note-icon-"]:before,
+[class*=" note-icon-"]:before,
+select.libre{
+	display:inline-block;
+	font:normal normal normal 14px/1 LibreICONS;
+	font-size:inherit;
+	-webkit-font-smoothing:antialiased;
+	text-decoration:inherit;
+	text-rendering:auto;
+	text-transform:none;
+	vertical-align:middle;
+	speak:none;
+	-moz-osx-font-smoothing:grayscale
+}
 .libre:after,
 	.fa:after{position:absolute;left:0;width:100%;text-align:center;font-size:1em}
 .libre-lg,
@@ -707,19 +730,23 @@ Cleaned Up and Adapted for LibreICONS
 .libre-align-center:before,
 	.fa-align-center:before,
 	.glyphicon-align-center:before,
-	.glyphicons-align-center:before{content:'\e90b'}
+	.glyphicons-align-center:before,
+	.note-icon-align-center:before{content:'\e90b'}
 .libre-align-justify:before,
 	.fa-align-justify:before,
 	.glyphicon-align-justfy:before,
-	.glyphicons-align-justify:before{content:'\e90c'}
+	.glyphicons-align-justify:before,
+	.note-icon-align-justify:before{content:'\e90c'}
 .libre-align-left:before,
 	.fa-align-left:before,
 	.glyphicon-align-left:before,
-	.glyphicons-align-left:before{content:'\e90d'}
+	.glyphicons-align-left:before,
+	.note-icon-align-left:before{content:'\e90d'}
 .libre-align-right:before,
 	.fa-align-right:before,
 	.glyphicon-align-right:before,
-	.glyphicons-align-right:before{content:'\e90e'}
+	.glyphicons-align-right:before,
+	.note-icon-align-right:before{content:'\e90e'}
 .libre-ankh:before{content:'\e90f'}
 .libre-approve:before{content:'\e910'}
 .libre-archive:before,
@@ -770,7 +797,8 @@ Cleaned Up and Adapted for LibreICONS
 .libre-bold:before,
 	.fa-bold:before,
 	.glyphicon-bold:before,
-	.glyphicons-bold:before{content:'\e927'}
+	.glyphicons-bold:before,
+	.note-icon-bold:before{content:'\e927'}
 .libre-bookmark:before,
 	.fa-bookmark:before,
 	.octicon-bookmark:before,
@@ -814,13 +842,20 @@ Cleaned Up and Adapted for LibreICONS
 .libre-camera-timer:before{content:'\e93d'}
 .libre-caret-down:before,
 	.fa-caret-down:before,
-	.octicon-triangle-down:before{content:'\e93e'}
-
-.libre-caret-left:before{content:'\e93f'}
-
-.libre-caret-right:before{content:'\e940'}
+	.glyphicon-tringle-down:before,
+	.octicon-triangle-down:before,
+	.note-icon-caret:before{content:'\e93e'}
+.libre-caret-left:before,
+	.fa-caret-left:before,
+	.glyphicon-triangle-left:before,
+	.octicon-tringle-left:before{content:'\e93f'}
+.libre-caret-right:before,
+	.fa-caret-right:before,
+	.glyphicon-triangle-right:before,
+	.octicon-triangle-right:before{content:'\e940'}
 .libre-caret-up:before,
 	.fa-caret-up:before,
+	.glyphicon-trinagle-up:before,
 	.octicon-triangle-up:before{content:'\e941'}
 .libre-certificate:before,
 	.fa-certificate:before,
@@ -881,10 +916,12 @@ Cleaned Up and Adapted for LibreICONS
 .libre-close:before,
 	.fa-close:before,
 	.fa-times:before,
-	.glyphicon-remove:before{content:'\e951'}
+	.glyphicon-remove:before,
+	.note-icon-close:before{content:'\e951'}
 .libre-code:before,
 	.fa-code:before,
-	.octicon-code:before{content:'\e952'}
+	.octicon-code:before,
+	.note-icon-code:before{content:'\e952'}
 .libre-cog:before,
 	.libre-gear:before,
 	.fa-cog:before,
@@ -989,11 +1026,15 @@ Cleaned Up and Adapted for LibreICONS
 .libre-eraser:before,
 	.fa-eraser:before,
 	.glyphicon-erase:before,
-	.glyphicons-erase:before{content:'\e971'}
+	.glyphicons-erase:before,
+	.note-icon-eraser:before{content:'\e971'}
 .libre-exclamation:before,
 	.fa-exclamation:before{content:'\e972'}
-
-.libre-exclamation-circle{content:'\e973'}
+.libre-exclamation-circle:before,
+	.fa-exclamation-circle:before,
+	.glyphicon-info-sign:before,
+	.glyphicons-info-sign:before,
+	.octicon-issue-opened:before{content:'\e973'}
 .libre-eyeofra:before{content:'\e974'}
 .libre-file:before,
 	.fa-file:before,
@@ -1032,7 +1073,8 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-film:before,
 	.fa-youtube-play:before,
 	.glyphicon-film:before,
-	.glyphicons-film:before{content:'\e97e'}
+	.glyphicons-film:before,
+	.note-icon-video:before{content:'\e97e'}
 .libre-filter:before,
 	.fa-filter:before,
 	.glyphicon-filter:before,
@@ -1057,11 +1099,13 @@ Cleaned Up and Adapted for LibreICONS
 .libre-font:before,
 	.fa-font:before,
 	.glyphicon-font:before,
-	.glyphicons-font:before{content:'\e985'}
+	.glyphicons-font:before,
+	.note-icon-font:before{content:'\e985'}
 .libre-forbidden:before{content:'\e986'}
 .libre-fullscreen:before,
 	.glyphicon-fullscreen:before,
-	.glyphicons-fullscreen:before{content:'\e987'}
+	.glyphicons-fullscreen:before,
+	.note-icon-arrows-alt:before{content:'\e987'}
 .libre-globe:before,
 	.fa-globe:before,
 	.octicon-globe:before,
@@ -1100,14 +1144,16 @@ Cleaned Up and Adapted for LibreICONS
 .libre-indent:before,
 	.fa-indent:before,
 	.glyphicon-indent-left:before,
-	.glyphicons-indent:before{content:'\e993'}
+	.glyphicons-indent:before,
+	.note-icon-align-indent:before{content:'\e993'}
 .libre-info:before,
 	.fa-info:before,
 	.octicon-info:before{content:'\e994'}
 .libre-italic:before,
 	.fa-italic:before,
 	.glyphicon-italic:before,
-	.glyphicons-italic:before{content:'\e995'}
+	.glyphicons-italic:before,
+	.note-icon-italic:before{content:'\e995'}
 .libre-key:before,
 	.fa-key:before,
 	.octicon-key:before,
@@ -1139,7 +1185,8 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-link:before,
 	.octicon-link:before,
 	.glyphicon-link:before,
-	.glyphicons-link:before{content:'\e9a5'}
+	.glyphicons-link:before,
+	.note-icon-link:before{content:'\e9a5'}
 .libre-list:before,
 	.fa-list:before,
 	.fa-list-alt:before,
@@ -1148,7 +1195,9 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicons-list-alt:before{content:'\e9a6'}
 .libre-list-ol:before,
 	.fa-list-ol:before,
-	.octicon-list-ordered:before{content:'\e9a7'}
+	.octicon-list-ordered:before,
+	.note-icon-orderedlist:before,
+	.note-icon-unorderedlist:before{content:'\e9a7'}
 .libre-list-ul:before,
 	.fa-list-ul:before,
 	.octiocon-list-unordered:before{content:'\e9a8'}
@@ -1159,13 +1208,15 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicons-lock:before{content:'\e9a9'}
 .libre-magic:before,
 	.fa-magic:before,
-	.glyphicons-magic:before{content:'\e9aa'}
+	.glyphicons-magic:before,
+	.note-icon-magic:before{content:'\e9aa'}
 .libre-masonic:before{content:'\e9ab'}
 .libre-minus:before,
 	.fa-minus:before,
 	.octicon-dash:before,
 	.glyphicon-minus:before,
-	.glyphicons-minus:before{content:'\e9ac'}
+	.glyphicons-minus:before,
+	.note-icon-minus:before{content:'\e9ac'}
 .libre-mobile:before,
 	.fa-mobile:before,
 	.fa-mobile-phone:before,
@@ -1225,7 +1276,8 @@ Cleaned Up and Adapted for LibreICONS
 .libre-outdent:before,
 	.fa-dedent:before,
 	.fa-outdent:before,
-	.glyphicon-indent-right:before{content:'\e9d6'}
+	.glyphicon-indent-right:before,
+	.note-icon-align-outdent:before{content:'\e9d6'}
 .libre-paintbrush:before,
 	.fa-paint-brush:before{content:'\e9d7'}
 .libre-paperclip:before,
@@ -1241,7 +1293,8 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-pencil:before,
 	.octicon-pencil:before,
 	.glyphicon-pencil:before,
-	.glyphicons-pencil:before{content:'\e9db'}
+	.glyphicons-pencil:before,
+	.note-icon-pencil:before{content:'\e9db'}
 .libre-pentagram:before{content:'\e9dc'}
 .libre-phone:before,
 	.fa-phone:before,
@@ -1250,7 +1303,8 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-image:before,
 	.fa-photo:before,
 	.fa-picture-o:before,
-	.glyphicons-picture:before{content:'\e9de'}
+	.glyphicons-picture:before,
+	.note-icon-picture:before{content:'\e9de'}
 .libre-picture-circle:before{content:'\e9df'}
 .libre-picture-rounded:before{content:'\e9e0'}
 .libre-pin:before,
@@ -1278,7 +1332,12 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicons-qrcode:before{content:'\e9e7'}
 .libre-question:before,
 	.fa-question:before,
-	.octicon-question:before{content:'\e9e9'}
+	.octicon-question:before,
+	.note-icon-question:before{content:'\e9e8'}
+.libre-question-circle:before,
+	.fa-question-circle:before,
+	.glyphicon-question-sign:before,
+	.glyphicons-question-sign:before{content:'\e9e9'}
 .libre-random:before,
 	.fa-random:before,
 	.glyphicon-random:before,
@@ -1290,7 +1349,8 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-repeat:before,
 	.glyphicon-repeat:before,
 	.glyphicons-repeat:before,
-	.glyphicons-redo:before{content:'\e9ed'}
+	.glyphicons-redo:before,
+	.note-icon-redo:before{content:'\e9ed'}
 .libre-refresh:before,
 	.fa-refresh:before,
 	.glyphicon-refresh:before,
@@ -1325,8 +1385,10 @@ Cleaned Up and Adapted for LibreICONS
 .libre-seo-ppc:before{content:'\e9fa'}
 .libre-seo-stats:before{content:'\e9fb'}
 .libre-seo-target-audience:before{content:'\e9fc'}
-
-.libre-server:before{content:'\e9fd'}
+.libre-server:before,
+	.fa-server:before,
+	.octicon-server:before,
+	.glyphicons-server:before{content:'\e9fd'}
 .libre-settings:before,
 	.octicon-settings:before{content:'\e9fe'}
 .libre-sheep:before{content:'\e9ff'}
@@ -1507,18 +1569,22 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicons-stop-sign:before{content:'\ea6b'}
 .libre-strikethrough:before,
 	.fa-strikethrough:before,
-	.glyphicons-text-strike:before{content:'\ea6c'}
+	.glyphicons-text-strike:before,
+	.note-icon-strikethrough:before{content:'\ea6c'}
 .libre-subscript:before,
 	.fa-subscript:before,
 	.glyphicon-subscript:before,
-	.glyphicons-subscript:before{content:'\ea6d'}
+	.glyphicons-subscript:before,
+	.note-icon-subscript:before{content:'\ea6d'}
 .libre-superscript:before,
 	.fa-superscript:before,
 	.glyphicon-superscript:before,
-	.glyphicons-superscript:before{content:'\ea6e'}
+	.glyphicons-superscript:before,
+	.note-icon-superscript:before{content:'\ea6e'}
 .libre-table:before,
 	.fa-table:before,
-	.glyphicons-table:before{content:'\ea6f'}
+	.glyphicons-table:before,
+	.note-icon-table:before{content:'\ea6f'}
 .libre-tablet:before,
 	.fa-tablet:before,
 	.glyphicons-tablet:before{content:'\ea70'}
@@ -1569,12 +1635,13 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicon-console{content:'\ea8c'}
 .libre-text-color:before,
 	.glyphicons-text-color:before{content:'\ea8d'}
-
-.libre-text-cursor:before{content:'\ea8e'}
+.libre-text-cursor:before,
+	.fa-i-cursor:before{content:'\ea8e'}
 .libre-text-height:before,
 	.fa-text-height:before,
 	.glyphicon-text-height:before,
-	.glyphicons-text-height:before{content:'\ea8f'}
+	.glyphicons-text-height:before,
+	.note-icon-text-height:before{content:'\ea8f'}
 .libre-text-size:before,
 	.glyphicon-text-size:before,
 	.glyphicons-text-size:before{content:'\ea90'}
@@ -1616,7 +1683,8 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-trash-o:before,
 	.octicon-trashcan:before,
 	.glyphicon-trash:before,
-	.glyphicons-bin:before{content:'\ea9c'}
+	.glyphicons-bin:before,
+	.note-icon-trash:before{content:'\ea9c'}
 .libre-triangle:before{content:'\ea9d'}
 .libre-triangle-o:before{content:'\ea9e'}
 .libre-triangle-o-rounded:before{content:'\ea9f'}
@@ -1624,10 +1692,12 @@ Cleaned Up and Adapted for LibreICONS
 .libre-triskele:before{content:'\eaa1'}
 .libre-underline:before,
 	.fa-underline:before,
-	.glyphicons-text-underline:before{content:'\eaa2'}
+	.glyphicons-text-underline:before,
+	.note-icon-underline:before{content:'\eaa2'}
 .libre-undo:before,
 	.fa-undo:before,
-	.glyphicons-undo:before{content:'\eaa3'}
+	.glyphicons-undo:before,
+	.note-icon-undo:before{content:'\eaa3'}
 .libre-unlock:before,
 	.fa-unlock:before,
 	.fa-unlock-alt:before,
