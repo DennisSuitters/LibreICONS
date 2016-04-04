@@ -689,969 +689,979 @@ Cleaned Up and Adapted for LibreICONS
 .zoomOutUp{-webkit-animation-name:zoomOutUp;animation-name:zoomOutUp}
 	@-webkit-keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475)translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19)}100%{opacity:0;-webkit-transform:scale3d(.1,.1,.1)translate3d(0,-2000px,0);-webkit-transform-origin:50% 100%;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1)}}
 	@keyframes zoomOutUp{40%{opacity:1;transform:scale3d(.475,.475,.475)translate3d(0,60px,0);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}100%{opacity:0;transform:scale3d(.1,.1,.1)translate3d(0,-2000px,0);transform-origin:50% 100%;animation-timing-function:cubic-bezier(.175,.885,.32,1)}}
-.libre-360view:before{content:'\e600'}
-.libre-action:before{content:'\e601'}
-.libre-action-add:before{content:'\e602'}
-.libre-action-approve:before{content:'\e603'}
-.libre-action-delete:before{content:'\e604'}
-.libre-action-export:before{content:'\e605'}
-.libre-action-select:before{content:'\e606'}
+.libre-360view:before{content:'\e900'}
+.libre-action:before{content:'\e901'}
+.libre-action-add:before{content:'\e902'}
+.libre-action-approve:before{content:'\e903'}
+.libre-action-delete:before{content:'\e904'}
+.libre-action-export:before{content:'\e905'}
+.libre-action-select:before{content:'\e906'}
 .libre-activity:before,
 	.libre-cardio:before,
 	.octicon-pulse:before,
-	.glyphicons-cardio:before{content:'\e607'}
-.libre-add:before{content:'\e608'}
+	.glyphicons-cardio:before{content:'\e907'}
+.libre-add:before{content:'\e908'}
 .libre-address-book:before,
-	.glyphicons-address-book:before{content:'\e609'}
-.libre-alien:before{content:'\e60a'}
+	.glyphicons-address-book:before{content:'\e909'}
+.libre-alien:before{content:'\e90a'}
 .libre-align-center:before,
 	.fa-align-center:before,
 	.glyphicon-align-center:before,
-	.glyphicons-align-center:before{content:'\e60b'}
+	.glyphicons-align-center:before{content:'\e90b'}
 .libre-align-justify:before,
 	.fa-align-justify:before,
 	.glyphicon-align-justfy:before,
-	.glyphicons-align-justify:before{content:'\e60c'}
+	.glyphicons-align-justify:before{content:'\e90c'}
 .libre-align-left:before,
 	.fa-align-left:before,
 	.glyphicon-align-left:before,
-	.glyphicons-align-left:before{content:'\e60d'}
+	.glyphicons-align-left:before{content:'\e90d'}
 .libre-align-right:before,
 	.fa-align-right:before,
 	.glyphicon-align-right:before,
-	.glyphicons-align-right:before{content:'\e60e'}
-.libre-ankh:before{content:'\e60f'}
-.libre-approve:before{content:'\e610'}
+	.glyphicons-align-right:before{content:'\e90e'}
+.libre-ankh:before{content:'\e90f'}
+.libre-approve:before{content:'\e910'}
 .libre-archive:before,
-	.fa-archive:before{content:'\e611'}
-.libre-arrow-circle-down:before{content:'\e612'}
-.libre-arrow-circle-right:before{content:'\e613'}
+	.fa-archive:before{content:'\e911'}
+.libre-arrow-circle-down:before{content:'\e912'}
+.libre-arrow-circle-right:before{content:'\e913'}
 .libre-arrow-down:before,
 	.fa-arrow-down:before,
 	.octicon-arrow-down:before,
 	.glyphicon-arrow-down:before,
-	.glyphicons-down-arrow:before{content:'\e614'}
+	.glyphicons-down-arrow:before{content:'\e914'}
 .libre-arrow-left:before,
 	.fa-arrow-left:before,
 	.octicon-arrow-left:before,
 	.glyphicon-arrow-left:before,
-	.glyphicons-left-arrow:before{content:'\e615'}
+	.glyphicons-left-arrow:before{content:'\e915'}
 .libre-arrow-right:before,
 	.fa-arrow-right:before,
 	.octicon-arrow-right:before,
 	.glyphicon-arrow-right:before,
-	.glyphicons-right-arrow:before{content:'\e616'}
+	.glyphicons-right-arrow:before{content:'\e916'}
 .libre-arrow-up:before,
 	.fa-arrow-up:before,
 	.octicon-arrow-up:before,
 	.glyphicon-arrow-up:before,
-	.glyphicons-up-arrow:before{content:'\e617'}
-.libre-athiest:before{content:'\e618'}
-.libre-back:before{content:'\e619'}
-.libre-badge-1:before{content:'\e61a'}
-.libre-badge-2:before{content:'\e61b'}
-.libre-badge-3:before{content:'\e61c'}
-.libre-badge-4:before{content:'\e61d'}
-.libre-badge-5:before{content:'\e61e'}
-.libre-badge-6:before{content:'\e61f'}
-.libre-badge-7:before{content:'\e620'}
-.libre-badge-8:before{content:'\e621'}
-.libre-badge-9:before{content:'\e622'}
+	.glyphicons-up-arrow:before{content:'\e917'}
+.libre-athiest:before{content:'\e918'}
+.libre-back:before{content:'\e919'}
+.libre-badge-1:before{content:'\e91a'}
+.libre-badge-2:before{content:'\e91b'}
+.libre-badge-3:before{content:'\e91c'}
+.libre-badge-4:before{content:'\e91d'}
+.libre-badge-5:before{content:'\e91e'}
+.libre-badge-6:before{content:'\e91f'}
+.libre-badge-7:before{content:'\e920'}
+.libre-badge-8:before{content:'\e921'}
+.libre-badge-9:before{content:'\e922'}
 .libre-ban:before,
 	.fa-ban:before,
-	.glyphicon-ban-circle:before{content:'\e623'}
-.libre-bank:before{content:'\e624'}
+	.glyphicon-ban-circle:before{content:'\e923'}
+.libre-bank:before{content:'\e924'}
 .libre-barcode:before,
 	.fa-barcode:before,
 	.glyphicon-barcode:before,
-	.glyphicons-barcode:before{content:'\e625'}
+	.glyphicons-barcode:before{content:'\e925'}
 .libre-bell:before,
-	.octicon:before{content:'\e626'}
+	.octicon:before{content:'\e926'}
 .libre-bold:before,
 	.fa-bold:before,
 	.glyphicon-bold:before,
-	.glyphicons-bold:before{content:'\e627'}
+	.glyphicons-bold:before{content:'\e927'}
 .libre-bookmark:before,
 	.fa-bookmark:before,
 	.octicon-bookmark:before,
 	.glyphicon-bookmark:before,
-	.glyphicons-bookmark:before{content:'\e628'}
+	.glyphicons-bookmark:before{content:'\e928'}
 .libre-browser-chrome:before,
-	.fa-chrome:before{content:'\e629'}
-.libre-browser-edge:before{content:'\e62a'}
+	.fa-chrome:before{content:'\e929'}
+.libre-browser-edge:before{content:'\e92a'}
 .libre-browser-explorer:before,
-	.fa-internet-explorer:before{content:'\e62b'}
+	.fa-internet-explorer:before{content:'\e92b'}
 .libre-browser-firefox:before,
-	.fa-firefox:before{content:'\e62c'}
+	.fa-firefox:before{content:'\e92c'}
 .libre-browser-general:before,
-	.octicon-browser:before{content:'\e62d'}
+	.octicon-browser:before{content:'\e92d'}
 .libre-browser-opera:before,
-	.fa-opera:before{content:'\e62e'}
+	.fa-opera:before{content:'\e92e'}
 .libre-browser-safari:before,
-	.fa-safari:before{content:'\e62f'}
+	.fa-safari:before{content:'\e92f'}
 .libre-bug:before,
 	.fa-bug:before,
 	.octicon-bug:before,
-	.glyphicons-bug:before{content:'\e630'}
+	.glyphicons-bug:before{content:'\e930'}
 .libre-calendar:before,
 	.fa-calendar:before,
 	.octicon-calendar:before,
 	.glyphicon-calendar:before,
-	.glyphicons-calendar:before{content:'\e631'}
+	.glyphicons-calendar:before{content:'\e931'}
 .libre-camera:before,
-	.octicon-device-camera:before{content:'\e632'}
-.libre-camera-aperture:before{content:'\e633'}
-.libre-camera-auto-whitebalance:before{content:'\e634'}
+	.octicon-device-camera:before{content:'\e932'}
+.libre-camera-aperture:before{content:'\e933'}
+.libre-camera-auto-whitebalance:before{content:'\e934'}
 .libre-camera-flash:before,
-	.libre-zap:before{content:'\e635'}
-.libre-camera-focal-length:before{content:'\e636'}
-.libre-camera-iso:before{content:'\e637'}
-.libre-camera-landscape:before{content:'\e638'}
-.libre-camera-macro:before{content:'\e639'}
-.libre-camera-panorama:before{content:'\e63a'}
-.libre-camera-portrait:before{content:'\e63b'}
-.libre-camera-shutter-speed:before{content:'\e63c'}
-.libre-camera-timer:before{content:'\e63d'}
+	.libre-zap:before{content:'\e935'}
+.libre-camera-focal-length:before{content:'\e936'}
+.libre-camera-iso:before{content:'\e937'}
+.libre-camera-landscape:before{content:'\e938'}
+.libre-camera-macro:before{content:'\e939'}
+.libre-camera-panorama:before{content:'\e93a'}
+.libre-camera-portrait:before{content:'\e93b'}
+.libre-camera-shutter-speed:before{content:'\e93c'}
+.libre-camera-timer:before{content:'\e93d'}
 .libre-caret-down:before,
 	.fa-caret-down:before,
-	.octicon-triangle-down:before{content:'\e63e'}
+	.octicon-triangle-down:before{content:'\e93e'}
+
+.libre-caret-left:before{content:'\e93f'}
+
+.libre-caret-right:before{content:'\e940'}
 .libre-caret-up:before,
 	.fa-caret-up:before,
-	.octicon-triangle-up:before{content:'\e63f'}
+	.octicon-triangle-up:before{content:'\e941'}
 .libre-certificate:before,
 	.fa-certificate:before,
 	.glyphicon-certificate:before,
-	.glyphicons-certificate:before{content:'\e640'}
+	.glyphicons-certificate:before{content:'\e942'}
 .libre-chart-area:before,
-	.fa-area-chart:before{content:'\e641'}
+	.fa-area-chart:before{content:'\e943'}
 .libre-chart-bar:before,
 	.fa-bar-chart:before,
 	.fa-bar-chart-o:before,
-	.octicon-graph:before{content:'\e642'}
+	.octicon-graph:before{content:'\e944'}
 .libre-chart-line:before,
-	.fa-line-chart:before{content:'\e643'}
+	.fa-line-chart:before{content:'\e945'}
 .libre-chart-pie:before,
-	.fa-pie-chart:before{content:'\e644'}
+	.fa-pie-chart:before{content:'\e946'}
 .libre-check-no:before,
 	.glyphicon-remove:before,
-	.glyphicons-remove-2:before{content:'\e645'}
+	.glyphicons-remove-2:before{content:'\e947'}
 .libre-check-yes:before,
 	.fa-check:before,
 	.octicon-check:before,
 	.glyphicon-ok:before,
 	.glyphicons-ok-2:before,
-	.libre-approve:before{content:'\e646'}
+	.libre-approve:before{content:'\e948'}
 .libre-chevron-down:before,
 	.fa-angle-down:before,
 	.fa-chevron-down:before,
 	.octicon-chevron-down:before,
 	.glyphicon-chevron-down:before,
-	.glyphicons-chevron-down:before{content:'\e647'}
+	.glyphicons-chevron-down:before{content:'\e949'}
 .libre-chevron-left:before,
 	.fa-angle-left:before,
 	.fa-chevron-left:before,
 	.octicon-chevron-left:before,
 	.glyphicon-chevron-left:before,
-	.glyphicons-chevron-left:before{content:'\e648'}
+	.glyphicons-chevron-left:before{content:'\e94a'}
 .libre-chevron-right:before,
 	.fa-angle-right:before,
 	.fa-chevron-right:before,
 	.octicon-chevron-right:before,
 	.glyphicon-chevron-right:before,
-	.glyphicons-chevron-right:before{content:'\e649'}
+	.glyphicons-chevron-right:before{content:'\e94b'}
 .libre-chevron-up:before,
 	.fa-angle-up:before,
 	.fa-chevron-up:before,
 	.octicon-chevron-up:before,
 	.glyphicon-chevron-up:before,
-	.glyphicons-chevron-up:before{content:'\e64a'}
+	.glyphicons-chevron-up:before{content:'\e94c'}
 .libre-circle:before,
-	.fa-circle:before{content:'\e64b'}
+	.fa-circle:before{content:'\e94d'}
 .libre-circle-o:before,
-	.fa-circle-o:before{content:'\e64c'}
-.libre-clipboard:before{content:'\e64d'}
+	.fa-circle-o:before{content:'\e94e'}
+.libre-clipboard:before{content:'\e94f'}
 .libre-clock:before,
 	.fa-clock-o:before,
 	.octicon-clock:before,
-	.glyphicon-time:before{content:'\e64e'}
+	.glyphicon-time:before{content:'\e950'}
 .libre-close:before,
 	.fa-close:before,
 	.fa-times:before,
-	.glyphicon-remove:before{content:'\e64f'}
+	.glyphicon-remove:before{content:'\e951'}
 .libre-code:before,
 	.fa-code:before,
-	.octicon-code:before{content:'\e650'}
+	.octicon-code:before{content:'\e952'}
 .libre-cog:before,
 	.libre-gear:before,
 	.fa-cog:before,
 	.fa-gear:before,
 	.octicon-gear:before
 	.glyphicon-cog:before,
-	.glyphicons-cogwheel:before{content:'\e651'}
+	.glyphicons-cogwheel:before{content:'\e953'}
 .libre-cogs:before,
 	.libre-gears:before,
 	.fa-cogs:before,
 	.fa-gears:before,
-	.glyphicons-cogwheels:before{content:'\e652'}
-.libre-columns:before{content:'\e653'}
+	.glyphicons-cogwheels:before{content:'\e954'}
+.libre-columns:before{content:'\e955'}
 .libre-comment:before,
 	.fa-comment:before,
 	.octicon-comment:before,
-	.glypicon-comment:before{content:'\e654'}
+	.glypicon-comment:before{content:'\e956'}
 .libre-comments:before,
 	.fa-comments:before,
 	.octicon-comment-discussion:before,
-	.glyphicons-comments:before{content:'\e655'}
-.libre-content:before{content:'\e656'}
+	.glyphicons-comments:before{content:'\e957'}
+.libre-content:before{content:'\e958'}
 .libre-copy:before,
-	.fa-copy:before{content:'\e657'}
+	.fa-copy:before{content:'\e959'}
 .libre-credit-card:before,
 	.fa-cc:before,
 	.fa-credit-card:before,
 	.octicon-credit-card:before,
 	.glyphicon-credit-card:before,
-	.glyphicons-credit-card:before{content:'\e658'}
+	.glyphicons-credit-card:before{content:'\e95a'}
 .libre-credit-card-amex:before,
-	.fa-cc-amex:before{content:'\e659'}
-.libre-credit-card-cc:before{content:'\e65a'}
+	.fa-cc-amex:before{content:'\e95b'}
+.libre-credit-card-cc:before{content:'\e95c'}
 .libre-credit-card-discover:before,
-	.fa-cc-discover:before{content:'\e65b'}
+	.fa-cc-discover:before{content:'\e95d'}
 .libre-credit-card-mastercard:before,
-	.fa-cc-mastercard:before{content:'\e65c'}
+	.fa-cc-mastercard:before{content:'\e95e'}
 .libre-credit-card-paypal:before,
-	.fa-cc-paypal:before{content:'\e65d'}
+	.fa-cc-paypal:before{content:'\e95f'}
 .libre-credit-card-stripe:before,
-	.fa-cc-stripe:before{content:'\e65e'}
+	.fa-cc-stripe:before{content:'\e960'}
 .libre-credit-card-visa:before,
-	.fa-cc-visa:before{content:'\e65f'}
+	.fa-cc-visa:before{content:'\e961'}
 .libre-crop:before,
 	.fa-crop:before,
-	.glyphicons-crop:before{content:'\e660'}
+	.glyphicons-crop:before{content:'\e962'}
 .libre-crosshairs:before,
 	.fa-crosshairs:before,
-	.glyphicon-screenshot:before{content:'\e661'}
+	.glyphicon-screenshot:before{content:'\e963'}
 .libre-cut:before,
 	.fa-cut:before,
 	.fa-scissors:before,
 	.glyphicon-scissors:before,
 	.glyphicons-scissors:before,
-	.glyphicons-scissors-alt:before{content:'\e662'}
-.libre-dalek:before{content:'\e663'}
+	.glyphicons-scissors-alt:before{content:'\e964'}
+.libre-dalek:before{content:'\e965'}
 .libre-dashboard:before,
 	.fa-dashboard:before,
 	.octicon-dashboard:before,
 	.glyphicon-dashboard:before,
-	.glyphicons-dashboard:before{content:'\e664'}
+	.glyphicons-dashboard:before{content:'\e966'}
 .libre-database:before,
 	.fa-database:before,
 	.octicon-databse:before,
-	.glyphicons-database:before{content:'\e665'}
+	.glyphicons-database:before{content:'\e967'}
 .libre-desktop:before,
 	.fa-desktop:before,
-	.octicon-device-desktop:before{content:'\e666'}
+	.octicon-device-desktop:before{content:'\e968'}
 .libre-download:before,
 	.fa-download:before,
 	.glyphicon-download:before,
 	.glyphicon-download-alt:before,
-	.glyphicons-download-alt:before{content:'\e667'}
-.libre-easter-egg:before{content:'\e668'}
+	.glyphicons-download-alt:before{content:'\e969'}
+.libre-easter-egg:before{content:'\e96a'}
 .libre-edit:before,
 	.fa-edit:before,
 	.glyphicon-edit:before,
-	.glyphicons-edit:before{content:'\e669'}
+	.glyphicons-edit:before{content:'\e96b'}
 .libre-email-forward:before,
 	.libre-mail-forward:before,
-	.fa-mail-forward:before{content:'\e66a'}
+	.fa-mail-forward:before{content:'\e96b'}
 .libre-email-read:before,
 	.libre-mail-read:before,
-	.octicon-mail-read:before{content:'\e66b'}
+	.octicon-mail-read:before{content:'\e96d'}
 .libre-email-reply:before,
 	.libre-mail-reply:before,
 	.libre-back:before,
 	.libre-restore:before,
 	.fa-mail-reply:before,
 	.fa-reply:before,
-	.octicon-mail-reply:before{content:'\e66c'}
+	.octicon-mail-reply:before{content:'\e96e'}
 .libre-email-send:before,
 	.fa-send:before,
-	.glyphicon-send:before{content:'\e66d'}
+	.glyphicon-send:before{content:'\e96f'}
 .libre-envelope:before,
 	.libre-mail:before,
 	.fa-envelope:before,
 	.fa-envelope-o:before,
 	.octicon-mail:before,
 	.glyphicon-envelope:before,
-	.glyphicons-envelope{content:'\e66e'}
+	.glyphicons-envelope{content:'\e970'}
 .libre-eraser:before,
 	.fa-eraser:before,
 	.glyphicon-erase:before,
-	.glyphicons-erase:before{content:'\e66f'}
+	.glyphicons-erase:before{content:'\e971'}
 .libre-exclamation:before,
-	.fa-exclamation:before{content:'\e670'}
-.libre-eyeofra:before{content:'\e671'}
+	.fa-exclamation:before{content:'\e972'}
+
+.libre-exclamation-circle{content:'\e973'}
+.libre-eyeofra:before{content:'\e974'}
 .libre-file:before,
 	.fa-file:before,
 	.fa-file-o:before,
 	.glyphicon-file:before,
-	.glyphicons-file:before{content:'\e672'}
+	.glyphicons-file:before{content:'\e975'}
 .libre-file-archive:before,
 	.fa-file-archive-o:before,
 	.fa-file-zip-o:before,
-	.octicon-file-zip:before{content:'\e673'}
+	.octicon-file-zip:before{content:'\e976'}
 .libre-file-audio:before,
 	.fa-file-audio-o:before,
-	.fa-file-sound-o:before{content:'\e674'}
+	.fa-file-sound-o:before{content:'\e977'}
 .libre-file-code:before,
 	.fa-file-code-o:before,
-	.octicon-file-code:before{content:'\e675'}
+	.octicon-file-code:before{content:'\e978'}
 .libre-file-docs:before,
 	.fa-file-excel-o:before,
 	.fa-file-powerpoint-o:before,
-	.fa-file-word-o:before{content:'\e676'}
+	.fa-file-word-o:before{content:'\e979'}
 .libre-file-image:before,
 	.fa-file-image-o:before,
 	.fa-file-photo-o:before,
-	.fa-file-picture-o:before{content:'\e677'}
+	.fa-file-picture-o:before{content:'\e97a'}
 .libre-file-pdf:before,
 	.fa-file-pdf-o:before,
-	.octicon-file-pdf:before{content:'\e678'}
+	.octicon-file-pdf:before{content:'\e97b'}
 .libre-file-text:before,
 	.fa-file-text:before,
 	.fa-file-text-o:before,
-	.octicon-file-text:before{content:'\e679'}
+	.octicon-file-text:before{content:'\e97c'}
 .libre-file-video:before,
 	.fa-file-movie-o:before,
-	.fa-file-video-o:before{content:'\e67a'}
+	.fa-file-video-o:before{content:'\e97d'}
 .libre-film:before,
 	.fa-film:before,
 	.fa-youtube-play:before,
 	.glyphicon-film:before,
-	.glyphicons-film:before{content:'\e67b'}
+	.glyphicons-film:before{content:'\e97e'}
 .libre-filter:before,
 	.fa-filter:before,
 	.glyphicon-filter:before,
-	.glyphicons-filter:before{content:'\e67c'}
-.libre-fingerprint:before{content:'\e67d'}
-.libre-firewall:before{content:'\e67e'}
+	.glyphicons-filter:before{content:'\e97f'}
+.libre-fingerprint:before{content:'\e980'}
+.libre-firewall:before{content:'\e981'}
 .libre-floppy:before,
 	.libre-save:before,
 	.fa-floppy-o:before,
 	.fa-save:before,
 	.glyphicon-floppy-disk:before,
-	.glyphicons-floppy-disk:before{content:'\e67f'}
+	.glyphicons-floppy-disk:before{content:'\e982'}
 .libre-folder:before,
 	.fa-folder:before,
 	.octicon-file-directory:before,
 	.glyphicon-folder-close:before,
-	.glyphicons-folder-closed:before{content:'\e680'}
+	.glyphicons-folder-closed:before{content:'\e983'}
 .libre-folder-open:before,
 	.fa-folder-open:before,
 	.glyphicon-folder-open:before,
-	.glyphicons-folder-open:before{content:'\e681'}
+	.glyphicons-folder-open:before{content:'\e984'}
 .libre-font:before,
 	.fa-font:before,
 	.glyphicon-font:before,
-	.glyphicons-font:before{content:'\e682'}
-.libre-forbidden:before{content:'\e683'}
+	.glyphicons-font:before{content:'\e985'}
+.libre-forbidden:before{content:'\e986'}
 .libre-fullscreen:before,
 	.glyphicon-fullscreen:before,
-	.glyphicons-fullscreen:before{content:'\e684'}
+	.glyphicons-fullscreen:before{content:'\e987'}
 .libre-globe:before,
 	.fa-globe:before,
 	.octicon-globe:before,
 	.glyphicon-globe:before,
-	.glyphicons-globe:before{content:'\e685'}
-.libre-handsofgod:before{content:'\e686'}
+	.glyphicons-globe:before{content:'\e988'}
+.libre-handsofgod:before{content:'\e989'}
 .libre-header:before,
 	.fa-header:before,
 	.glyphicon-header:before,
-	.glyphicons-header:before{content:'\e687'}
+	.glyphicons-header:before{content:'\e98a'}
 .libre-help:before,
 	.fa-life-bouy:before,
 	.fa-life-buoy:before,
 	.fa-life-ring:before,
 	.fa-life-saver:before,
 	.fa-support:before,
-	.glyphicons-life-preserver:before{content:'\e688'}
-.libre-hexagon:before{content:'\e689'}
-.libre-hexagon-o:before{content:'\e68a'}
+	.glyphicons-life-preserver:before{content:'\e98b'}
+.libre-hexagon:before{content:'\e98c'}
+.libre-hexagon-o:before{content:'\e98d'}
 .libre-history:before,
-	.fa-history:before{content:'\e68b'}
+	.fa-history:before{content:'\e98e'}
 .libre-home:before,
 	.fa-home:before,
 	.octicon-home:before,
 	.glyphicon-home:before,
-	.glyphicons-home:before{content:'\e68c'}
+	.glyphicons-home:before{content:'\e98f'}
 .libre-hr:before,
-	.octicon-horizontal-rule:before{content:'\e68d'}
+	.octicon-horizontal-rule:before{content:'\e990'}
 .libre-import:before,
-	.glyphicon-import:before{content:'\e68e'}
+	.glyphicon-import:before{content:'\e991'}
 .libre-inbox:before,
 	.fa-inbox:before,
 	.octicon-inbox:before,
 	.glyphicon-inbox:before,
-	.glyphicons-inbox:before{content:'\e68f'}
+	.glyphicons-inbox:before{content:'\e992'}
 .libre-indent:before,
 	.fa-indent:before,
 	.glyphicon-indent-left:before,
-	.glyphicons-indent:before{content:'\e690'}
+	.glyphicons-indent:before{content:'\e993'}
 .libre-info:before,
 	.fa-info:before,
-	.octicon-info:before{content:'\e691'}
+	.octicon-info:before{content:'\e994'}
 .libre-italic:before,
 	.fa-italic:before,
 	.glyphicon-italic:before,
-	.glyphicons-italic:before{content:'\e692'}
+	.glyphicons-italic:before{content:'\e995'}
 .libre-key:before,
 	.fa-key:before,
 	.octicon-key:before,
-	.glyphicons-keys:before{content:'\e693'}
+	.glyphicons-keys:before{content:'\e996'}
 .libre-keyboard:before,
-	.octicon-keyboard:before{content:'\e694'}
+	.octicon-keyboard:before{content:'\e997'}
 .libre-laptop:before,
-	.fa-laptop:before{content:'\e695'}
-.libre-layout-blocks:before{content:'\e696'}
-.libre-layout-list:before{content:'\e697'}
-.libre-layout-table:before{content:'\e698'}
-.libre-layout-timeline:before{content:'\e699'}
+	.fa-laptop:before{content:'\e998'}
+.libre-layout-blocks:before{content:'\e999'}
+.libre-layout-list:before{content:'\e99a'}
+.libre-layout-table:before{content:'\e99b'}
+.libre-layout-timeline:before{content:'\e99c'}
 .libre-level-down:before,
-	.fa-level-down:before{content:'\e69a'}
+	.fa-level-down:before{content:'\e99d'}
 .libre-level-up:before,
-	.fa-level-up:before{content:'\e69b'}
-.libre-license-copyleft:before{content:'\e69c'}
+	.fa-level-up:before{content:'\e99e'}
+.libre-license-copyleft:before{content:'\e99f'}
 .libre-license-copyright:before,
-	.fa-copyright:before{content:'\e69d'}
+	.fa-copyright:before{content:'\e9a0'}
 .libre-license-creative-commons:before,
-	.fa-creative-commons:before{content:'\e69e'}
-.libre-license-gpl:before{content:'\e69f'}
+	.fa-creative-commons:before{content:'\e9a1'}
+.libre-license-gpl:before{content:'\e9a2'}
 .libre-license-registered:before,
-	.fa-registered:before{content:'\e6a0'}
+	.fa-registered:before{content:'\e9a3'}
 .libre-license-trademark:before,
-	.fa-trademark:before{content:'\e6a1'}
+	.fa-trademark:before{content:'\e9a4'}
 .libre-link:before,
 	.fa-chain:before,
 	.fa-link:before,
 	.octicon-link:before,
 	.glyphicon-link:before,
-	.glyphicons-link:before{content:'\e6a2'}
+	.glyphicons-link:before{content:'\e9a5'}
 .libre-list:before,
 	.fa-list:before,
 	.fa-list-alt:before,
 	.glyphicon-list:before,
 	.glyphicon-list-alt:before,
-	.glyphicons-list-alt:before{content:'\e6a3'}
+	.glyphicons-list-alt:before{content:'\e9a6'}
 .libre-list-ol:before,
 	.fa-list-ol:before,
-	.octicon-list-ordered:before{content:'\e6a4'}
+	.octicon-list-ordered:before{content:'\e9a7'}
 .libre-list-ul:before,
 	.fa-list-ul:before,
-	.octiocon-list-unordered:before{content:'\e6a5'}
+	.octiocon-list-unordered:before{content:'\e9a8'}
 .libre-lock:before,
 	.fa-lock:before,
 	.octicon-lock:before,
 	.glyphicon-lock:before,
-	.glyphicons-lock:before{content:'\e6a6'}
+	.glyphicons-lock:before{content:'\e9a9'}
 .libre-magic:before,
 	.fa-magic:before,
-	.glyphicons-magic:before{content:'\e6a7'}
-.libre-masonic:before{content:'\e6a8'}
+	.glyphicons-magic:before{content:'\e9aa'}
+.libre-masonic:before{content:'\e9ab'}
 .libre-minus:before,
 	.fa-minus:before,
 	.octicon-dash:before,
 	.glyphicon-minus:before,
-	.glyphicons-minus:before{content:'\e6a9'}
+	.glyphicons-minus:before{content:'\e9ac'}
 .libre-mobile:before,
 	.fa-mobile:before,
 	.fa-mobile-phone:before,
 	.octiocon-device-mobile:before,
-	.glyphicon-phone:before{content:'\e6aa'}
+	.glyphicon-phone:before{content:'\e9ad'}
 .libre-object-align-bottom:before,
-	.glyphicon-object-align-bottom:before{content:'\e6ab'}
+	.glyphicon-object-align-bottom:before{content:'\e9ae'}
 .libre-object-align-horizontal:before,
-	.glyphicon-object-align-horizontal:before{content:'\e6ac'}
+	.glyphicon-object-align-horizontal:before{content:'\e9af'}
 .libre-object-align-left:before,
-	.glyphicon-object-align-left:before{content:'\e6ad'}
+	.glyphicon-object-align-left:before{content:'\e9b0'}
 .libre-object-align-right:before,
-	.glyphicon-object-align-right:before{content:'\e6ae'}
+	.glyphicon-object-align-right:before{content:'\e9b1'}
 .libre-object-align-top:before,
-	.glyphicon-object-align-top:before{content:'\e6af'}
+	.glyphicon-object-align-top:before{content:'\e9b2'}
 .libre-object-align-vertical:before,
-	.glyphicon-object-align-vertical:before{content:'\e6b0'}
-.libre-octagon:before{content:'\e6b1'}
-.libre-octagon-o:before{content:'\e6b2'}
-.libre-operator:before{content:'\e6b3'}
-.libre-order:before{content:'\e6b4'}
+	.glyphicon-object-align-vertical:before{content:'\e9b3'}
+.libre-octagon:before{content:'\e9b4'}
+.libre-octagon-o:before{content:'\e9b5'}
+.libre-operator:before{content:'\e9b6'}
+.libre-order:before{content:'\e9b7'}
 .libre-order-invoice:before,
-	.glyphicons-invoice:before{content:'\e6b5'}
-.libre-order-quote:before{content:'\e6b6'}
-.libre-order-quotetoinvoice:before{content:'\e6b7'}
+	.glyphicons-invoice:before{content:'\e9b8'}
+.libre-order-quote:before{content:'\e9b9'}
+.libre-order-quotetoinvoice:before{content:'\e9ba'}
 .libre-os-android:before,
-	.fa-android:before{content:'\e6b8'}
+	.fa-android:before{content:'\e9bb'}
 .libre-os-apple:before,
-	.fa-apple:before{content:'\e6b9'}
-.libre-os-beos:before{content:'\e6ba'}
-.libre-os-bsd:before{content:'\e6bb'}
-.libre-os-general:before{content:'\e6bc'}
+	.fa-apple:before{content:'\e9bc'}
+.libre-os-beos:before{content:'\e9bd'}
+.libre-os-bsd:before{content:'\e9be'}
+.libre-os-general:before{content:'\e9bf'}
 .libre-os-linux:before,
-	.fa-linux:before{content:'\e6bd'}
-.libre-os-linux-alpine:before{content:'\e6be'}
-.libre-os-linux-arch:before{content:'\e6bf'}
-.libre-os-linux-debian:before{content:'\e6c0'}
-.libre-os-linux-elementary:before{content:'\e6c1'}
-.libre-os-linux-fedora:before{content:'\e6c2'}
-.libre-os-linux-mageia:before{content:'\e6c3'}
-.libre-os-linux-mint:before{content:'\e6c4'}
-.libre-os-linux-pardus:before{content:'\e6c5'}
-.libre-os-linux-puppy:before{content:'\e6c6'}
-.libre-os-linux-redhat:before{content:'\e6c7'}
-.libre-os-linux-suse:before{content:'\e6c8'}
-.libre-os-linux-ubuntu:before{content:'\e6c9'}
+	.fa-linux:before{content:'\e9c0'}
+.libre-os-linux-alpine:before{content:'\e9c1'}
+.libre-os-linux-arch:before{content:'\e9c2'}
+.libre-os-linux-debian:before{content:'\e9c3'}
+.libre-os-linux-elementary:before{content:'\e9c4'}
+.libre-os-linux-fedora:before{content:'\e9c5'}
+.libre-os-linux-mageia:before{content:'\e9c6'}
+.libre-os-linux-mint:before{content:'\e9c7'}
+.libre-os-linux-pardus:before{content:'\e9c8'}
+.libre-os-linux-puppy:before{content:'\e9c9'}
+.libre-os-linux-redhat:before{content:'\e9ca'}
+.libre-os-linux-suse:before{content:'\e9cb'}
+.libre-os-linux-ubuntu:before{content:'\e9cc'}
 .libre-os-microsoft:before,
-	.fa-windows:before{content:'\e6ca'}
-.libre-os-windows-7:before{content:'\e6cb'}
-.libre-os-windows-8:before{content:'\e6cc'}
-.libre-os-windows-95:before{content:'\e6cd'}
-.libre-os-windows-98:before{content:'\e6ce'}
-.libre-os-windows-2000:before{content:'\e6cf'}
-.libre-os-windows-me:before{content:'\e6d0'}
-.libre-os-windows-vista:before{content:'\e6d1'}
-.libre-os-windows-xp:before{content:'\e6d2'}
+	.fa-windows:before{content:'\e9cd'}
+.libre-os-windows-7:before{content:'\e9ce'}
+.libre-os-windows-8:before{content:'\e9cf'}
+.libre-os-windows-95:before{content:'\e9d0'}
+.libre-os-windows-98:before{content:'\e9d1'}
+.libre-os-windows-2000:before{content:'\e9d2'}
+.libre-os-windows-me:before{content:'\e9d3'}
+.libre-os-windows-vista:before{content:'\e9d4'}
+.libre-os-windows-xp:before{content:'\e9d5'}
 .libre-outdent:before,
 	.fa-dedent:before,
 	.fa-outdent:before,
-	.glyphicon-indent-right:before{content:'\e6d3'}
+	.glyphicon-indent-right:before{content:'\e9d6'}
 .libre-paintbrush:before,
-	.fa-paint-brush:before{content:'\e6d4'}
+	.fa-paint-brush:before{content:'\e9d7'}
 .libre-paperclip:before,
 	.fa-paperclip:before,
 	.glyphicon-paperclip:before,
-	.glyphicons-paperclip:before{content:'\e6d5'}
+	.glyphicons-paperclip:before{content:'\e9d8'}
 .libre-paragraph:before,
-	.fa-paragraph:before{content:'\e6d6'}
+	.fa-paragraph:before{content:'\e9d9'}
 .libre-paste:before,
 	.fa-paste:before,
-	.glyphicon-paste:before{content:'\e6d7'}
+	.glyphicon-paste:before{content:'\e9da'}
 .libre-pencil:before,
 	.fa-pencil:before,
 	.octicon-pencil:before,
 	.glyphicon-pencil:before,
-	.glyphicons-pencil:before{content:'\e6d8'}
-.libre-pentagram:before{content:'\e6d9'}
+	.glyphicons-pencil:before{content:'\e9db'}
+.libre-pentagram:before{content:'\e9dc'}
 .libre-phone:before,
 	.fa-phone:before,
-	.glyphicons-phone-alt:before{content:'\e6da'}
+	.glyphicons-phone-alt:before{content:'\e9dd'}
 .libre-picture:before,
 	.fa-image:before,
 	.fa-photo:before,
 	.fa-picture-o:before,
-	.glyphicons-picture:before{content:'\e6db'}
-.libre-picture-circle:before{content:'\e6dc'}
-.libre-picture-rounded:before{content:'\e6dd'}
+	.glyphicons-picture:before{content:'\e9de'}
+.libre-picture-circle:before{content:'\e9df'}
+.libre-picture-rounded:before{content:'\e9e0'}
 .libre-pin:before,
 	.fa-thumb-tack:before,
 	.octicon-pin:before,
 	.glyphicon-pushpin:before,
-	.glyphicons-pushpin:before{content:'\e6de'}
-.libre-playboy:before{content:'\e6df'}
+	.glyphicons-pushpin:before{content:'\e9e1'}
+.libre-playboy:before{content:'\e9e2'}
 .libre-plugin:before,
-	.fa-puzzle-piece:before{content:'\e6e0'}
+	.fa-puzzle-piece:before{content:'\e9e3'}
 .libre-plus:before,
 	.fa-plus:before,
 	.octicon-plus:before,
 	.glyphicon-plus:before,
 	.glyphicons-plus:before,
-	.libre-add:before{content:'\e6e1'}
+	.libre-add:before{content:'\e9e4'}
 .libre-print:before,
 	.fa-print:before,
 	.glyphicon-print:before,
-	.glyphicons-print:before{content:'\e6e2'}
-.libre-purge:before{content:'\e6e3'}
+	.glyphicons-print:before{content:'\e9e5'}
+.libre-purge:before{content:'\e9e6'}
 .libre-qrcode:before,
 	.fa-qrcode:before,
 	.glyphicon-qrcode:before,
-	.glyphicons-qrcode:before{content:'\e6e4'}
+	.glyphicons-qrcode:before{content:'\e9e7'}
 .libre-question:before,
 	.fa-question:before,
-	.octicon-question:before{content:'\e6e5'}
+	.octicon-question:before{content:'\e9e9'}
 .libre-random:before,
 	.fa-random:before,
 	.glyphicon-random:before,
-	.glyphicons-random:before{content:'\e6e6'}
-.libre-receipt:before{content:'\e6e7'}
+	.glyphicons-random:before{content:'\e9ea'}
+.libre-receipt:before{content:'\e9eb'}
 .libre-recycle:before,
-	.fa-recycle:before{content:'\e6e8'}
+	.fa-recycle:before{content:'\e9ec'}
 .libre-redo:before,
 	.fa-repeat:before,
 	.glyphicon-repeat:before,
 	.glyphicons-repeat:before,
-	.glyphicons-redo:before{content:'\e6e9'}
+	.glyphicons-redo:before{content:'\e9ed'}
 .libre-refresh:before,
 	.fa-refresh:before,
 	.glyphicon-refresh:before,
-	.glyphicons-refresh:before{content:'\e6ea'}
+	.glyphicons-refresh:before{content:'\e9ee'}
 .libre-reorder:before,
 	.fa-reorder:before,
-	.glyphicon-sort:before{content:'\e6eb'}
+	.glyphicon-sort:before{content:'\e9ef'}
 .libre-resize-full:before,
 	.glyphicon-resize-full:before,
-	.glyphicons-resize-full:before{content:'\e6ec'}
+	.glyphicons-resize-full:before{content:'\e9f0'}
 .libre-resize-horizontal:before,
-	.glyphicon-resize-horizontal:before{content:'\e6ed'}
+	.glyphicon-resize-horizontal:before{content:'\e9f1'}
 .libre-resize-small:before,
 	.glyphicon-resize-small:before,
-	.glyphicons-resize-small:before{content:'\e6ee'}
+	.glyphicons-resize-small:before{content:'\e9f2'}
 .libre-resize-vertical:before,
-	.glyphicon-resize-vertical:before{content:'\e6ef'}
-.libre-restore:before{content:'\e6f0'}
+	.glyphicon-resize-vertical:before{content:'\e9f3'}
+.libre-restore:before{content:'\e9f4'}
 .libre-search:before,
 	.fa-search:before,
 	.octicon-search:before,
 	.glyphicon-search:before,
-	.glyphicons-search:before{content:'\e6f1'}
+	.glyphicons-search:before{content:'\e9f5'}
 .libre-security:before,
 	.libre-shield:before,
 	.fa-shield:before,
 	.octicon-shield:before,
-	.glyphicons-shield:before{content:'\e6f2'}
-.libre-seo:before{content:'\e6f3'}
-.libre-seo-marketing:before{content:'\e6f4'}
-.libre-seo-performance:before{content:'\e6f5'}
-.libre-seo-ppc:before{content:'\e6f6'}
-.libre-seo-stats:before{content:'\e6f7'}
-.libre-seo-target-audience:before{content:'\e6f8'}
+	.glyphicons-shield:before{content:'\e9f6'}
+.libre-seo:before{content:'\e9f7'}
+.libre-seo-marketing:before{content:'\e9f8'}
+.libre-seo-performance:before{content:'\e9f9'}
+.libre-seo-ppc:before{content:'\e9fa'}
+.libre-seo-stats:before{content:'\e9fb'}
+.libre-seo-target-audience:before{content:'\e9fc'}
+
+.libre-server:before{content:'\e9fd'}
 .libre-settings:before,
-	.octicon-settings:before{content:'\e6f9'}
-.libre-sheep:before{content:'\e6fa'}
-.libre-shop:before{content:'\e6fb'}
+	.octicon-settings:before{content:'\e9fe'}
+.libre-sheep:before{content:'\e9ff'}
+.libre-shop:before{content:'\ea00'}
 .libre-shopping-bag:before,
-	.glyphicons-shopping-bag:before{content:'\e6fc'}
-.libre-shopping-basket:before{content:'\e6fd'}
+	.glyphicons-shopping-bag:before{content:'\ea01'}
+.libre-shopping-basket:before{content:'\ea02'}
 .libre-shopping-cart:before,
 	.fa-shopping-cart:before,
 	.glyphicon-shopping-cart:before,
-	.glyphicons-shopping-cart:before{content:'\e6fe'}
-.libre-signature:before{content:'\e6ff'}
+	.glyphicons-shopping-cart:before{content:'\ea03'}
+.libre-signature:before{content:'\ea04'}
 .libre-sign-in:before,
 	.libre-log-in:before,
 	.fa-sign-in:before,
 	.octicon-log-in:before,
 	.octicon-sign-in:before,
 	.glyphicon-log-in:before,
-	.glyphicons-log-in:before{content:'\e700'}
+	.glyphicons-log-in:before{content:'\ea05'}
 .libre-sign-out:before,
 	.libre-log-out:before,
 	.fa-sign-out:before,
 	.octicon-log-out:before,
 	.octicon-sign-out:before,
 	.glyphicon-log-out:before,
-	.glyphicons-log-out:before{content:'\e701'}
+	.glyphicons-log-out:before{content:'\ea06'}
 .libre-sitemap:before,
-	.fa-sitemap:before{content:'\e702'}
+	.fa-sitemap:before{content:'\ea07'}
 .libre-sliders:before,
 	.fa-sliders:before,
-	.glyphicons-adjust-alt:before{content:'\e703'}
+	.glyphicons-adjust-alt:before{content:'\ea08'}
 /* Social */
 .libre-social-500px:before,
-	.fa-500px:before{content:'\e704'}
+	.fa-500px:before{content:'\ea09'}
 .libre-social-amazon:before,
-	.fa-amazon:before{content:'\e705'}
-.libre-social-aus-post:before{content:'\e706'}
-.libre-social-behance:before{content:'\e707'}
+	.fa-amazon:before{content:'\ea0a'}
+.libre-social-aus-post:before{content:'\ea0b'}
+.libre-social-behance:before{content:'\ea0c'}
 .libre-social-bitcoin:before,
 	.fa-bitcoin:before,
-	.glyphicons-bitcoin:before{content:'\e708'}
-.libre-social-blogger:before{content:'\e709'}
-.libre-social-buffer:before{content:'\e70a'}
-.libre-social-cargo:before{content:'\e70b'}
-.libre-social-codepen:before{content:'\e70c'}
-.libre-social-coroflot:before{content:'\e70d'}
-.libre-social-creatica:before{content:'\e70e'}
+	.glyphicons-bitcoin:before{content:'\ea0d'}
+.libre-social-blogger:before{content:'\ea0e'}
+.libre-social-buffer:before{content:'\ea0f'}
+.libre-social-cargo:before{content:'\ea10'}
+.libre-social-codepen:before{content:'\ea11'}
+.libre-social-coroflot:before{content:'\ea12'}
+.libre-social-creatica:before{content:'\ea13'}
 .libre-social-delicious:before,
-	.fa-delicious:before{content:'\e70f'}
+	.fa-delicious:before{content:'\ea14'}
 .libre-social-deviantart:before,
-	.fa-deviantart:before{content:'\e710'}
-.libre-social-diaspora:before{content:'\e711'}
-.libre-social-digg:before{content:'\e712'}
-.libre-social-dribbble:before{content:'\e713'}
-.libre-social-dropbox:before{content:'\e714'}
-.libre-social-duckduckgo:before{content:'\e715'}
-.libre-social-envato:before{content:'\e716'}
-.libre-social-exposure:before{content:'\e717'}
+	.fa-deviantart:before{content:'\ea15'}
+.libre-social-diaspora:before{content:'\ea16'}
+.libre-social-digg:before{content:'\ea17'}
+.libre-social-dribbble:before{content:'\ea18'}
+.libre-social-dropbox:before{content:'\ea19'}
+.libre-social-duckduckgo:before{content:'\ea1a'}
+.libre-social-envato:before{content:'\ea1b'}
+.libre-social-exposure:before{content:'\ea1c'}
 .libre-social-facebook:before,
 	.fa-facebook:before,
 	.fa-facebook-f:before,
 	.fa-facebook-official:before,
-	.fa-facebook-square:before{content:'\e718'}
-.libre-social-feedburner:before{content:'\e719'}
-.libre-social-flickr:before{content:'\e71a'}
-.libre-social-forrst:before{content:'\e71b'}
+	.fa-facebook-square:before{content:'\ea1d'}
+.libre-social-feedburner:before{content:'\ea1e'}
+.libre-social-flickr:before{content:'\ea1f'}
+.libre-social-forrst:before{content:'\ea20'}
 .libre-social-github:before,
 	.fa-github:before,
 	.fa-github-alt:before,
-	.fa-github-square:before{content:'\e71c'}
-.libre-social-google-maps:before{content:'\e71d'}
+	.fa-github-square:before{content:'\ea21'}
+.libre-social-google-maps:before{content:'\ea22'}
 .libre-social-google-plus:before,
 	.fa-google-plus:before,
-	.fa-google-plus-square:before{content:'\e71e'}
-.libre-social-gravatar:before{content:'\e71f'}
-.libre-social-hackernews:before{content:'\e720'}
-.libre-social-icq:before{content:'\e721'}
+	.fa-google-plus-square:before{content:'\ea23'}
+.libre-social-gravatar:before{content:'\ea24'}
+.libre-social-hackernews:before{content:'\ea25'}
+.libre-social-icq:before{content:'\ea26'}
 .libre-social-instagram:before,
-	.fa-instagram:before{content:'\e722'}
-.libre-social-kickstarter:before{content:'\e723'}
-.libre-social-last-fm:before{content:'\e724'}
-.libre-social-lego:before{content:'\e725'}
-.libre-social-linkedin:before{content:'\e726'}
-.libre-social-livejournal:before{content:'\e727'}
-.libre-social-lynda:before{content:'\e728'}
+	.fa-instagram:before{content:'\ea27'}
+.libre-social-kickstarter:before{content:'\ea28'}
+.libre-social-last-fm:before{content:'\ea29'}
+.libre-social-lego:before{content:'\ea2a'}
+.libre-social-linkedin:before{content:'\ea2b'}
+.libre-social-livejournal:before{content:'\ea2c'}
+.libre-social-lynda:before{content:'\ea2d'}
 .libre-social-map:before,
-	.glyphicons-map:before{content:'\e729'}
-.libre-social-massroots:before{content:'\e72a'}
-.libre-social-medium:before{content:'\e72b'}
-.libre-social-netlify:before{content:'\e72c'}
-.libre-social-ovh:before{content:'\e72d'}
+	.glyphicons-map:before{content:'\ea2e'}
+.libre-social-massroots:before{content:'\ea2f'}
+.libre-social-medium:before{content:'\ea30'}
+.libre-social-netlify:before{content:'\ea31'}
+.libre-social-ovh:before{content:'\ea32'}
 .libre-social-paypal:before,
-	.fa-paypal:before{content:'\e72e'}
-.libre-social-periscope:before{content:'\e72f'}
-.libre-social-picasa:before{content:'\e730'}
-.libre-social-pinterest:before{content:'\e731'}
-.libre-social-play-store:before{content:'\e732'}
-.libre-social-quora:before{content:'\e733'}
-.libre-social-redbubble:before{content:'\e734'}
-.libre-social-reddit:before{content:'\e735'}
+	.fa-paypal:before{content:'\ea33'}
+.libre-social-periscope:before{content:'\ea34'}
+.libre-social-picasa:before{content:'\ea35'}
+.libre-social-pinterest:before{content:'\ea36'}
+.libre-social-play-store:before{content:'\ea37'}
+.libre-social-quora:before{content:'\ea38'}
+.libre-social-redbubble:before{content:'\ea39'}
+.libre-social-reddit:before{content:'\ea3a'}
 .libre-social-rss:before,
 	.fa-feed:before,
 	.fa-rss:before,
 	.fa-rss-square:before,
-	.octicon-rss:before{content:'\e736'}
-.libre-social-sharethis:before{content:'\e737'}
-.libre-social-skype:before{content:'\e738'}
-.libre-social-snapchat:before{content:'\e739'}
-.libre-social-soundcloud:before{content:'\e73a'}
-.libre-social-stackoverflow:before{content:'\e73b'}
-.libre-social-steam:before{content:'\e73c'}
-.libre-social-stumbleupon:before{content:'\e73d'}
-.libre-social-tor:before{content:'\e73e'}
-.libre-social-tsu:before{content:'\e73f'}
-.libre-social-tumblr:before{content:'\e740'}
-.libre-social-twitch:before{content:'\e741'}
+	.octicon-rss:before{content:'\ea3b'}
+.libre-social-sharethis:before{content:'\ea3c'}
+.libre-social-skype:before{content:'\ea3d'}
+.libre-social-snapchat:before{content:'\ea3e'}
+.libre-social-soundcloud:before{content:'\ea3f'}
+.libre-social-stackoverflow:before{content:'\ea40'}
+.libre-social-steam:before{content:'\ea41'}
+.libre-social-stumbleupon:before{content:'\ea42'}
+.libre-social-tor:before{content:'\ea43'}
+.libre-social-tsu:before{content:'\ea44'}
+.libre-social-tumblr:before{content:'\ea45'}
+.libre-social-twitch:before{content:'\ea46'}
 .libre-social-twitter:before,
 	.fa-twitter:before,
-	.fa-twitter-square:before{content:'\e742'}
-.libre-social-ubiquiti:before{content:'\e743'}
-.libre-social-unsplash:before{content:'\e744'}
+	.fa-twitter-square:before{content:'\ea47'}
+.libre-social-ubiquiti:before{content:'\ea48'}
+.libre-social-unsplash:before{content:'\ea49'}
 .libre-social-vimeo:before,
-	.fa-vimeo:before{content:'\e745'}
-.libre-social-vine:before{content:'\e746'}
-.libre-social-whatsapp:before{content:'\e747'}
-.libre-social-wikipedia:before{content:'\e748'}
-.libre-social-windows-store:before{content:'\e749'}
-.libre-social-xbox-live:before{content:'\e74a'}
+	.fa-vimeo:before{content:'\ea4a'}
+.libre-social-vine:before{content:'\ea4b'}
+.libre-social-whatsapp:before{content:'\ea4c'}
+.libre-social-wikipedia:before{content:'\ea4d'}
+.libre-social-windows-store:before{content:'\ea4e'}
+.libre-social-xbox-live:before{content:'\ea4f'}
 .libre-social-yahoo:before,
-	.fa-yahoo:before{content:'\e74b'}
-.libre-social-yelp:before{content:'\e74c'}
+	.fa-yahoo:before{content:'\ea50'}
+.libre-social-yelp:before{content:'\ea51'}
 .libre-social-youtube:before,
 	.fa-youtube:before,
-	.fa-youtube-square:before{content:'\e74d'}
-.libre-social-zerply:before{content:'\e74e'}
-.libre-social-zune:before{content:'\e74f'}
+	.fa-youtube-square:before{content:'\ea52'}
+.libre-social-zerply:before{content:'\ea53'}
+.libre-social-zune:before{content:'\ea54'}
 .libre-sort:before,
 	.fa-sort:before,
 	.fa-unsorted:before,
-	.glyphicon-sort:before{content:'\e750'}
+	.glyphicon-sort:before{content:'\ea55'}
 .libre-sort-asc:before,
 	.fa-sort-asc:before,
-	.glyphicon-sort-down:before{content:'\e751'}
+	.glyphicon-sort-down:before{content:'\ea56'}
 .libre-sort-desc:before,
 	.fa-sort-desc:before,
-	.glyphicon-sort-up:before{content:'\e752'}
-.libre-spellcheck:before{content:'\e753'}
+	.glyphicon-sort-up:before{content:'\ea57'}
+.libre-spellcheck:before{content:'\ea58'}
 .libre-spinner-1:before,
-	.fa-spinner:before{content:'\e754'}
-.libre-spinner-2:before{content:'\e755'}
-.libre-spinner-3:before{content:'\e756'}
-.libre-spinner-4:before{content:'\e757'}
-.libre-spinner-5:before{content:'\e758'}
-.libre-spinner-6:before{content:'\e759'}
-.libre-spinner-7:before{content:'\e75a'}
-.libre-spinner-8:before{content:'\e75b'}
-.libre-spinner-9:before{content:'\e75c'}
-.libre-spinner-10:before{content:'\e75d'}
-.libre-spinner-11:before{content:'\e75e'}
-.libre-spinner-12:before{content:'\e75f'}
-.libre-square:before{content:'\e760'}
-.libre-square-o:before{content:'\e761'}
+	.fa-spinner:before{content:'\ea59'}
+.libre-spinner-2:before{content:'\ea5a'}
+.libre-spinner-3:before{content:'\ea5b'}
+.libre-spinner-4:before{content:'\ea5c'}
+.libre-spinner-5:before{content:'\ea5d'}
+.libre-spinner-6:before{content:'\ea5e'}
+.libre-spinner-7:before{content:'\ea5f'}
+.libre-spinner-8:before{content:'\ea60'}
+.libre-spinner-9:before{content:'\ea61'}
+.libre-spinner-10:before{content:'\ea62'}
+.libre-spinner-11:before{content:'\ea63'}
+.libre-spinner-12:before{content:'\ea64'}
+.libre-square:before{content:'\ea65'}
+.libre-square-o:before{content:'\ea66'}
 .libre-square-o-rounded:before,
-	.fa-square-o:before{content:'\e762'}
+	.fa-square-o:before{content:'\ea67'}
 .libre-square-rounded:before,
-	.fa-square:before{content:'\e763'}
+	.fa-square:before{content:'\ea68'}
 .libre-star:before,
 	.fa-star:before,
 	.octicon-star:before,
 	.glyphicon-star:before,
-	.glyphicons-star:before{content:'\e764'}
+	.glyphicons-star:before{content:'\ea69'}
 .libre-star-o:before,
 	.fa-star-o:before,
 	.glyphicon-star-empty:before,
-	.glyphicons-star-empty:before{content:'\e765'}
+	.glyphicons-star-empty:before{content:'\ea6a'}
 .libre-stop:before,
 	.octicon-stop:before,
-	.glyphicons-stop-sign:before{content:'\e766'}
+	.glyphicons-stop-sign:before{content:'\ea6b'}
 .libre-strikethrough:before,
 	.fa-strikethrough:before,
-	.glyphicons-text-strike:before{content:'\e767'}
+	.glyphicons-text-strike:before{content:'\ea6c'}
 .libre-subscript:before,
 	.fa-subscript:before,
 	.glyphicon-subscript:before,
-	.glyphicons-subscript:before{content:'\e768'}
+	.glyphicons-subscript:before{content:'\ea6d'}
 .libre-superscript:before,
 	.fa-superscript:before,
 	.glyphicon-superscript:before,
-	.glyphicons-superscript:before{content:'\e769'}
+	.glyphicons-superscript:before{content:'\ea6e'}
 .libre-table:before,
 	.fa-table:before,
-	.glyphicons-table:before{content:'\e76a'}
+	.glyphicons-table:before{content:'\ea6f'}
 .libre-tablet:before,
 	.fa-tablet:before,
-	.glyphicons-tablet:before{content:'\e76b'}
+	.glyphicons-tablet:before{content:'\ea70'}
 .libre-tag:before,
 	.fa-tag:before,
 	.octicon-tag:before,
 	.glyphicon-tag:before,
-	.glyphicons-tag:before{content:'\e76c'}
+	.glyphicons-tag:before{content:'\ea71'}
 .libre-tags:before,
 	.fa-tags:before,
 	.glyphicon-tags:before,
-	.glyphicons-tags:before{content:'\e76d'}
-.libre-tardis:before{content:'\e76e'}
+	.glyphicons-tags:before{content:'\ea72'}
+.libre-tardis:before{content:'\ea73'}
 .libre-tasks:before,
 	.fa-tasks:before,
-	.glyphicon-tasks:before{content:'\e76f'}
+	.glyphicon-tasks:before{content:'\ea74'}
 /* Tech */
-.libre-tech:before{content:'\e770'}
-.libre-tech-angularjs:before{content:'\e771'}
-.libre-tech-apache:before{content:'\e772'}
-.libre-tech-blender:before{content:'\e773'}
-.libre-tech-css3:before{content:'\e774'}
-.libre-tech-firebird:before{content:'\e775'}
-.libre-tech-gimp:before{content:'\e776'}
-.libre-tech-godot:before{content:'\e777'}
-.libre-tech-html5:before{content:'\e778'}
-.libre-tech-inkscape:before{content:'\e779'}
-.libre-tech-jquery:before{content:'\e77a'}
-.libre-tech-makehuman:before{content:'\e77b'}
-.libre-tech-mysql:before{content:'\e77c'}
-.libre-tech-nodejs:before{content:'\e77d'}
-.libre-tech-open-source:before{content:'\e77e'}
-.libre-tech-open-source-hardware:before{content:'\e77f'}
-.libre-tech-opensourcephotography:before{content:'\e780'}
-.libre-tech-php:before{content:'\e781'}
-.libre-tech-python:before{content:'\e782'}
-.libre-tech-raspberrypi:before{content:'\e783'}
-.libre-tech-unity3d:before{content:'\e784'}
-.libre-tech-w3c:before{content:'\e785'}
+.libre-tech:before{content:'\ea75'}
+.libre-tech-angularjs:before{content:'\ea76'}
+.libre-tech-apache:before{content:'\ea77'}
+.libre-tech-blender:before{content:'\ea78'}
+.libre-tech-css3:before{content:'\ea79'}
+.libre-tech-firebird:before{content:'\ea7a'}
+.libre-tech-gimp:before{content:'\ea7b'}
+.libre-tech-godot:before{content:'\ea7c'}
+.libre-tech-html5:before{content:'\ea7d'}
+.libre-tech-inkscape:before{content:'\ea7e'}
+.libre-tech-jquery:before{content:'\ea7f'}
+.libre-tech-makehuman:before{content:'\ea80'}
+.libre-tech-mysql:before{content:'\ea81'}
+.libre-tech-nodejs:before{content:'\ea82'}
+.libre-tech-open-source:before{content:'\ea83'}
+.libre-tech-open-source-hardware:before{content:'\ea84'}
+.libre-tech-opensourcephotography:before{content:'\ea85'}
+.libre-tech-php:before{content:'\ea86'}
+.libre-tech-python:before{content:'\ea87'}
+.libre-tech-raspberrypi:before{content:'\ea88'}
+.libre-tech-unity3d:before{content:'\ea89'}
+.libre-tech-w3c:before{content:'\ea8a'}
 .libre-television:before,
 	.libre-tv:before,
 	.fa-television:before,
 	.fa-tv:before,
-	.glyphicons-tv:before{content:'\e786'}
+	.glyphicons-tv:before{content:'\ea8b'}
 .libre-terminal:before,
 	.fa-terminal:before,
 	.octicon-terminal:before,
-	.glyphicon-console{content:'\e787'}
+	.glyphicon-console{content:'\ea8c'}
 .libre-text-color:before,
-	.glyphicons-text-color:before{content:'\e788'}
+	.glyphicons-text-color:before{content:'\ea8d'}
+
+.libre-text-cursor:before{content:'\ea8e'}
 .libre-text-height:before,
 	.fa-text-height:before,
 	.glyphicon-text-height:before,
-	.glyphicons-text-height:before{content:'\e789'}
+	.glyphicons-text-height:before{content:'\ea8f'}
 .libre-text-size:before,
 	.glyphicon-text-size:before,
-	.glyphicons-text-size:before{content:'\e78a'}
+	.glyphicons-text-size:before{content:'\ea90'}
 .libre-text-width:before,
 	.fa-text-width:before,
 	.glyphicon-text-width:before,
-	.glyphicons-text-width:before{content:'\e78b'}
+	.glyphicons-text-width:before{content:'\ea91'}
 .libre-th:before,
 	.fa-th:before,
-	.glyphicon-th:before{content:'\e78c'}
-.libre-theme:before{content:'\e78d'}
+	.glyphicon-th:before{content:'\ea92'}
+.libre-theme:before{content:'\ea93'}
 .libre-th-large:before,
 	.fa-th-large:before,
-	.glyphicon-th-large:before{content:'\e78e'}
+	.glyphicon-th-large:before{content:'\ea94'}
 .libre-th-list:before,
 	.fa-th-list:before,
-	.glyphicon-th-list:before{content:'\e78f'}
-.libre-thors-hammer:before{content:'\e790'}
+	.glyphicon-th-list:before{content:'\ea95'}
+.libre-thors-hammer:before{content:'\ea96'}
 .libre-thumbs-down:before,
 	.fa-thumbs-down:before,
 	.fa-thumbs-down-o:before,
 	.octicon-thumbsdown:before,
 	.glyphicon-thumbs-down:before,
-	.glyphicons-thumbs-down:before{content:'\e791'}
+	.glyphicons-thumbs-down:before{content:'\ea97'}
 .libre-thumbs-up:before,
 	.fa-thumbs-up:before,
 	.fa-thumbs-up-o:before,
 	.octicon-up:before,
 	.glyphicon-thumbs-up:before,
-	.glyphicons-thumbs-up:before{content:'\e792'}
+	.glyphicons-thumbs-up:before{content:'\ea98'}
 .libre-ticket:before,
-	.fa-ticket:before{content:'\e793'}
+	.fa-ticket:before{content:'\ea99'}
 .libre-tint:before,
 	.fa-tint:before,
-	.glyphicons-tint:before{content:'\e794'}
-.libre-tooltip:before{content:'\e795'}
+	.glyphicons-tint:before{content:'\ea9a'}
+.libre-tooltip:before{content:'\ea9b'}
 .libre-trash:before,
 	.fa-trash:before,
 	.fa-trash-o:before,
 	.octicon-trashcan:before,
 	.glyphicon-trash:before,
-	.glyphicons-bin:before{content:'\e796'}
-.libre-triangle:before{content:'\e797'}
-.libre-triangle-o:before{content:'\e798'}
-.libre-triangle-o-rounded:before{content:'\e799'}
-.libre-triangle-rounded:before{content:'\e79a'}
-.libre-triskele:before{content:'\e79b'}
+	.glyphicons-bin:before{content:'\ea9c'}
+.libre-triangle:before{content:'\ea9d'}
+.libre-triangle-o:before{content:'\ea9e'}
+.libre-triangle-o-rounded:before{content:'\ea9f'}
+.libre-triangle-rounded:before{content:'\eaa0'}
+.libre-triskele:before{content:'\eaa1'}
 .libre-underline:before,
 	.fa-underline:before,
-	.glyphicons-text-underline:before{content:'\e79c'}
+	.glyphicons-text-underline:before{content:'\eaa2'}
 .libre-undo:before,
 	.fa-undo:before,
-	.glyphicons-undo:before{content:'\e79d'}
+	.glyphicons-undo:before{content:'\eaa3'}
 .libre-unlock:before,
 	.fa-unlock:before,
 	.fa-unlock-alt:before,
-	.glyphicons-unlock:before{content:'\e79e'}
+	.glyphicons-unlock:before{content:'\eaa4'}
 .libre-unsorted:before,
-	.fa-unsorted:before{content:'\e79f'}
+	.fa-unsorted:before{content:'\eaa5'}
 .libre-upload:before,
 	.fa-upload:before,
-	.glyphicon-upload:before{content:'\e7a0'}
+	.glyphicon-upload:before{content:'\eaa6'}
 .libre-user:before,
 	.fa-user:before,
 	.glyphicon-user:before,
-	.glyphicons-user:before{content:'\e7a1'}
+	.glyphicons-user:before{content:'\eaa7'}
 .libre-user-female:before,
 	.fa-female:before,
-	.glyphicons-girl:before{content:'\e7a2'}
+	.glyphicons-girl:before{content:'\eaa8'}
 .libre-user-group:before,
-	.octicon-organization:before{content:'\e7a3'}
+	.octicon-organization:before{content:'\eaa9'}
 .libre-user-male:before,
 	.fa-male:before,
-	.glyphicons-user:before{content:'\e7a4'}
+	.glyphicons-user:before{content:'\eaaa'}
 .libre-users:before,
-	.fa-users:before{content:'\e7a5'}
+	.fa-users:before{content:'\eaab'}
 .libre-view:before,
 	.fa-eye:before,
 	.octicon-eye:before,
-	.glyphicons-eye-open:before{content:'\e7a6'}
-.libre-virus:before{content:'\e7a7'}
+	.glyphicons-eye-open:before{content:'\eaac'}
+.libre-virus:before{content:'\eaad'}
 .libre-wrench:before,
 	.libre-tools:before,
 	.fa-wrench:before,
 	.octicon-tools:before,
 	.glyphicon-wrench:before,
-	.glyphicons-wrench:before{content:'\e7a8'}
-.libre-zoom-fit:before{content:'\e7a9'}
-.libre-zoom-in:before{content:'\e7aa'}
-.libre-zoom-out:before{content:'\e7ab'}
+	.glyphicons-wrench:before{content:'\eaae'}
+.libre-zoom-fit:before{content:'\eaaf'}
+.libre-zoom-in:before{content:'\eab0'}
+.libre-zoom-out:before{content:'\eab1'}
