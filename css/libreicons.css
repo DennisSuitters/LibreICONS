@@ -13,6 +13,8 @@
 [class*=" glyphicon-"]:before,
 [class^="octicon-"]:before,
 [class*=" octicon-"]:before,
+[class^="note-icon-"]:before,
+[class*=" note-icon-"]:before,
 select.libre{display:inline-block;font:normal normal normal 14px/1 LibreICONS;font-size:inherit;-webkit-font-smoothing:antialiased;text-decoration:inherit;text-rendering:auto;text-transform:none;vertical-align:middle;speak:none;-moz-osx-font-smoothing:grayscale}
 .libre:after,
 	.fa:after{position:absolute;left:0;width:100%;text-align:center;font-size:1em}
