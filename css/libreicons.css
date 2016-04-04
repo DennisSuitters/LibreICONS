@@ -4,12 +4,7 @@
  *  Version 2.0.8
  */
 @charset"UTF-8";
-@font-face{
-	font-family:LibreICONS;
-	src:url('../font/libreicons.eot') format('embedded-opentype'),
-	url('../font/libreicons.woff') format('woff'),
-	url('../font/libreicons.ttf') format('truetype'),
-	url('../font/libreicons.svg') format('svg')}
+@font-face{font-family:LibreICONS;src:url('../font/libreicons.eot')format('embedded-opentype'),url('../font/libreicons.woff')format('woff'),url('../font/libreicons.ttf')format('truetype'),url('../font/libreicons.svg')format('svg')}
 [class^="libre-"]:before,
 [class*=" libre-"]:before,
 [class^="fa-"]:before,
@@ -18,20 +13,7 @@
 [class*=" glyphicon-"]:before,
 [class^="octicon-"]:before,
 [class*=" octicon-"]:before,
-[class^="note-icon-"]:before,
-[class*=" note-icon-"]:before,
-select.libre{
-	display:inline-block;
-	font:normal normal normal 14px/1 LibreICONS;
-	font-size:inherit;
-	-webkit-font-smoothing:antialiased;
-	text-decoration:inherit;
-	text-rendering:auto;
-	text-transform:none;
-	vertical-align:middle;
-	speak:none;
-	-moz-osx-font-smoothing:grayscale
-}
+select.libre{display:inline-block;font:normal normal normal 14px/1 LibreICONS;font-size:inherit;-webkit-font-smoothing:antialiased;text-decoration:inherit;text-rendering:auto;text-transform:none;vertical-align:middle;speak:none;-moz-osx-font-smoothing:grayscale}
 .libre:after,
 	.fa:after{position:absolute;left:0;width:100%;text-align:center;font-size:1em}
 .libre-lg,
@@ -736,7 +718,8 @@ Cleaned Up and Adapted for LibreICONS
 	.fa-align-justify:before,
 	.glyphicon-align-justfy:before,
 	.glyphicons-align-justify:before,
-	.note-icon-align-justify:before{content:'\e90c'}
+	.note-icon-align-justify:before,
+	.note-icon-align:before{content:'\e90c'}
 .libre-align-left:before,
 	.fa-align-left:before,
 	.glyphicon-align-left:before,
@@ -875,11 +858,12 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicon-remove:before,
 	.glyphicons-remove-2:before{content:'\e947'}
 .libre-check-yes:before,
+	.libre-approve:before,
 	.fa-check:before,
 	.octicon-check:before,
 	.glyphicon-ok:before,
 	.glyphicons-ok-2:before,
-	.libre-approve:before{content:'\e948'}
+	.note-icon-menu-check:before{content:'\e948'}
 .libre-chevron-down:before,
 	.fa-angle-down:before,
 	.fa-chevron-down:before,
@@ -905,7 +889,8 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicon-chevron-up:before,
 	.glyphicons-chevron-up:before{content:'\e94c'}
 .libre-circle:before,
-	.fa-circle:before{content:'\e94d'}
+	.fa-circle:before,
+	.note-icon-circle:before{content:'\e94d'}
 .libre-circle-o:before,
 	.fa-circle-o:before{content:'\e94e'}
 .libre-clipboard:before{content:'\e94f'}
@@ -1186,7 +1171,8 @@ Cleaned Up and Adapted for LibreICONS
 	.octicon-link:before,
 	.glyphicon-link:before,
 	.glyphicons-link:before,
-	.note-icon-link:before{content:'\e9a5'}
+	.note-icon-link:before,
+	.note-icon-chain-broken:before{content:'\e9a5'}
 .libre-list:before,
 	.fa-list:before,
 	.fa-list-alt:before,
@@ -1535,6 +1521,8 @@ Cleaned Up and Adapted for LibreICONS
 .libre-sort-desc:before,
 	.fa-sort-desc:before,
 	.glyphicon-sort-up:before{content:'\ea57'}
+.libre-special-character:before,
+	.note-icon-special-character:before{content:'\eab2'}
 .libre-spellcheck:before{content:'\ea58'}
 .libre-spinner-1:before,
 	.fa-spinner:before{content:'\ea59'}
@@ -1549,7 +1537,8 @@ Cleaned Up and Adapted for LibreICONS
 .libre-spinner-10:before{content:'\ea62'}
 .libre-spinner-11:before{content:'\ea63'}
 .libre-spinner-12:before{content:'\ea64'}
-.libre-square:before{content:'\ea65'}
+.libre-square:before,
+	.note-icon-square:before{content:'\ea65'}
 .libre-square-o:before{content:'\ea66'}
 .libre-square-o-rounded:before,
 	.fa-square-o:before{content:'\ea67'}
@@ -1622,6 +1611,8 @@ Cleaned Up and Adapted for LibreICONS
 .libre-tech-php:before{content:'\ea86'}
 .libre-tech-python:before{content:'\ea87'}
 .libre-tech-raspberrypi:before{content:'\ea88'}
+.libre-tech-summernote:before,
+	.note-icon-summernote:before{content:'\eab3'}
 .libre-tech-unity3d:before{content:'\ea89'}
 .libre-tech-w3c:before{content:'\ea8a'}
 .libre-television:before,
