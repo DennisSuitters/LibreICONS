@@ -9,3 +9,5 @@ The included icons are sized to fit within 14 x 14.
 Icons are originally designed or converted in SVG Format.
 
 Class names for other Font Libraries are also included to make transitioning easier from another Library, so there's no actual need to sift through code and change class names.
+
+You can now use LibreICONS in place of the Font Icons provided by [Summernote](https://github.com/summernote/summernote)
