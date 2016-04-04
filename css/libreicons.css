@@ -814,13 +814,19 @@ Cleaned Up and Adapted for LibreICONS
 .libre-camera-timer:before{content:'\e93d'}
 .libre-caret-down:before,
 	.fa-caret-down:before,
+	.glyphicon-tringle-down:before,
 	.octicon-triangle-down:before{content:'\e93e'}
-
-.libre-caret-left:before{content:'\e93f'}
-
-.libre-caret-right:before{content:'\e940'}
+.libre-caret-left:before,
+	.fa-caret-left:before,
+	.glyphicon-triangle-left:before,
+	.octicon-tringle-left:before{content:'\e93f'}
+.libre-caret-right:before,
+	.fa-caret-right:before,
+	.glyphicon-triangle-right:before,
+	.octicon-triangle-right:before{content:'\e940'}
 .libre-caret-up:before,
 	.fa-caret-up:before,
+	.glyphicon-trinagle-up:before,
 	.octicon-triangle-up:before{content:'\e941'}
 .libre-certificate:before,
 	.fa-certificate:before,
@@ -992,8 +998,11 @@ Cleaned Up and Adapted for LibreICONS
 	.glyphicons-erase:before{content:'\e971'}
 .libre-exclamation:before,
 	.fa-exclamation:before{content:'\e972'}
-
-.libre-exclamation-circle{content:'\e973'}
+.libre-exclamation-circle:before,
+	.fa-exclamation-circle:before,
+	.glyphicon-info-sign:before,
+	.glyphicons-info-sign:before,
+	.octicon-issue-opened:before{content:'\e973'}
 .libre-eyeofra:before{content:'\e974'}
 .libre-file:before,
 	.fa-file:before,
