@@ -1,0 +1,45 @@
+.libre{
+    display: inline-block;
+    font: normal normal normal 1em/1;
+    font-size:1em;
+    width:1em;
+    height:1em;
+    vertical-align:-5%;
+    text-rendering: auto;
+    fill:currentColor; /* This allows the Icon Color to Inherit the parent containers color value */
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.libre-lg{
+    font-size:1.33333333em;
+    line-height:.75em;
+    vertical-align:-15%
+}
+.libre-2x{
+    font-size:2em
+}
+.libre-3x{
+    font-size:3em
+}
+.libre-4x{
+    font-size:4em
+}
+.libre-5x{
+    font-size:5em
+}
+.libre-fw{
+  width:1.28571429em;
+  text-align:center
+}
+.libre-white{
+    fill:#fff
+}
+.libre-red{
+    fill:#f00
+}
+/* This makes a Bootstrap Button (btn btn-default) turn red when hovered over */
+.btn:hover.trash{
+    background:#d9534f;
+    border-color:#d43f3a;
+    color:#fff
+}
