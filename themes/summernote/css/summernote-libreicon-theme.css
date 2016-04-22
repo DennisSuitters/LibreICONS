@@ -1,0 +1,57 @@
+.note-icon,
+[class^="note-icon-"],
+[class*=" note-icon-"]{
+    display:inline-block;
+    font:normal normal normal 14px/1;
+    width:14px;
+    height:14px;
+    vertical-align:-15%;
+    text-rendering:auto;
+    fill:currentColor;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.note-icon-align:before{content:url(../svg/libre-align-justify.svg)}
+.note-icon-align-center:before{content:url(../svg/libre-align-center.svg)}
+.note-icon-align-indent:before{content:url(../svg/libre-indent.svg)}
+.note-icon-align-justify:before{content:url(../svg/libre-align-justify.svg)}
+.note-icon-align-left:before{content:url(../svg/libre-align-left.svg)}
+.note-icon-align-outdent:before{content:url(../svg/libre-outdent.svg)}
+.note-icon-align-right:before{content:url(../svg/libre-align-right.svg)}
+.note-icon-arrows-alt:before{content:url(../svg/libre-fullscreen.svg)}
+.note-icon-bold:before{content:url(../svg/libre-bold.svg)}
+.note-icon-caret:before{content:url(../svg/libre-caret-down.svg)}
+.note-icon-chain-broken:before{content:url(../svg/libre-link.svg)}
+.note-icon-circle:before{content:url(../svg/libre-circle.svg)}
+.note-icon-close:before{content:url(../svg/libre-close.svg)}
+.note-icon-code:before{content:url(../svg/libre-code.svg)}
+.note-icon-eraser:before{content:url(../svg/libre-eraser.svg)}
+.note-icon-font:before{content:url(../svg/libre-font.svg)}
+.note-icon-frame:before{content:''}
+.note-icon-italic:before{content:url(../svg/libre-italic.svg)}
+.note-icon-link:before{content:url(../svg/libre-link.svg)}
+.note-icon-magic:before{content:url(../svg/libre-magic.svg)}
+.note-icon-menu-check:before{content:url(../svg/libre-check-yes.svg)}
+.note-icon-minus:before{content:url(../svg/libre-minus.svg)}
+.note-icon-orderedlist:before{content:url(../svg/libre-list-ol.svg)}
+.note-icon-pencil:before{content:url(../svg/libre-pencil.svg)}
+.note-icon-picture:before{content:url(../svg/libre-picture.svg)}
+.note-icon-question:before{content:url(../svg/libre-question.svg)}
+.note-icon-redo:before{content:url(../svg/libre-redo.svg)}
+.note-icon-special-character:before{content:url(../svg/libre-special-character.svg)}
+.note-icon-square:before{content:url(../svg/libre-square.svg)}
+.note-icon-strikethrough:before{content:url(../svg/libre-strikethrough.svg)}
+.note-icon-subscript:before{content:url(../svg/libre-subscript.svg)}
+.note-icon-summernote:before{content:url(../svg/libre-tech-summernote.svg)}
+.note-icon-superscript:before{content:url(../svg/libre-superscript.svg)}
+.note-icon-table:before{content:url(../svg/libre-table.svg)}
+.note-icon-text-height:before{content:url(../svg/libre-text-height.svg)}
+.note-icon-trash:before{content:url(../svg/libre-trash.svg)}
+.note-icon-underline:before{content:url(../svg/libre-underline.svg)}
+.note-icon-undo:before{content:url(../svg/libre-undo.svg)}
+.note-icon-unorderedlist:before{content:url(../svg/libre-list-ul.svg)}
+.note-icon-video:before{content:url(../svg/libre-film.svg)}
+/* LibreICONS Extras */
+.note-icon-edit:before{content:url(../svg/libre-edit.svg)}
+.note-icon-browse-media{content:url(../svg/libre-browse-media.svg)}
+.note-icon-save{content:url(../svg/libre-floppy.svg)}
