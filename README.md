@@ -19,5 +19,5 @@ You can now use LibreICONS in place of the Font Icons provided by [Summernote](h
 #### Themes using LibreICONS
 We've been maintaining some themes for other Projects to fit in with LibreCMS, and we want to share them with you. In the `theme` folder you'll find folder for each of the projects we've modified to look more like Bootstrap, but to also include LibreICONS.
 - elFinder.
+- Summernote Icons.
 - FullCalendar (being worked on for release).
-- Summernote (being worked on for release)
