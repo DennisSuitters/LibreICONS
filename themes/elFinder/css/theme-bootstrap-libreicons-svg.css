@@ -615,6 +615,15 @@
 .elfinder-cwd-icon-x-java-source,
 .elfinder-cwd-icon-x-php,
 .elfinder-cwd-icon-xml{background:url(../img/libre-file-code.svg)}
+.elfinder-cwd-file.archive-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-archive.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.attachments-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-attachments.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.backup-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-backup.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.document-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-document.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.featured-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-featured.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.orders-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-orders.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.picture-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-picture.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.users-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-users.svg) 0 0 no-repeat;background-size:contain;}
+.elfinder-cwd-file.video-folder .elfinder-cwd-icon{background:url(../../svg/libre-folder-video.svg) 0 0 no-repeat;background-size:contain;}
 .elfinder-toolbar .elfinder-button-search .ui-icon-search{background:url(../img/libre-search.svg)}
 .elfinder-toolbar .elfinder-button-search .ui-icon-close{background:url(../img/libre-close.svg)}
 .elfinder-button-icon-back{background:url(../img/libre-chevron-left.svg)}
