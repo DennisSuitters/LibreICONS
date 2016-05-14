@@ -1,3 +1,5 @@
+#### Use English when submitting an Issue, if we Can't understand what the Issue is we can't help you.
+
 #### Steps to reproduce Issue
 1.
 2.
