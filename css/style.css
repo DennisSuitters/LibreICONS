@@ -1,17 +1,9 @@
 .jumbotron{margin-top:-20px;background-color:#f8f8f8}
 .libre-large{font-size:14em}
 .svg-icon-list{margin-top:10px}
-.svg-icon-list .hover{display:block;color:#222;line-height:32px;height:32px;padding-left:10px;border-radius:4px}
-.svg-icon-list .hover .libre{width:14px;height:14px;display:inline-block;text-align:right;margin-right:20px}
-.svg-icon-list .hover:hover{background-color:#ddd;vertical-align:top}
-.svg-icon-list .hover:hover span{vertical-align:top}
-.svg-icon-list .hover:hover .libre{width:32px;height:32px;margin-left:-5px;margin-right:7px}
-
-.font-icon-list{margin-top:10px}
-.font-icon-list .hover{display:block;color:#222;line-height:32px;height:32px;padding-left:10px;border-radius:4px}
-.font-icon-list .hover .libre{width:32px;font-size:14px;display:inline-block;text-align:right;margin-right:10px}
-.font-icon-list .hover:hover{background-color:#ddd;text-decoration:none}
-.font-icon-list .hover:hover .libre{font-size:28px;vertical-align:-6px}
+.svg-icon-list .hover{display:block;color:#222;font-size:14px;border-radius:4px;margin-bottom:5px}
+.svg-icon-list .hover .libre{width:32px;height:32px;display:inline-block;text-align:right;margin-right:5px}
+.svg-icon-list .hover:hover{background:#ddd}
 .footer{padding-top:40px;padding-bottom:40px;margin-top:100px;color:#767676;text-align:center;border-top:1px solid #e5e5e5}
 .footer-links{padding-left:0;margin-top:20px}
 .footer-links li{display:inline;padding:0 2px}
