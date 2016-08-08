@@ -228,7 +228,8 @@
 }
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file{
 	padding:4px;
-	cursor:pointer
+	cursor:pointer;
+	border: 1px solid transparent
 }
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file *,
 .elfinder .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename,
@@ -483,9 +484,9 @@
 }
 .elfinder-contextmenu .elfinder-contextmenu-item{
 	margin:2px 0;
-	padding:5px 30px 5px 30px;
+	padding:0px 30px 5px 30px;
 	box-sizing:border-box;
-	height:14px
+	height:16px
 }
 .elfinder-contextmenu .elfinder-contextmenu-item:hover{
 	background-color:#eff0ef
@@ -645,6 +646,8 @@
 .elfinder-button-icon-resize{background:url(../img/libre-crop.svg)}
 .elfinder-button-icon-extract{background:url(../img/libre-archive.svg)}
 .elfinder-button-icon-sort{background:url(../img/libre-sort.svg)}
+.elfinder-button-icon-fullscreen{background:url(../img/libre-resize-full.svg)}
+.elfinder-button-icon-unfullscreen{background:url(../img/libre-resize-small.svg)}
 .elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow{background:none none}
 .elfinder .elfinder-navbar-root>.elfinder-navbar-icon,
 .elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon{background:url(../img/libre-home.svg)}
@@ -680,6 +683,9 @@
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
 	box-shadow:none
+}
+.ui-dialog .ui-dialog-titlebar-close.elfinder-titlebar-full{
+	right:44px
 }
 .elfinder-quicklook-title{font-size:.7em}
 .elfinder-quicklook-info-data{font-size:.72em}
@@ -734,7 +740,8 @@
 	-moz-border-radius-topright:3px;
 	-webkit-border-top-right-radius:3px;
 	border-top-right-radius:3px;
-	cursor:move
+	cursor:move;
+	box-sizing:border-box
 }
 .elfinder-quicklook-title{
 	position:relative;
