@@ -829,3 +829,4 @@
 .elfinder-quicklook-navbar-icon-prev{background:url(../img/libre-arrow-left.svg)}
 .elfinder-quicklook-navbar-icon-next{background:url(../img/libre-arrow-right.svg)}
 .elfinder-quicklook-navbar-icon-close{background:url(../img/libre-close.svg);display:none}
+.dialogelfinder{z-index:20000} /* Fix Dialog z-index for Summernote in Full Screen Mode */
