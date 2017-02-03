@@ -1,3 +1,12 @@
+/* Force Popover appear directly under Toolbar, handy for Image Popover that appears off page. */
+.note-hint-popover .popover-content{max-height:150px;padding:3px;overflow:auto}
+.note-hint-popover .popover-content .note-hint-group .note-hint-item{display:block!important;padding:3px}
+.note-hint-popover .popover-content .note-hint-group .note-hint-item.active,
+.note-hint-popover .popover-content .note-hint-group .note-hint-item:hover{display:block;clear:both;font-weight:400;line-height:1.4;color:#fff;text-decoration:none;white-space:nowrap;cursor:pointer;background-color:#428bca;outline:0}
+.note-image-popover{position:absolute!important;background-color:#f5f5f5;top:-10px!important;left:0!important;right:0!important;border-top:0;border-left:0;border-right:0;-webkit-border-radius:0;border-radius:0}
+.note-image-popover .arrow{display:none!important}
+/* Give Disabled Toolbar Buttons a Disabled Look. */
+.note-btn.disabled{opacity:.25}
 .note-icon,
 [class^="note-icon-"],
 [class*=" note-icon-"]{
