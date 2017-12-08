@@ -1,3 +1,5 @@
+Got a suggestion? Want to help improve the look or how the Icons work? We are currently looking at fixing up some of the Icon Designs, and adding more Icons, we have a few to add from our other projects, so we thought while we're at it, let's open things up to the wider community and let everyone know we accept Issues, and Pull Reqeusts.
+
 LibreICONS v3.1 is a Free (as in Cost, and Liberty) SVG Icon Library in much of a similar spirit as Font Awesome, Glyphicons, Summernote, and other great Icons Libraries available.
 
 Why another Icon Library? Well, out of much frustration of other Icon Libraries either not having Icons that were needed for Web Development, from watching posts in other Projects for requested Icons, and those requests not being fullfiled or simply ignored. And due to the similar needs of missing Icons from other Libraries for developing [LibreCMS](https://github.com/DiemenDesign/LibreCMS).
