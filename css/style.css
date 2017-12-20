@@ -2,12 +2,9 @@
 .libre-large{font-size:14em}
 .badge{cursor:pointer}
 #libre-icons ul{list-style:none}
-#libre-icons ul li{list-style:none;width:100px;height:100px;float:left;text-align:center;margin:5px;padding:5px;background-color:#eee;border-radius:10px;}
-#libre-icons ul li:hover{background-color:#ddd}
+#libre-icons ul li{list-style:none;float:left;text-align:center;margin:5px;padding:10px;background-color:#eee;border-radius:10px;box-shadow:0 0 1px #aaa}
+#libre-icons ul li:hover{box-shadow:1px 2px 5px #000}
 #libre-icons ul li svg{width:64px;height:64px;fill:#000}
-#libre-icons ul li:hover svg{fill:#f40}
-#libre-icons ul li div{width:100px;text-align:center;color:#000;font-size:10px}
-#libre-icons ul li:hover div{color:#f40}
 .footer{padding-top:40px;padding-bottom:40px;margin-top:100px;color:#767676;text-align:center;border-top:1px solid #e5e5e5}
 .footer-links{padding-left:0;margin-top:20px}
 .footer-links li{display:inline;padding:0 2px}
