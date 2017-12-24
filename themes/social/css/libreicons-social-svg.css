@@ -1,80 +1,97 @@
-.libre-social{position:relative;display:inline-block;width:16px;height:16px;background:#fff;color:#000;fill:#000;border:0;-webkit-border-radius:5px;border-radius:5px}
-.libre-social.s32{width:32px;height:32px}
-.libre-social.s64{width:64px;height:64px}
-.libre-social svg{-webkit-border-radius:5px;border-radius:5px}
-.libre-social svg#libre-social-500px{background:#0099e5;fill:#fff}
-.libre-social svg#libre-social-amazon{background:#232f3e;fill:#fff}
-.libre-social svg#libre-social-aus-post{background:#dc1928;fill:#fff}
-.libre-social svg#libre-social-behance{background:#131418;fill:#fff}
-.libre-social svg#libre-social-bitcoin{background:#fff;fill:#faB915}
-.libre-social svg#libre-social-blogger{background:#ff9334;fill:#fff}
-.libre-social svg#libre-social-buffer{background:#fff;fill:#000}
-.libre-social svg#libre-social-cargo{background:#000;fill:#fff}
-.libre-social svg#libre-social-codepen{background:#000;fill:#fff}
-.libre-social svg#libre-social-coroflot{background:#000;fill:#ef482b}
-.libre-social svg#libre-social-creattica{background:#000;fill:#83b541}
-.libre-social svg#libre-social-delicious{background:#0076e8;fill:#fff}
-.libre-social svg#libre-social-deviantart{background:#475C4d;fill:#05cc47}
-.libre-social svg#libre-social-diaspora{background:#fff;fill:#000}
-.libre-social svg#libre-social-digg{background:#fff;fill:#000}
-.libre-social svg#libre-social-dribble{background:#000;fill:#fff}
-.libre-social svg#libre-social-dropbox{background:#fff;fill:#007ee5}
-.libre-social svg#libre-social-duckduckgo{background:#fff;fill:#de5833}
-.libre-social svg#libre-social-envato{background:#fff;fill:#82b541}
-.libre-social svg#libre-social-exposure{background:#fff;fill:#aaa}
-.libre-social svg#libre-social-facebook{background:#46629e;fill:#fff}
-.libre-social svg#libre-social-feedburner{background:#fff;fill:#ee3a42}
-.libre-social svg#libre-social-flickr{background:#fff;fill:#0063db}
-.libre-social svg#libre-social-forrst{background:#fff;fill:#080}
-.libre-social svg#libre-social-github{background:#fff;fill:#000}
-.libre-social svg#libre-social-google-maps{background:#fff;fill:#af291e}
-.libre-social svg#libre-social-google-plus{background:#da4835;fill:#fff}
-.libre-social svg#libre-social-gravatar{background:#1e8cbe;fill:#fff}
-.libre-social svg#libre-social-hackernews{background:#000;fill:#fff}
-.libre-social svg#libre-social-icq{background:#fff;fill:#4ec739}
-.libre-social svg#libre-social-instagram{background:#fff;fill:#125688}
-.libre-social svg#libre-social-kickstarter{background:#000;fill:#14e06e}
-.libre-social svg#libre-social-last-fm{background:#d3140a;fill:#fff}
-.libre-social svg#libre-social-lego{background:#f00;fill:#ff0}
-.libre-social svg#libre-social-linkedin{background:#0173b2;fill:#fff}
-.libre-social svg#libre-social-livejournal{background:#306599;fill:#fff}
-.libre-social svg#libre-social-lynda{background:#fff;fill:#000}
-.libre-social svg#libre-social-map{background:#fff;fill:#000}
-.libre-social svg#libre-social-massroots{background:#3c925b;fill:#fff}
-.libre-social svg#libre-social-medium{background:#fff;fill:#a6a8aB}
-.libre-social svg#libre-social-netlify{background:#313D3e;fill:#00c7b7}
-.libre-social svg#libre-social-ovh{background:#fff;fill:#264670}
-.libre-social svg#libre-social-paypal{background:#006492;fill:#fff}
-.libre-social svg#libre-social-periscope{background:#3fa9c7;fill:#fff}
-.libre-social svg#libre-social-picasa{background:#797979;fill:#fff}
-.libre-social svg#libre-social-pinterest{background:#d73532;fill:#fff}
-.libre-social svg#libre-social-play-store{background:#fff;fill:#41b1bc}
-.libre-social svg#libre-social-quora{background:#a82400;fill:#fff}
-.libre-social svg#libre-social-redbubble{background:#fe0000;fill:#fff;}
-.libre-social svg#libre-social-reddit{background:#fff;fill:#000}
-.libre-social svg#libre-social-rss{background:#ff7b0a;fill:#fff}
-.libre-social svg#libre-social-sharethis{background:#64c011;fill:#fff}
-.libre-social svg#libre-social-skype{background:#00adef;fill:#fff}
-.libre-social svg#libre-social-snapchat{background:#fffc00;fill:#fff}
-.libre-social svg#libre-social-soundcloud{background:#ff5419;fill:#fff}
-.libre-social svg#libre-social-stackoverflow{background:#fff;fill:#000}
-.libre-social svg#libre-social-steam{background:#000;fill:#fff}
-.libre-social svg#libre-social-stumbleupon{background:#eb4823;fill:#fff}
-.libre-social svg#libre-social-tor{background:#fff;fill:#7d4698}
-.libre-social svg#libre-social-tsu{background:#fff;fill:#1abc9c}
-.libre-social svg#libre-social-tumblr{background:#395976;fill:#fff}
-.libre-social svg#libre-social-twitch{background:#fff;fill:#000}
-.libre-social svg#libre-social-twitter{background:#fff;fill:#41abe1}
-.libre-social svg#libre-social-ubiquiti{background:#0193d7;fill:#fff}
-.libre-social svg#libre-social-unsplash{background:#fff;fill:#000}
-.libre-social svg#libre-social-vimeo{background:#00adef;fill:#fff}
-.libre-social svg#libre-social-vine{background:#55Be95;fill:#fff}
-.libre-social svg#libre-social-whatsapp{background:#0dc143;fill:#fff}
-.libre-social svg#libre-social-wikipedia{background:#fff;fill:#000}
-.libre-social svg#libre-social-windows-store{background:#fff;fill:#000}
-.libre-social svg#libre-social-xbox-live{background:#107c0F;fill:#fff}
-.libre-social svg#libre-social-yahoo{background:#560db0;fill:#fff}
-.libre-social svg#libre-social-yelp{background:#fff;fill:#da1400}
-.libre-social svg#libre-social-youtube{background:#e62117;fill:#fff}
-.libre-social svg#libre-social-zerply{background:#fff;fill:#8db741}
-.libre-social svg#libre-social-zune{background:#fff;fill:#d33280}
+/*!
+ * LibreICONS-Social v4.0.2 by @devel - https://github.com/DiemenDesign/LibreICONS
+ * License - http://www.gnu.org/licenses/gpl-3.0.txt
+ * Version 4.0.2
+*/
+.libre-brand {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  color: #000;
+  fill: #000;
+  border: 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.libre-brand svg {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.libre-brand svg#libre-brand-500px{background:#0099e5;fill:#fff}
+.libre-brand svg#libre-brand-amazon{background:#232f3e;fill:#fff}
+.libre-brand svg#libre-brand-aus-post{background:#dc1928;fill:#fff}
+.libre-brand svg#libre-brand-behance{background:#131418;fill:#fff}
+.libre-brand svg#libre-brand-bitcoin{background:#fff;fill:#faB915}
+.libre-brand svg#libre-brand-blogger{background:#ff9334;fill:#fff}
+.libre-brand svg#libre-brand-buffer{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-cargo{background:#000;fill:#fff}
+.libre-brand svg#libre-brand-codepen{background:#000;fill:#fff}
+.libre-brand svg#libre-brand-coroflot{background:#000;fill:#ef482b}
+.libre-brand svg#libre-brand-creattica{background:#000;fill:#83b541}
+.libre-brand svg#libre-brand-delicious{background:#0076e8;fill:#fff}
+.libre-brand svg#libre-brand-deviantart{background:#475C4d;fill:#05cc47}
+.libre-brand svg#libre-brand-diaspora{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-digg{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-dribble{background:#000;fill:#fff}
+.libre-brand svg#libre-brand-dropbox{background:#fff;fill:#007ee5}
+.libre-brand svg#libre-brand-duckduckgo{background:#fff;fill:#de5833}
+.libre-brand svg#libre-brand-envato{background:#fff;fill:#82b541}
+.libre-brand svg#libre-brand-exposure{background:#fff;fill:#aaa}
+.libre-brand svg#libre-brand-facebook{background:#46629e;fill:#fff}
+.libre-brand svg#libre-brand-feedburner{background:#fff;fill:#ee3a42}
+.libre-brand svg#libre-brand-flickr{background:#fff;fill:#0063db}
+.libre-brand svg#libre-brand-forrst{background:#fff;fill:#080}
+.libre-brand svg#libre-brand-github{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-google-maps{background:#fff;fill:#af291e}
+.libre-brand svg#libre-brand-google-plus{background:#da4835;fill:#fff}
+.libre-brand svg#libre-brand-gravatar{background:#1e8cbe;fill:#fff}
+.libre-brand svg#libre-brand-hackernews{background:#000;fill:#fff}
+.libre-brand svg#libre-brand-icq{background:#fff;fill:#4ec739}
+.libre-brand svg#libre-brand-instagram{background:#fff;fill:#125688}
+.libre-brand svg#libre-brand-kickstarter{background:#000;fill:#14e06e}
+.libre-brand svg#libre-brand-last-fm{background:#d3140a;fill:#fff}
+.libre-brand svg#libre-brand-lego{background:#f00;fill:#ff0}
+.libre-brand svg#libre-brand-linkedin{background:#0173b2;fill:#fff}
+.libre-brand svg#libre-brand-livejournal{background:#306599;fill:#fff}
+.libre-brand svg#libre-brand-lynda{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-map{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-massroots{background:#3c925b;fill:#fff}
+.libre-brand svg#libre-brand-medium{background:#fff;fill:#a6a8aB}
+.libre-brand svg#libre-brand-netlify{background:#313D3e;fill:#00c7b7}
+.libre-brand svg#libre-brand-ovh{background:#fff;fill:#264670}
+.libre-brand svg#libre-brand-paypal{background:#006492;fill:#fff}
+.libre-brand svg#libre-brand-periscope{background:#3fa9c7;fill:#fff}
+.libre-brand svg#libre-brand-picasa{background:#797979;fill:#fff}
+.libre-brand svg#libre-brand-pinterest{background:#d73532;fill:#fff}
+.libre-brand svg#libre-brand-play-store{background:#fff;fill:#41b1bc}
+.libre-brand svg#libre-brand-quora{background:#a82400;fill:#fff}
+.libre-brand svg#libre-brand-redbubble{background:#fe0000;fill:#fff;}
+.libre-brand svg#libre-brand-reddit{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-rss{background:#ff7b0a;fill:#fff}
+.libre-brand svg#libre-brand-sharethis{background:#64c011;fill:#fff}
+.libre-brand svg#libre-brand-skype{background:#00adef;fill:#fff}
+.libre-brand svg#libre-brand-snapchat{background:#fffc00;fill:#fff}
+.libre-brand svg#libre-brand-soundcloud{background:#ff5419;fill:#fff}
+.libre-brand svg#libre-brand-stackoverflow{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-steam{background:#000;fill:#fff}
+.libre-brand svg#libre-brand-stumbleupon{background:#eb4823;fill:#fff}
+.libre-brand svg#libre-brand-tor{background:#fff;fill:#7d4698}
+.libre-brand svg#libre-brand-tsu{background:#fff;fill:#1abc9c}
+.libre-brand svg#libre-brand-tumblr{background:#395976;fill:#fff}
+.libre-brand svg#libre-brand-twitch{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-twitter{background:#fff;fill:#41abe1}
+.libre-brand svg#libre-brand-ubiquiti{background:#0193d7;fill:#fff}
+.libre-brand svg#libre-brand-unsplash{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-vimeo{background:#00adef;fill:#fff}
+.libre-brand svg#libre-brand-vine{background:#55Be95;fill:#fff}
+.libre-brand svg#libre-brand-whatsapp{background:#0dc143;fill:#fff}
+.libre-brand svg#libre-brand-wikipedia{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-windows-store{background:#fff;fill:#000}
+.libre-brand svg#libre-brand-xbox-live{background:#107c0F;fill:#fff}
+.libre-brand svg#libre-brand-yahoo{background:#560db0;fill:#fff}
+.libre-brand svg#libre-brand-yelp{background:#fff;fill:#da1400}
+.libre-brand svg#libre-brand-youtube{background:#e62117;fill:#fff}
+.libre-brand svg#libre-brand-zerply{background:#fff;fill:#8db741}
+.libre-brand svg#libre-brand-zune{background:#fff;fill:#d33280}
