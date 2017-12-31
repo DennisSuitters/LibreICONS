@@ -14,3 +14,5 @@ In the <head> of your html, reference the location to your libreicons-svg.css.
 To use the icons in your pages you use
 <i class="libre">[svg file to include]</i>
 Or you could do like we do with LibreCMS and use a PHP Function to inject the SVG File directly into your generated pages. This also allows you to have more control over the size, colour, and animation of your icons.
+
+![LibreICONS](svg-icons.png)
