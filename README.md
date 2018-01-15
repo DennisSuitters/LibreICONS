@@ -15,4 +15,7 @@ To use the icons in your pages you use
 <i class="libre">[svg file to include]</i>
 Or you could do like we do with LibreCMS and use a PHP Function to inject the SVG File directly into your generated pages. This also allows you to have more control over the size, colour, and animation of your icons.
 
+TODO:
+- Continue adding Colour Icons and editing existing ones.
+
 ![LibreICONS](svg-icons.png)
