@@ -17,5 +17,3 @@ Or you could do like we do with LibreCMS and use a PHP Function to inject the SV
 
 TODO:
 - Continue adding Colour Icons and editing existing ones.
-
-![LibreICONS](svg-icons.png)
