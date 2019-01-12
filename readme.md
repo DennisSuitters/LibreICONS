@@ -1,4 +1,4 @@
-### LibreICONS v4.1
+### LibreICONS v4.4
 
 The Open Source SVG Icon and CSS toolkit created by [DiemenDesign](https://www.facebook.com/diemendesign/)
 
