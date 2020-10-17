@@ -1,10 +1,10 @@
-LibreICONS has been developed to provide SVG Icons for LibreCMS, we then decided to seperate them out and make them available to eveyone.
+LibreICONS has been developed to provide SVG Icons for LibreCMS, we then decided to separate them out and make them available to everyone.
 
 What sets LibreICONS apart from the rest, are the little things.
 - The Icons are sized to 12px x 12px inside a 14px x 14px viewBox.
-- Each Icon contains ARIA Markup to hide icons from Screen Readers to stop confusion between the Icons and any Presentational Elements that may contain them, and `role="image"` for presentational purposes.
+- Each Icon contains ARIA Markup to hide icons from Screen Readers to stop confusion between the Icons and any Presentation Elements that may contain them, and `role="image"` for presentation purposes.
 - The source of the Icons are all minified.
-- Being minified, also makes embedding cleaner, as we found including Icons using PHP or Javascript to embed icons can break the page layout.
+- Being minified, also makes embedding cleaner, as we found including Icons using PHP or JavaScript to embed icons can break the page layout.
 - The standard and original icon set contains no colour or sizing so they can be controlled via CSS or manipulated easily.
 
 Using the Icons:

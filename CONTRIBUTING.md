@@ -52,7 +52,7 @@ We only accept issues that are requests for icons, bug reports, or feature reque
 
 ## License
 
-By contributing your code, you agree to license your contribution under the terms of the GPLv3:
+By contributing your code, you agree to license your contribution under the terms of the MIT License:
 - https://github.com/DiemenDesign/LibreICONS/blob/master/LICENSE
 
 ## Thanks
